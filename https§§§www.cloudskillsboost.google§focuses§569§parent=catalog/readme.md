@@ -18,7 +18,7 @@ https://cloud.google.com/storage/docs/gsutil
 ![](1686910958204.png)
 
 ```bash
-BUCKET_NAME=qwiklabs-gcp-03-f3a00bb8508e-bucket
+export BUCKET_NAME=$(gcloud config get-value project)
 gsutil mb gs://${BUCKET_NAME}
 ```
 ![](1686911102752.png)
