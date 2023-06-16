@@ -1,0 +1,64 @@
+}
+  traceparent: '00-0dc707b5aa0031cf8046498b8b1752b8-ffffe9298ac4e6d8-00'
+  },
+    etag: 'CPzbz9+dyP8CEAE='
+    crc32c: 'R1jUOQ==',
+    mediaLink: 'https://storage.googleapis.com/download/storage/v1/b/gcf-gen2-storage-qwiklabs-gcp-00-168361762909/o/random.txt?generation=1686933700079100&alt=media',
+    md5Hash: '5Z/5eUEET4XfUpfhwwLSYA==',
+    size: '12',
+    timeStorageClassUpdated: '2023-06-16T16:41:40.100Z',
+    storageClass: 'STANDARD',
+    updated: '2023-06-16T16:41:40.100Z',
+    timeCreated: '2023-06-16T16:41:40.100Z',
+    contentType: 'text/plain',
+    metageneration: '1',
+    generation: '1686933700079100',
+    bucket: 'gcf-gen2-storage-qwiklabs-gcp-00-168361762909',
+    name: 'random.txt',
+    selfLink: 'https://www.googleapis.com/storage/v1/b/gcf-gen2-storage-qwiklabs-gcp-00-168361762909/o/random.txt',
+    id: 'gcf-gen2-storage-qwiklabs-gcp-00-168361762909/random.txt/1686933700079100',
+    kind: 'storage#object',
+  data: {
+  bucket: 'gcf-gen2-storage-qwiklabs-gcp-00-168361762909',
+  time: '2023-06-16T16:41:40.100311Z',
+  subject: 'objects/random.txt',
+  type: 'google.cloud.storage.object.v1.finalized',
+  specversion: '1.0',
+  source: '//storage.googleapis.com/projects/_/buckets/gcf-gen2-storage-qwiklabs-gcp-00-168361762909',
+  id: '8405208567094356',
+{
+Cloud Storage event with Node.js in GCF 2nd gen!
+
+}
+  traceparent: '00-d6927484a33b215c3a3b8f33ff3036de-5918802f52a55ae5-01'
+  },
+    etag: 'CP+KseadyP8CEAE='
+    crc32c: 'R1jUOQ==',
+    mediaLink: 'https://storage.googleapis.com/download/storage/v1/b/gcf-gen2-storage-qwiklabs-gcp-00-168361762909/o/random2.txt?generation=1686933714257279&alt=media',
+    md5Hash: '5Z/5eUEET4XfUpfhwwLSYA==',
+    size: '12',
+    timeStorageClassUpdated: '2023-06-16T16:41:54.270Z',
+    storageClass: 'STANDARD',
+    updated: '2023-06-16T16:41:54.270Z',
+    timeCreated: '2023-06-16T16:41:54.270Z',
+    contentType: 'text/plain',
+    metageneration: '1',
+    generation: '1686933714257279',
+    bucket: 'gcf-gen2-storage-qwiklabs-gcp-00-168361762909',
+    name: 'random2.txt',
+    selfLink: 'https://www.googleapis.com/storage/v1/b/gcf-gen2-storage-qwiklabs-gcp-00-168361762909/o/random2.txt',
+    id: 'gcf-gen2-storage-qwiklabs-gcp-00-168361762909/random2.txt/1686933714257279',
+    kind: 'storage#object',
+  data: {
+  bucket: 'gcf-gen2-storage-qwiklabs-gcp-00-168361762909',
+  time: '2023-06-16T16:41:54.270097Z',
+  subject: 'objects/random2.txt',
+  type: 'google.cloud.storage.object.v1.finalized',
+  specversion: '1.0',
+  source: '//storage.googleapis.com/projects/_/buckets/gcf-gen2-storage-qwiklabs-gcp-00-168361762909',
+  id: '8405265263247468',
+{
+Cloud Storage event with Node.js in GCF 2nd gen!
+Default STARTUP TCP probe succeeded after 1 attempt for container "nodejs--storage--function-1" on port 8080.
+
+Default STARTUP TCP probe succeeded after 1 attempt for container "nodejs--storage--function-1" on port 8080.
