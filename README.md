@@ -13,7 +13,9 @@
 1. <https///www.cloudskillsboost.google/focuses/18478/parent=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§18478§parent=catalog/readme.md)
 1. <https///www.cloudskillsboost.google/focuses/2794//parent/=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§2794§§parent§=catalog/readme.md)
 1. <https///www.cloudskillsboost.google/focuses/3563//parent/=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§3563§§parent§=catalog/readme.md)
+1. <https///www.cloudskillsboost.google/focuses/3632/parent=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§3632§parent=catalog/readme.md)
 1. <https///www.cloudskillsboost.google/focuses/563//parent/=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§563§§parent§=catalog/readme.md)
+1. <https///www.cloudskillsboost.google/focuses/569/parent=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§569§parent=catalog/readme.md)
 1. <https///www.cloudskillsboost.google/focuses/582/parent=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§582§parent=catalog/readme.md)
 1. <https///www.cloudskillsboost.google/focuses/7140/parent=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§7140§parent=catalog/readme.md)
 1. <https///www.cloudskillsboost.google/focuses/878//parent/=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§878§§parent§=catalog/readme.md)
@@ -40,6 +42,4 @@
 1. <https///www.cloudskillsboost.google/quests/290> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§290/readme.md)
 1. <https///www.cloudskillsboost.google/quests/291> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§291/readme.md)
 1. <https///www.cloudskillsboost.google/quests/302> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§302/readme.md)
-1. <_tmp> :o: [`here`](./_tmp/readme.md)
-1. <https///www.cloudskillsboost.google/focuses/3632/parent=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§3632§parent=catalog/readme.md)
-        
+1. <_tmp> :o: [`here`](./_tmp/readme.md)        
