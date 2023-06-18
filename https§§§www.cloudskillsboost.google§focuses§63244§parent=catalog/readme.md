@@ -13,7 +13,8 @@ You are just starting your junior cloud DevOps role. So far you have been helpin
 
 ```bash
 gcloud auth list
-export REGION=us-east1
+export PROJECT_ID=qwiklabs-gcp-00-b51df23247f5
+export REGION=us-east4
 
 gcloud config set run/region $REGION
 
@@ -21,8 +22,6 @@ gcloud config set run/region $REGION
 gcloud config set run/platform managed
 
 gcloud config set eventarc/location $REGION
-
-export PROJECT_ID=qwiklabs-gcp-02-d36b98c980c3
 
 ```
 
