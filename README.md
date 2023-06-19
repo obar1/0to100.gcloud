@@ -46,6 +46,8 @@
 1. <https///www.cloudskillsboost.google/games/4112/labs/26507> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4112§labs§26507/readme.md)
 1. <https///www.cloudskillsboost.google/games/4112/labs/26510> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4112§labs§26510/readme.md)
 1. <https///www.cloudskillsboost.google/games/4112/labs/26511> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4112§labs§26511/readme.md)
+1. <https///www.cloudskillsboost.google/games/4112/labs/26512> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4112§labs§26512/readme.md)
+1. <https///www.cloudskillsboost.google/games/4112/labs/26513> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4112§labs§26513/readme.md)
 1. <https///www.cloudskillsboost.google/public_profiles/0e4d9285-4960-419a-bfb3-1ed19850308> :o: [`here`](./https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308/readme.md)
 1. <https///www.cloudskillsboost.google/quests/120> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§120/readme.md)
 1. <https///www.cloudskillsboost.google/quests/279> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§279/readme.md)
@@ -56,5 +58,5 @@
 1. <https///www.cloudskillsboost.google/quests/302> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§302/readme.md)
 1. <https///www.cloudskillsboost.google/quests/303> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§303/readme.md)
 1. <_tmp> :o: [`here`](./_tmp/readme.md)
-1. <https///www.cloudskillsboost.google/games/4112/labs/26512> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4112§labs§26512/readme.md)
+1. <https///www.cloudskillsboost.google/quests/304> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§304/readme.md)
         
