@@ -246,7 +246,5 @@ and
 python3 JavaProjectsThatNeedHelp.py --bucket $BUCKET --project $PROJECT --DataFlowRunner
 ```
 
-fix me
-![Alt text](image.png)
-
-![Alt text](image-1.png)
+FIXME:
+![](1687281472600.png)
