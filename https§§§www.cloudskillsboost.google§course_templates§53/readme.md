@@ -4,7 +4,5 @@
 
 # Building Batch Data Pipelines on Google Cloud
 
-
-
-
+![](1687360227339.png)
 

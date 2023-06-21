@@ -18,7 +18,7 @@ gcloud config set compute/region ${REGION}
 gcloud config set project ${PROJECT_ID}
 ```
 
-FIXME: stop and restart dataflow api
+FIX: stop and restart dataflow api
 
 ## Challenge scenario
 
@@ -97,7 +97,7 @@ python PubSubToGCS.py \
     --num_shards=2 \
     --temp_location=gs://$BUCKET_NAME/temp
 ```
-FIXME: they forget to def the env var in docker env and py cmd line is wrong
+FIX: they forget to def the env var in docker env and py cmd line is wrong
 
 Observe job and pipeline progress
 

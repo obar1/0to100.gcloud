@@ -1,5 +1,7 @@
 # <https§§§www.cloudskillsboost.google§quests§302>
 > <https://www.cloudskillsboost.google/quests/302>
 
-![](1686859621837.png)
+# Analyze Speech and Language with Google APIs
+
+![](1687360078393.png)
 

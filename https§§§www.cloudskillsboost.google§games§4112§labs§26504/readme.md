@@ -21,5 +21,4 @@ Remove Project Viewer access for Username 2 by clicking the trashcan icon next t
 ![](1687094787336.png)
 
 
-TODO: 
 https://www.cloudskillsboost.google/quests/40
