@@ -4,6 +4,7 @@
 1. <.git> :o: [`here`](./.git/readme.md)
 1. <.vscode> :o: [`here`](./.vscode/readme.md)
 1. <0to100-latest> :o: [`here`](./0to100-latest/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3591643/documents/379272> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3591643§documents§379272/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3591643/labs/379232> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379232/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3591643/labs/379242> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379242/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3591643/labs/379246> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379246/readme.md)
@@ -74,5 +75,5 @@
 1. <https///www.cloudskillsboost.google/quests/303> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§303/readme.md)
 1. <https///www.cloudskillsboost.google/quests/304> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§304/readme.md)
 1. <_tmp> :o: [`here`](./_tmp/readme.md)
-1. <https///www.cloudskillsboost.google/course_sessions/3591643/documents/379272> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3591643§documents§379272/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3605921/video/337128> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3605921§video§337128/readme.md)
         
