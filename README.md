@@ -33,7 +33,7 @@
 1. <https///www.cloudskillsboost.google/course_sessions/3631336/video/376383> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376383/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3631336/video/376393> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376393/readme.md)
 1. <https///www.cloudskillsboost.google/course_templates/14> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§14/readme.md)
-1. <https///www.cloudskillsboost.google/course_templates/24/catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=24362540> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§24§catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=24362540/readme.md)
+1. <https///www.cloudskillsboost.google/course_templates/24> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§24/readme.md)
 1. <https///www.cloudskillsboost.google/course_templates/53> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§53/readme.md)
 1. <https///www.cloudskillsboost.google/course_templates/86> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§86/readme.md)
 1. <https///www.cloudskillsboost.google/focuses/10258/parent=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§10258§parent=catalog/readme.md)
@@ -100,5 +100,5 @@
 1. <https///www.cloudskillsboost.google/quests/68> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md)
 1. <https///www.cloudskillsboost.google/quests/84> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§84/readme.md)
 1. <_tmp> :o: [`here`](./_tmp/readme.md)
-1. <https///www.cloudskillsboost.google/course_templates/24> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§24/readme.md)
+1. <https///www.cloudskillsboost.google/focuses/584/parent=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§584§parent=catalog/readme.md)
         
