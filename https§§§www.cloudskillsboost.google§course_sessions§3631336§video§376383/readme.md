@@ -102,18 +102,13 @@ ex
 
 https://www.cloudskillsboost.google/course_sessions/3631336/labs/376387
 
-
 Components of Data Fusion
 
- ![1687512119618.png](./1687512119618.png)
+![1687512119618.png](./1687512119618.png)
 
+![1687512126764.png](./1687512126764.png)
 
-
- ![1687512126764.png](./1687512126764.png)
-
-
-
- ![1687512152360.png](./1687512152360.png)
+![1687512152360.png](./1687512152360.png)
 
 mutiple pipelines
 
@@ -121,88 +116,70 @@ mutiple pipelines
 
 dev studio and connector
 
- ![1687512202012.png](./1687512202012.png)
+![1687512202012.png](./1687512202012.png)
 
- ![1687512204907.png](./1687512204907.png)
+![1687512204907.png](./1687512204907.png)
 
-
-
- ![1687512209458.png](./1687512209458.png)
+![1687512209458.png](./1687512209458.png)
 
 hub
 
-
- ![1687512217104.png](./1687512217104.png)
+![1687512217104.png](./1687512217104.png)
 
 integration
 
-
-
-
-
 ![1687512227116.png](./1687512227116.png)
 
-
- ![1687512232482.png](./1687512232482.png)
-
-
+![1687512232482.png](./1687512232482.png)
 
 mostly  building pileines and wrangling data
 
-
 # Build a pipeline
 
- ![1687512261479.png](./1687512261479.png)
-
-
+![1687512261479.png](./1687512261479.png)
 
 nodes
 
- ![1687512298802.png](./1687512298802.png)
+![1687512298802.png](./1687512298802.png)
 
 studio is ux to build the pipleins
 
- ![1687512313723.png](./1687512313723.png)
+![1687512313723.png](./1687512313723.png)
 
+![1687512333510.png](./1687512333510.png)
 
- ![1687512333510.png](./1687512333510.png)
+![1687512343438.png](./1687512343438.png)
 
-
-
- ![1687512343438.png](./1687512343438.png)
-
-
- ![1687512351625.png](./1687512351625.png)
-
-
+![1687512351625.png](./1687512351625.png)
 
 # Explore data using wrangler
 
-
- ![1687512382551.png](./1687512382551.png)
+![1687512382551.png](./1687512382551.png)
 
 data set needs to be explored
 
- ![1687512403346.png](./1687512403346.png)
+![1687512403346.png](./1687512403346.png)
 
 connection to datasets
 
 browse the data
 
- ![1687512423801.png](./1687512423801.png)
+![1687512423801.png](./1687512423801.png)
 
 quality
 
- ![1687512431862.png](./1687512431862.png)
-
+![1687512431862.png](./1687512431862.png)
 
 recipes
 
-
-
- ![1687512445359.png](./1687512445359.png)
-
+![1687512445359.png](./1687512445359.png)
 
 # Building Transformations and Preparing Data with Wrangler in Cloud Data Fusion
 
 https://www.cloudskillsboost.google/course_sessions/3631336/labs/376391
+
+
+# Quiz: Cleaning and Transforming Your Data
+
+
+ ![1687518373607.png](./1687518373607.png)
