@@ -1,8 +1,8 @@
 # <https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379250>
-> <https://www.cloudskillsboost.google/course_sessions/3591643/labs/379250>
+
+> [https://www.cloudskillsboost.google/course_sessions/3591643/labs/379250](https://www.cloudskillsboost.google/course_sessions/3591643/labs/379250)
 
 # Serverless Data Analysis with Dataflow: Side Inputs (Python)
-
 
 ## Task 1. Preparation
 
@@ -35,7 +35,6 @@ cd ~/training-data-analyst/courses/data_analysis/lab2/python
 nano JavaProjectsThatNeedHelp.py
 
 ```py
-
 import argparse
 import logging
 import datetime, os
@@ -210,12 +209,7 @@ def run():
 
 if __name__ == '__main__':
   run()
-
-
 ```
-
-TODO:
-Answer the following questions:
 
 Looking at the class documentation at the very top, what is the purpose of this pipeline?
 Where does the content come from?
@@ -232,16 +226,16 @@ What Python data type is the side input converted into in the Scores step?
 
 ## Task 4. Execute the pipeline
 
-
-
 ```bash
 export PROJECT="qwiklabs-gcp-02-9c8ba9b719be"
 export BUCKET="qwiklabs-gcp-02-9c8ba9b719be"
 python3 JavaProjectsThatNeedHelp.py --bucket $BUCKET --project $PROJECT --DirectRunner
 ```
+
 ![](1687277399189.png)
 
-and 
+and
+
 ```bash
 python3 JavaProjectsThatNeedHelp.py --bucket $BUCKET --project $PROJECT --DataFlowRunner
 ```
