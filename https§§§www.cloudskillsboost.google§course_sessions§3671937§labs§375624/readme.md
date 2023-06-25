@@ -2,6 +2,9 @@
 
 > [https://www.cloudskillsboost.google/course_sessions/3671937/labs/375624](https://www.cloudskillsboost.google/course_sessions/3671937/labs/375624)
 
+# Creating Date-Partitioned Tables in BigQuery v1.5
+
+
 
 ## Task 2. Creating tables with date partitions
 
@@ -17,9 +20,7 @@ WHERE date = '20170708'
 LIMIT 5
 ```
 
-
- ![1687705510368.png](./1687705510368.png)
-
+![1687705510368.png](./1687705510368.png)
 
 ```
 #standardSQL
@@ -34,30 +35,23 @@ FROM
   `data-to-insights.ecommerce.all_sessions_raw`
 ```
 
- ![1687705574893.png](./1687705574893.png)
+![1687705574893.png](./1687705574893.png)
 
- ![1687705587524.png](./1687705587524.png)
+![1687705587524.png](./1687705587524.png)
 
- ![1687705618729.png](./1687705618729.png)
-
-
+![1687705618729.png](./1687705618729.png)
 
 ## Task 3. View data processed with a partitioned tabl ![1687705732252.png](./1687705732252.png)
 
-
- ![1687705739950.png](./1687705739950.png)
-
+![1687705739950.png](./1687705739950.png)
 
 ## Task 4. Creating an auto-expiring partitioned table
-
 
 Auto-expiring partitioned tables are used to comply with data privacy statutes, and can be used to avoid unnecessary storage (which you'll be charged for in a production environment). If you want to create a rolling window of data, add an expiration date so the partition disappears after you're finished using it.
 
 `bigquery-public-data`
 
- ![1687705849919.png](./1687705849919.png)
-
-
+![1687705849919.png](./1687705849919.png)
 
 **noaa_gsod** dataset (which are manually sharded and not partitioned).
 
@@ -87,17 +81,13 @@ LIMIT
   10
 ```
 
-
- ![1687705992188.png](./1687705992188.png)
-
+![1687705992188.png](./1687705992188.png)
 
 Notice that the table wildcard * used in the FROM clause to limit the amount of tables referred to in the *TABLE_SUFFIX* filter
 
-
-
 ## Task 5. Your turn: Create a partitioned table
 
- ![1687706037275.png](./1687706037275.png)
+![1687706037275.png](./1687706037275.png)
 
 ```sql
 #standardSQL
@@ -119,9 +109,7 @@ Notice that the table wildcard * used in the FROM clause to limit the amount of 
    AND CAST(_TABLE_SUFFIX AS int64) >= 2018
 ```
 
-
 ### Confirm data partition expiration is working
-
 
 ```sql
 #standardSQL
@@ -138,7 +126,6 @@ WHERE station_name = 'WAKAYAMA' #Japan
 GROUP BY station_name, date, today, month, partition_age
 ORDER BY date DESC; # most recent days first
 ```
-
 
 ## Task 6. Confirm the oldest partition_age is at or below 60 days
 
@@ -158,4 +145,5 @@ GROUP BY station_name, date, today, month, partition_age
 ORDER BY partition_age DESC
 ```
 
- ![1687706137661.png](./1687706137661.png)
+![1687706137661.png](./1687706137661.png)
+
