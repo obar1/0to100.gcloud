@@ -35,6 +35,7 @@
 1. <https///www.cloudskillsboost.google/course_sessions/3671937/labs/375617> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375617/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3671937/labs/375621> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375621/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3671937/labs/375624> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375624/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3671937/labs/375631> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375631/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3671937/labs/375640> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375640/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3671937/video/375610> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3671937§video§375610/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3671937/video/375612> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3671937§video§375612/readme.md)
@@ -110,6 +111,7 @@
 1. <https///www.cloudskillsboost.google/quests/40> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§40/readme.md)
 1. <https///www.cloudskillsboost.google/quests/68> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md)
 1. <https///www.cloudskillsboost.google/quests/84> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§84/readme.md)
+1. <Lab> :o: [`here`](./Lab/readme.md)
 1. <_tmp> :o: [`here`](./_tmp/readme.md)
-1. <https///www.cloudskillsboost.google/course_sessions/3671937/labs/375631> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375631/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3671937/labs/375633> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375633/readme.md)
         

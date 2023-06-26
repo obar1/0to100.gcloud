@@ -153,7 +153,6 @@ FROM `data-to-insights.ecommerce.all_sessions_raw` AS website
 
 ### Join pitfall: Losing data records after a join
 
-
 ```sql
 #standardSQL
 SELECT DISTINCT
@@ -373,4 +372,3 @@ SELECT k.* FROM (
 ```
 
 > You have successfully deduplicated the product names for each SKU
-

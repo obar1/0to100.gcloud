@@ -120,40 +120,51 @@ And the way you can avoid it is the third bullet point here, is knowing the rela
 
 ![1687757723057.png](./1687757723057.png)
 
-and 
+and
 
- ![1687757785229.png](./1687757785229.png)
+![1687757785229.png](./1687757785229.png)
 
 > imagine on million of rows
 
 how to avoid?
 
- ![1687757831887.png](./1687757831887.png)
+![1687757831887.png](./1687757831887.png)
 
 > practice count and cunt distinct first to do joins
 
- ![1687757877826.png](./1687757877826.png)
-
-
+![1687757877826.png](./1687757877826.png)
 
 The best advice I can give you when starting out is to really understand how your data tables are supposed to be related to each other-- like customers to orders, supplier to inventory-- but being able to back that up by verifying those relationships through SQL. Remember, all data is dirty data. And it's your job to investigate it and interrogate it
 before it potentially pollutes your larger dataset with JOINs and UNIONs. And once you understand the relationships between your tables, use UNIONs to append records into a consolidated table and JOINs
 to enrich your data with other data sources
 
-
 # Recap of Google Analytics ecommerce dataset
 
- ![1687757986752.png](./1687757986752.png)
+![1687757986752.png](./1687757986752.png)
 
-
- ![1687758039817.png](./1687758039817.png)
+![1687758039817.png](./1687758039817.png)
 
 It has over a million site hits and transaction records
 to include insights like what users were close to transacting but never completed, what top keywords are high-value customers using to reach the site, and what top channels are customers going
 through to reach your site.
 
-
-
 # Troubleshooting and Solving Data Join Pitfalls v1.5
 
 https://www.cloudskillsboost.google/course_sessions/3671937/labs/375631
+
+
+# Lab Intro: Unioning and Joining Datasets
+
+ ![1687760060846.png](./1687760060846.png)
+
+Specifically what we'll tackle is merging together historical annual IRS filings, and then join them against organizational lookup details so you can get things like the business's name.
+
+
+
+
+# Data to Insights: Unioning and Joining Datasets v1.1
+
+https://www.cloudskillsboost.google/course_sessions/3671937/labs/375633
+
+
+# Module Quiz
