@@ -38,6 +38,8 @@ v2ProductName
 FROM `data-to-insights.ecommerce.all_sessions_raw`
 ```
 
+![1687761170414.png](./1687761170414.png)
+
 use distinct
 
 ```sql
@@ -48,6 +50,8 @@ DISTINCT
 productSKU
 FROM `data-to-insights.ecommerce.all_sessions_raw`
 ```
+
+ ![1687761212459.png](./1687761212459.png)
 
 > The first results probably contain products with duplicate SKUs.
 
@@ -69,6 +73,10 @@ ORDER BY SKU_count DESC
 # product name is not unique (expected for variants)
 ```
 
+ ![1687761290942.png](./1687761290942.png)
+
+
+
 ![1687758821160.png](./1687758821160.png)
 
 ```sql
@@ -86,6 +94,8 @@ ORDER BY product_count DESC
 # SKU is not unique (indicates data quality issues)
 ```
 
+ ![1687761360398.png](./1687761360398.png)
+
 ![1687758867131.png](./1687758867131.png)
 
 ## Task 5. Pitfall: non-unique key
@@ -102,6 +112,8 @@ FROM `data-to-insights.ecommerce.all_sessions_raw`
 WHERE productSKU = 'GGOEGPJC019099'
 ```
 
+ ![1687761381802.png](./1687761381802.png)
+
 ### Joining website data against your product inventory list
 
 See the impact of joining on a dataset with multiple products for a single SKU. First, explore the product inventory dataset (the `products` table) to see if this SKU is unique there.
@@ -113,6 +125,10 @@ See the impact of joining on a dataset with multiple products for a single SKU. 
 SELECT * FROM `data-to-insights.ecommerce.products`
 WHERE SKU = 'GGOEGPJC019099'
 ```
+
+![1687761400418.png](./1687761400418.png)
+
+![1687761413163.png](./1687761413163.png)
 
 ### Join pitfall: Unintentional many-to-one SKU relationship
 
@@ -128,6 +144,8 @@ ON website.productSKU = inventory.SKU
 WHERE productSKU = 'GGOEGPJC019099'
 ```
 
+ ![1687761472006.png](./1687761472006.png)
+
 ```sql
 #standardSQL
 SELECT DISTINCT
@@ -139,6 +157,10 @@ JOIN `data-to-insights.ecommerce.products` AS inventory
 ON website.productSKU = inventory.SKU
 WHERE productSKU = 'GGOEGPJC019099'
 ```
+
+![1687761495013.png](./1687761495013.png)
+
+ ![1687761510229.png](./1687761510229.png)
 
 ## Task 6. Join pitfall solution: use distinct SKUs before joining
 
@@ -162,6 +184,8 @@ JOIN `data-to-insights.ecommerce.products` AS inventory
 ON website.productSKU = inventory.SKU
 ```
 
+ ![1687761533648.png](./1687761533648.png)
+
 ![1687759052116.png](./1687759052116.png)
 
 You lost 819 SKUs after joining the datasets, investigate by adding more specificity in your fields.
@@ -178,6 +202,8 @@ ON website.productSKU = inventory.SKU
 # IDs are present in both tables, how can we dig deeper?
 ```
 
+ ![1687761553347.png](./1687761553347.png)
+
 ![1687759099314.png](./1687759099314.png)
 
 ```sql
@@ -192,6 +218,8 @@ LEFT JOIN `data-to-insights.ecommerce.products` AS inventory
 ON website.productSKU = inventory.SKU
 ```
 
+ ![1687761576597.png](./1687761576597.png)
+
 **Write a query** to filter on NULL values from the inventory table
 
 ```sql
@@ -205,6 +233,10 @@ LEFT JOIN `data-to-insights.ecommerce.products` AS inventory
 ON website.productSKU = inventory.SKU
 WHERE inventory.SKU IS NULL
 ```
+
+ ![1687761626409.png](./1687761626409.png)
+
+ ![1687761594778.png](./1687761594778.png)
 
 **Copy and paste** the below query to confirm using one of the specific SKUs from the website dataset:
 
@@ -372,3 +404,4 @@ SELECT k.* FROM (
 ```
 
 > You have successfully deduplicated the product names for each SKU
+

@@ -4,5 +4,4 @@
 
 # Creating New BigQuery Datasets and Visualizing Insights
 
-TODO:
-
+ ![1687762005902.png](./1687762005902.png)
