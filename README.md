@@ -59,6 +59,7 @@
 1. <https///www.cloudskillsboost.google/course_templates/24> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§24/readme.md)
 1. <https///www.cloudskillsboost.google/course_templates/53> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§53/readme.md)
 1. <https///www.cloudskillsboost.google/course_templates/54> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§54/readme.md)
+1. <https///www.cloudskillsboost.google/course_templates/72> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§72/readme.md)
 1. <https///www.cloudskillsboost.google/course_templates/86> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§86/readme.md)
 1. <https///www.cloudskillsboost.google/focuses/10258/parent=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§10258§parent=catalog/readme.md)
 1. <https///www.cloudskillsboost.google/focuses/10258//parent/=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§10258§§parent§=catalog/readme.md)
@@ -133,5 +134,5 @@
 1. <https///www.cloudskillsboost.google/quests/68> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md)
 1. <https///www.cloudskillsboost.google/quests/84> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§84/readme.md)
 1. <_tmp> :o: [`here`](./_tmp/readme.md)
-1. <https///www.cloudskillsboost.google/course_templates/72> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§72/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3062553/video/343555> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§video§343555/readme.md)
         
