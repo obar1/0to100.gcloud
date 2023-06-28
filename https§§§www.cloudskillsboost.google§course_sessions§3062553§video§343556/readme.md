@@ -67,6 +67,5 @@ https://cloud.google.com/learn/certification/guides/data-engineer
 
 # Exam Tips #2
 
-
-
+[here](T-GCPPDE-A-Locales-1-l7-file-en-4.pdf)
 
