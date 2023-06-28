@@ -6,6 +6,8 @@
 1. <0to100-latest> :o: [`here`](./0to100-latest/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3062553/video/343555> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§video§343555/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3062553/video/343556> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§video§343556/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3062553/video/343561> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§video§343561/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3062553/video/343571> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§video§343571/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3591643/documents/379272> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3591643§documents§379272/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3591643/labs/379232> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379232/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3591643/labs/379242> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379242/readme.md)
@@ -136,5 +138,5 @@
 1. <https///www.cloudskillsboost.google/quests/68> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md)
 1. <https///www.cloudskillsboost.google/quests/84> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§84/readme.md)
 1. <_tmp> :o: [`here`](./_tmp/readme.md)
-1. <https///www.cloudskillsboost.google/course_sessions/3062553/video/343561> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§video§343561/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3062553/labs/343580> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343580/readme.md)
         
