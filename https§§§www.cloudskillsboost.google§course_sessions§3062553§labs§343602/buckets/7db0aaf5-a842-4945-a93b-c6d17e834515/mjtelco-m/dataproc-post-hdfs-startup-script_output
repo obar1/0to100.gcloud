@@ -1,0 +1,1321 @@
+++ CLUSTER_NAME=mjtelco
+++ COMPONENTS_TO_ACTIVATE='earlyoom hdfs hive-metastore hive-server2 mapreduce miniconda3 mysql pig spark tez yarn'
+++ ROLE=Master
+++ DATAPROC_MASTER=mjtelco-m
+++ DATAPROC_MASTER_FQDN=mjtelco-m.us-east1-b.c.qwiklabs-gcp-03-e04e71dd72c2.internal
+++ MASTER_INDEX=0
+++ KEYTAB_DIR=/etc/security/keytab
+++ MY_FULL_HOSTNAME=mjtelco-m.us-east1-b.c.qwiklabs-gcp-03-e04e71dd72c2.internal
+++ set +a
++ set -x
++ run_with_logger --tag post-hdfs-startup-script
++ local tag=
++ local pid=6642
++ [[ --tag == \-\-\t\a\g ]]
++ tag=post-hdfs-startup-script
++ shift 2
++ [[ 0 -eq 0 ]]
++ exec
+++ logger -s -t 'post-hdfs-startup-script[6642]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + cd /tmp
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap logstacktrace ERR
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Starting Dataproc post-HDFS startup script'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Starting Dataproc post-HDFS startup script'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Starting Dataproc post-HDFS startup script
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + COMPONENTS_TO_ACTIVATE_ARRAY=(${COMPONENTS_TO_ACTIVATE})
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_components earlyoom hdfs hive-metastore hive-server2 mapreduce miniconda3 mysql pig spark tez yarn
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + components=("$@")
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local components
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + mkdir -p /tmp/dataproc/components/post-hdfs
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component earlyoom'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component earlyoom'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component earlyoom
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-earlyoom post_hdfs_activate_component earlyoom
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6663
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6663.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component earlyoom'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component earlyoom] as pid 6663'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component earlyoom] as pid 6663
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component hdfs'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component hdfs'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component hdfs
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-hdfs post_hdfs_activate_component hdfs
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6664
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6664.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component hdfs'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component hdfs] as pid 6664'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component hdfs] as pid 6664
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component hive-metastore'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component hive-metastore'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component hive-metastore
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-hive-metastore post_hdfs_activate_component hive-metastore
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6665
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6665.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component hive-metastore'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component hive-metastore] as pid 6665'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component hive-metastore] as pid 6665
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component hive-server2'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component hive-server2'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component hive-server2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-hive-server2 post_hdfs_activate_component hive-server2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6666
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component hive-server2'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component hive-server2] as pid 6666'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component hive-server2] as pid 6666
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component mapreduce'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component mapreduce'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component mapreduce
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-mapreduce post_hdfs_activate_component mapreduce
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6667
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6667.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component mapreduce'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component mapreduce] as pid 6667'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component mapreduce] as pid 6667
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component miniconda3'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component miniconda3'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component miniconda3
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-miniconda3 post_hdfs_activate_component miniconda3
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6668
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6668.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component miniconda3'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component miniconda3] as pid 6668'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component miniconda3] as pid 6668
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component mysql'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component mysql'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component mysql
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-mysql post_hdfs_activate_component mysql
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6669
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6669.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component mysql'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component mysql] as pid 6669'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component mysql] as pid 6669
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component pig'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component pig'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component pig
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-pig post_hdfs_activate_component pig
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6670
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6670.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component pig'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component pig] as pid 6670'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component pig] as pid 6670
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component spark'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component spark'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component spark
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-spark post_hdfs_activate_component spark
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6672
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6672.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component spark'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component spark] as pid 6672'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component spark] as pid 6672
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-mysql post_hdfs_activate_component mysql
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component tez'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6669
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component tez'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-mysql
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component tez
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component mysql
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-tez post_hdfs_activate_component tez
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6674
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6674.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component tez'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component tez] as pid 6674'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component tez] as pid 6674
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for component in "${components[@]}"
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Activating post-hdfs component yarn'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Activating post-hdfs component yarn'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Activating post-hdfs component yarn
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_in_background --tag post-hdfs-activate-component-yarn post_hdfs_activate_component yarn
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-miniconda3 post_hdfs_activate_component miniconda3
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6668
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-miniconda3
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component miniconda3
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local -r pid=6675
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6675.running ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component yarn'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Started background process [post_hdfs_activate_component yarn] as pid 6675'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Started background process [post_hdfs_activate_component yarn] as pid 6675
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + wait_on_async_processes
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Waiting on async processes'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Waiting on async processes'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Waiting on async processes
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local running_file
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-mapreduce post_hdfs_activate_component mapreduce
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6667
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-mapreduce
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component mapreduce
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-pig post_hdfs_activate_component pig
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6670
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-pig
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component pig
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-spark post_hdfs_activate_component spark
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-tez post_hdfs_activate_component tez
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6674
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-tez
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component tez
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-yarn post_hdfs_activate_component yarn
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6675
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-yarn
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component yarn
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6672
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-miniconda3[6668]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-spark
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component spark
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-mysql[6669]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-hive-server2 post_hdfs_activate_component hive-server2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6666
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-hive-server2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component hive-server2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6663
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-hive-metastore post_hdfs_activate_component hive-metastore
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6665
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-hive-metastore
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component hive-metastore
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-hdfs post_hdfs_activate_component hdfs
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6664
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-hdfs
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component hdfs
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-pig[6670]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-tez[6674]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-yarn[6675]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-mapreduce[6667]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-spark[6672]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-hive-server2[6666]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + trap 'echo "$?" >"${COMMANDS_TMP_DIR}/${BASHPID}.exitcode"' EXIT
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + run_with_logger --tag post-hdfs-activate-component-earlyoom post_hdfs_activate_component earlyoom
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local tag=
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local pid=6663
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ --tag == \-\-\t\a\g ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tag=post-hdfs-activate-component-earlyoom
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + shift 2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ 2 -eq 0 ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + post_hdfs_activate_component earlyoom
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + pid=6663
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-hive-metastore[6665]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-hdfs[6664]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-miniconda3[6668]: + local -r component=miniconda3
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-miniconda3[6668]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/miniconda3.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-miniconda3[6668]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/miniconda3.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-miniconda3[6668]: + echo 'Component miniconda3 doesn'\''t have a post-hdfs script'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-miniconda3[6668]: Component miniconda3 doesn't have a post-hdfs script
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-pig[6670]: + local -r component=pig
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-pig[6670]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/pig.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-pig[6670]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/pig.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-pig[6670]: + echo 'Component pig doesn'\''t have a post-hdfs script'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-pig[6670]: Component pig doesn't have a post-hdfs script
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: ++ logger -s -t 'post-hdfs-activate-component-earlyoom[6663]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component earlyoom'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6663 cmd=[post_hdfs_activate_component earlyoom]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6663 cmd=[post_hdfs_activate_component earlyoom]'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: Waiting on pid=6663 cmd=[post_hdfs_activate_component earlyoom]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component earlyoom'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6663.exitcode
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6663.exitcode ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-tez[6674]: + local -r component=tez
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-tez[6674]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/tez.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-tez[6674]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/tez.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-tez[6674]: + echo 'Component tez doesn'\''t have a post-hdfs script'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-tez[6674]: Component tez doesn't have a post-hdfs script
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-earlyoom[6663]: + local -r component=earlyoom
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-earlyoom[6663]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/earlyoom.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-earlyoom[6663]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/earlyoom.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-yarn[6675]: + local -r component=yarn
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-yarn[6675]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/yarn.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-earlyoom[6663]: + echo 'Component earlyoom doesn'\''t have a post-hdfs script'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-earlyoom[6663]: Component earlyoom doesn't have a post-hdfs script
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mysql[6669]: + local -r component=mysql
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: + local -r component=mapreduce
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/mapreduce.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/mapreduce.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: + echo 'Running component activate post-hdfs script: /usr/local/share/google/dataproc/bdutil/components/post-hdfs/mapreduce.sh'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: Running component activate post-hdfs script: /usr/local/share/google/dataproc/bdutil/components/post-hdfs/mapreduce.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: + touch /tmp/dataproc/components/post-hdfs/mapreduce.running
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: + local exit_code=0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: ++ date +%s.%N
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: + local -r start=1687968225.927230489
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: + bash -ex /usr/local/share/google/dataproc/bdutil/components/post-hdfs/mapreduce.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mysql[6669]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/mysql.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mysql[6669]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/mysql.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mysql[6669]: + echo 'Component mysql doesn'\''t have a post-hdfs script'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mysql[6669]: Component mysql doesn't have a post-hdfs script
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: + local -r component=spark
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: + local -r component=hive-server2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: + echo 'Running component activate post-hdfs script: /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: Running component activate post-hdfs script: /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: + touch /tmp/dataproc/components/post-hdfs/spark.running
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: + local exit_code=0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: ++ date +%s.%N
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: + local -r start=1687968225.948312736
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: + bash -ex /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: + echo 'Running component activate post-hdfs script: /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-yarn[6675]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/yarn.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-yarn[6675]: + echo 'Component yarn doesn'\''t have a post-hdfs script'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-yarn[6675]: Component yarn doesn't have a post-hdfs script
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: Running component activate post-hdfs script: /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: + touch /tmp/dataproc/components/post-hdfs/hive-server2.running
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: + local exit_code=0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: ++ date +%s.%N
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: + local -r start=1687968225.956589325
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: + bash -ex /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-metastore[6665]: + local -r component=hive-metastore
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hdfs[6664]: + local -r component=hdfs
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hdfs[6664]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/hdfs.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hdfs[6664]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hdfs.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hdfs[6664]: + echo 'Component hdfs doesn'\''t have a post-hdfs script'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hdfs[6664]: Component hdfs doesn't have a post-hdfs script
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-metastore[6665]: + local -r post_hdfs_script=/usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-metastore.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-metastore[6665]: + [[ -f /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-metastore.sh ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-metastore[6665]: + echo 'Component hive-metastore doesn'\''t have a post-hdfs script'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-metastore[6665]: Component hive-metastore doesn't have a post-hdfs script
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: + set -euo pipefail
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: + set -euo pipefail
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: + set -euo pipefail
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_env.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: ++ [[ standard == \s\e\r\v\e\r\l\e\s\s\-\s\p\a\r\k ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6663.done
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: ++ source /usr/local/share/google/dataproc/bdutil/image_config/2.0.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly BIGTABLE_HBASE_CLIENT_CONNECTION_IMPL=com.google.cloud.bigtable.hbase2_x.BigtableConnection
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ BIGTABLE_HBASE_CLIENT_CONNECTION_IMPL=com.google.cloud.bigtable.hbase2_x.BigtableConnection
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly BIGTABLE_HBASE_CLIENT_JAR_PREFIX=bigtable-hbase-2.x-hadoop
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ BIGTABLE_HBASE_CLIENT_JAR_PREFIX=bigtable-hbase-2.x-hadoop
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly BIGTABLE_HBASE_CLIENT_VERSION=1.26.2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ BIGTABLE_HBASE_CLIENT_VERSION=1.26.2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly CONDA_VERSION=4.9
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component earlyoom] pid=6663 exited with 0'
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ CONDA_VERSION=4.9
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly DOCKER_VERSION=19.03
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ DOCKER_VERSION=19.03
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly DPMS_PROXY_DOCKER_IMAGE_VERSION=v0.0.24
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ DPMS_PROXY_DOCKER_IMAGE_VERSION=v0.0.24
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ DPMS_PROXY_HIVE_VERSIONS=("3.1.2")
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly DPMS_PROXY_HIVE_VERSIONS
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly GCS_CONNECTOR_VERSION=hadoop3-2.2.14
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-mapreduce[6667]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/mapreduce.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ GCS_CONNECTOR_VERSION=hadoop3-2.2.14
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly HUDI_VERSION=0.12.0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ HUDI_VERSION=0.12.0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly JAVA_PACKAGE=temurin-8-jdk
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ JAVA_PACKAGE=temurin-8-jdk
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly MINICONDA_VERSION=Miniconda3-py38_4.9.2-Linux-x86_64.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ MINICONDA_VERSION=Miniconda3-py38_4.9.2-Linux-x86_64.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ readonly PARQUET_VERSION=1.11.1
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_env.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: ++ [[ standard == \s\e\r\v\e\r\l\e\s\s\-\s\p\a\r\k ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: ++ source /usr/local/share/google/dataproc/bdutil/image_config/2.0.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly BIGTABLE_HBASE_CLIENT_CONNECTION_IMPL=com.google.cloud.bigtable.hbase2_x.BigtableConnection
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ BIGTABLE_HBASE_CLIENT_CONNECTION_IMPL=com.google.cloud.bigtable.hbase2_x.BigtableConnection
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly BIGTABLE_HBASE_CLIENT_JAR_PREFIX=bigtable-hbase-2.x-hadoop
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ BIGTABLE_HBASE_CLIENT_JAR_PREFIX=bigtable-hbase-2.x-hadoop
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly BIGTABLE_HBASE_CLIENT_VERSION=1.26.2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ BIGTABLE_HBASE_CLIENT_VERSION=1.26.2
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly CONDA_VERSION=4.9
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ CONDA_VERSION=4.9
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly DOCKER_VERSION=19.03
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ DOCKER_VERSION=19.03
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly DPMS_PROXY_DOCKER_IMAGE_VERSION=v0.0.24
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ DPMS_PROXY_DOCKER_IMAGE_VERSION=v0.0.24
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ DPMS_PROXY_HIVE_VERSIONS=("3.1.2")
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly DPMS_PROXY_HIVE_VERSIONS
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly GCS_CONNECTOR_VERSION=hadoop3-2.2.14
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ GCS_CONNECTOR_VERSION=hadoop3-2.2.14
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly HUDI_VERSION=0.12.0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ HUDI_VERSION=0.12.0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly JAVA_PACKAGE=temurin-8-jdk
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ JAVA_PACKAGE=temurin-8-jdk
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly MINICONDA_VERSION=Miniconda3-py38_4.9.2-Linux-x86_64.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ MINICONDA_VERSION=Miniconda3-py38_4.9.2-Linux-x86_64.sh
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly PARQUET_VERSION=1.11.1
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ PARQUET_VERSION=1.11.1
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly PYTHON_VERSION=3.8
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ PYTHON_VERSION=3.8
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly R_APT_SITE=http://cloud.r-project.org
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ R_APT_SITE=http://cloud.r-project.org
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly R_REPO=cran40
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ R_REPO=cran40
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly R_VERSION=4.0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ R_VERSION=4.0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly SCALA_VERSION=2.12.14
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ SCALA_VERSION=2.12.14
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly SPARK_MINOR_VERSION=3.1
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ SPARK_MINOR_VERSION=3.1
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ readonly TINKEY_VERSION=1.5.0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: +++ TINKEY_VERSION=1.5.0
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: ++ [[ /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin == *:/snap/bin* ]]
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: ++ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: ++ DATAPROC_DIR=/usr/local/share/google/dataproc
+<13>Jun 28 16:03:45 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: ++ DATAPROC_TMP_DIR=/tmp/dataproc
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-hive-server2[6666]: ++ DATAPROC_COMMON_LIB_DIR=/usr/local/share/google/dataproc/lib
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:45 post-hdfs-activate-component-spark[6672]: +++ PARQUET_VERSION=1.11.1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ readonly PYTHON_VERSION=3.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ PYTHON_VERSION=3.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ readonly R_APT_SITE=http://cloud.r-project.org
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ R_APT_SITE=http://cloud.r-project.org
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ readonly R_REPO=cran40
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ R_REPO=cran40
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ readonly R_VERSION=4.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ R_VERSION=4.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ readonly SCALA_VERSION=2.12.14
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ SCALA_VERSION=2.12.14
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ readonly SPARK_MINOR_VERSION=3.1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ SPARK_MINOR_VERSION=3.1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ readonly TINKEY_VERSION=1.5.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ TINKEY_VERSION=1.5.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ [[ /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin == *:/snap/bin* ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ DATAPROC_DIR=/usr/local/share/google/dataproc
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ DATAPROC_TMP_DIR=/tmp/dataproc
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ DATAPROC_COMMON_LIB_DIR=/usr/local/share/google/dataproc/lib
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ DATAPROC_ARTIFACTS_DIR=/usr/local/share/google/dataproc/artifacts
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ DATAPROC_CONF_DIR=/usr/local/share/google/dataproc/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ DATAPROC_METADATA_CONF=/usr/local/share/google/dataproc/conf/dataproc_metadata.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ COMMANDS_TMP_DIR=/tmp/dataproc/commands
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ DATAPROC_COMPONENTS_TMP_DIR=/tmp/dataproc/components
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ POST_HDFS_ENV=/usr/local/share/google/dataproc/bdutil/components/post_hdfs_env.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ [[ -f /usr/local/share/google/dataproc/conf/dataproc_metadata.sh ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ INSTALL_GCS_CONNECTOR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ INSTALL_BIGQUERY_CONNECTOR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ ENABLE_HDFS=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HADOOP_INSTALL_DIR=/usr/lib/hadoop
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HADOOP_LIB_DIR=/usr/lib/hadoop/lib
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HADOOP_CONF_DIR=/etc/hadoop/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HADOOP_MASTER_MAPREDUCE_MEMORY_FRACTION=0.4
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HDFS_MASTER_MEMORY_FRACTION=0.4
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ NODEMANAGER_MEMORY_FRACTION=0.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ NUM_WORKERS=10
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ WORKERS=()
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ CORES_PER_MAP_TASK=1.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ CORES_PER_REDUCE_TASK=2.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ CORES_PER_APP_MASTER=2.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HDFS_DATA_DIRS_PERM=700
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_CONF_DIR=/etc/spark/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_WORKER_MEMORY_FRACTION=0.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_EXECUTOR_MEMORY_FRACTION=0.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_DAEMON_MEMORY_FRACTION=0.15
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_EXECUTORS_PER_VM=2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ TEZ_CONF_DIR=/etc/tez/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ TEZ_LIB_DIR=/usr/lib/tez
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ MINICONDA3_INSTALL_PATH=/opt/conda/miniconda3
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ MINICONDA3_BIN_DIR=/opt/conda/miniconda3/bin
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ DATAPROC_ARTIFACTS_DIR=/usr/local/share/google/dataproc/artifacts
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ DATAPROC_CONF_DIR=/usr/local/share/google/dataproc/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ DATAPROC_METADATA_CONF=/usr/local/share/google/dataproc/conf/dataproc_metadata.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ COMMANDS_TMP_DIR=/tmp/dataproc/commands
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ DATAPROC_COMPONENTS_TMP_DIR=/tmp/dataproc/components
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ POST_HDFS_ENV=/usr/local/share/google/dataproc/bdutil/components/post_hdfs_env.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ [[ -f /usr/local/share/google/dataproc/conf/dataproc_metadata.sh ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ INSTALL_GCS_CONNECTOR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ INSTALL_BIGQUERY_CONNECTOR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ ENABLE_HDFS=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HADOOP_INSTALL_DIR=/usr/lib/hadoop
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HADOOP_LIB_DIR=/usr/lib/hadoop/lib
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HADOOP_CONF_DIR=/etc/hadoop/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HADOOP_MASTER_MAPREDUCE_MEMORY_FRACTION=0.4
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HDFS_MASTER_MEMORY_FRACTION=0.4
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ NODEMANAGER_MEMORY_FRACTION=0.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ NUM_WORKERS=10
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ WORKERS=()
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ CORES_PER_MAP_TASK=1.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ CORES_PER_REDUCE_TASK=2.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ CORES_PER_APP_MASTER=2.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HDFS_DATA_DIRS_PERM=700
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ SPARK_CONF_DIR=/etc/spark/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ SPARK_WORKER_MEMORY_FRACTION=0.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ SPARK_EXECUTOR_MEMORY_FRACTION=0.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ SPARK_DAEMON_MEMORY_FRACTION=0.15
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ SPARK_EXECUTORS_PER_VM=2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ TEZ_CONF_DIR=/etc/tez/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ TEZ_LIB_DIR=/usr/lib/tez
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ MINICONDA3_INSTALL_PATH=/opt/conda/miniconda3
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ MINICONDA3_BIN_DIR=/opt/conda/miniconda3/bin
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ [[ -v BIGTABLE_HBASE_CLIENT_VERSION ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ BIGTABLE_HBASE_CLIENT_JAR=bigtable-hbase-2.x-hadoop-1.26.2.jar
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ BIGTABLE_HBASE_CONF_DIR=/etc/bigtable-hbase/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HDFS_METRIC_SOURCE=hdfs
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HIVESERVER2_METRIC_SOURCE=hiveserver2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HIVEMETASTORE_METRIC_SOURCE=hivemetastore
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ MONITORING_AGENT_DEFAULTS_SOURCE=monitoringAgentDefaults
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ SPARK_HISTORY_SERVER_METRIC_SOURCE=sparkHistoryServer
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ SPARK_METRIC_SOURCE=spark
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ YARN_METRIC_SOURCE=yarn
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HDFS_COLLECTD_CONF_FILE_NAME=collectd_hdfs_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HIVESERVER2_COLLECTD_CONF_FILE_NAME=collectd_hiveserver2_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HIVEMETASTORE_COLLECTD_CONF_FILE_NAME=collectd_hivemetastore_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ SPARK_HISTORY_SERVER_COLLECTD_CONF_FILE_NAME=collectd_shs_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ [[ standard == \s\e\r\v\e\r\l\e\s\s\-\s\p\a\r\k ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ SPARK_COLLECTD_CONF_FILE_NAME=collectd_spark_yarn_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ YARN_COLLECTD_CONF_FILE_NAME=collectd_yarn_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ PROCESSES_DEFAULT_METRICS_CONF_FILE_NAME=collectd_processes_default_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ SPARK_DEFAULT_METRICS_CONF_FILE_NAME=collectd_spark_default_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ COLLECTD_CONF_FILE_NAMES=($HDFS_COLLECTD_CONF_FILE_NAME $HIVESERVER2_COLLECTD_CONF_FILE_NAME $HIVEMETASTORE_COLLECTD_CONF_FILE_NAME $SPARK_HISTORY_SERVER_COLLECTD_CONF_FILE_NAME $SPARK_COLLECTD_CONF_FILE_NAME $YARN_COLLECTD_CONF_FILE_NAME)
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ [[ -v BIGTABLE_HBASE_CLIENT_VERSION ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ BIGTABLE_HBASE_CLIENT_JAR=bigtable-hbase-2.x-hadoop-1.26.2.jar
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ BIGTABLE_HBASE_CONF_DIR=/etc/bigtable-hbase/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HDFS_METRIC_SOURCE=hdfs
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HIVESERVER2_METRIC_SOURCE=hiveserver2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HIVEMETASTORE_METRIC_SOURCE=hivemetastore
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ MONITORING_AGENT_DEFAULTS_SOURCE=monitoringAgentDefaults
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_HISTORY_SERVER_METRIC_SOURCE=sparkHistoryServer
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_METRIC_SOURCE=spark
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ YARN_METRIC_SOURCE=yarn
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HDFS_COLLECTD_CONF_FILE_NAME=collectd_hdfs_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HIVESERVER2_COLLECTD_CONF_FILE_NAME=collectd_hiveserver2_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component earlyoom] pid=6663 exited with 0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HIVEMETASTORE_COLLECTD_CONF_FILE_NAME=collectd_hivemetastore_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_HISTORY_SERVER_COLLECTD_CONF_FILE_NAME=collectd_shs_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ [[ standard == \s\e\r\v\e\r\l\e\s\s\-\s\p\a\r\k ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_COLLECTD_CONF_FILE_NAME=collectd_spark_yarn_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ YARN_COLLECTD_CONF_FILE_NAME=collectd_yarn_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6663.exitcode /tmp/dataproc/commands/6663.running
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ PROCESSES_DEFAULT_METRICS_CONF_FILE_NAME=collectd_processes_default_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_DEFAULT_METRICS_CONF_FILE_NAME=collectd_spark_default_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ COLLECTD_CONF_FILE_NAMES=($HDFS_COLLECTD_CONF_FILE_NAME $HIVESERVER2_COLLECTD_CONF_FILE_NAME $HIVEMETASTORE_COLLECTD_CONF_FILE_NAME $SPARK_HISTORY_SERVER_COLLECTD_CONF_FILE_NAME $SPARK_COLLECTD_CONF_FILE_NAME $YARN_COLLECTD_CONF_FILE_NAME)
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_env.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ [[ standard == \s\e\r\v\e\r\l\e\s\s\-\s\p\a\r\k ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ source /usr/local/share/google/dataproc/bdutil/image_config/2.0.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly BIGTABLE_HBASE_CLIENT_CONNECTION_IMPL=com.google.cloud.bigtable.hbase2_x.BigtableConnection
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ BIGTABLE_HBASE_CLIENT_CONNECTION_IMPL=com.google.cloud.bigtable.hbase2_x.BigtableConnection
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly BIGTABLE_HBASE_CLIENT_JAR_PREFIX=bigtable-hbase-2.x-hadoop
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ BIGTABLE_HBASE_CLIENT_JAR_PREFIX=bigtable-hbase-2.x-hadoop
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly BIGTABLE_HBASE_CLIENT_VERSION=1.26.2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ BIGTABLE_HBASE_CLIENT_VERSION=1.26.2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly CONDA_VERSION=4.9
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ CONDA_VERSION=4.9
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly DOCKER_VERSION=19.03
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ DOCKER_VERSION=19.03
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly DPMS_PROXY_DOCKER_IMAGE_VERSION=v0.0.24
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ DPMS_PROXY_DOCKER_IMAGE_VERSION=v0.0.24
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ DPMS_PROXY_HIVE_VERSIONS=("3.1.2")
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly DPMS_PROXY_HIVE_VERSIONS
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly GCS_CONNECTOR_VERSION=hadoop3-2.2.14
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ GCS_CONNECTOR_VERSION=hadoop3-2.2.14
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly HUDI_VERSION=0.12.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ HUDI_VERSION=0.12.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly JAVA_PACKAGE=temurin-8-jdk
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ JAVA_PACKAGE=temurin-8-jdk
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly MINICONDA_VERSION=Miniconda3-py38_4.9.2-Linux-x86_64.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ MINICONDA_VERSION=Miniconda3-py38_4.9.2-Linux-x86_64.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly PARQUET_VERSION=1.11.1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ PARQUET_VERSION=1.11.1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly PYTHON_VERSION=3.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ PYTHON_VERSION=3.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly R_APT_SITE=http://cloud.r-project.org
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ R_APT_SITE=http://cloud.r-project.org
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly R_REPO=cran40
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ R_REPO=cran40
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly R_VERSION=4.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ R_VERSION=4.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly SCALA_VERSION=2.12.14
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ SCALA_VERSION=2.12.14
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly SPARK_MINOR_VERSION=3.1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ SPARK_MINOR_VERSION=3.1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ readonly TINKEY_VERSION=1.5.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: +++ TINKEY_VERSION=1.5.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ [[ /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin == *:/snap/bin* ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ DATAPROC_DIR=/usr/local/share/google/dataproc
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ DATAPROC_TMP_DIR=/tmp/dataproc
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ DATAPROC_COMMON_LIB_DIR=/usr/local/share/google/dataproc/lib
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ DATAPROC_ARTIFACTS_DIR=/usr/local/share/google/dataproc/artifacts
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ DATAPROC_CONF_DIR=/usr/local/share/google/dataproc/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ DATAPROC_METADATA_CONF=/usr/local/share/google/dataproc/conf/dataproc_metadata.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ COMMANDS_TMP_DIR=/tmp/dataproc/commands
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ DATAPROC_COMPONENTS_TMP_DIR=/tmp/dataproc/components
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ POST_HDFS_ENV=/usr/local/share/google/dataproc/bdutil/components/post_hdfs_env.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ [[ -f /usr/local/share/google/dataproc/conf/dataproc_metadata.sh ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ INSTALL_GCS_CONNECTOR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ INSTALL_BIGQUERY_CONNECTOR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ ENABLE_HDFS=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HADOOP_INSTALL_DIR=/usr/lib/hadoop
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HADOOP_LIB_DIR=/usr/lib/hadoop/lib
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HADOOP_CONF_DIR=/etc/hadoop/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HADOOP_MASTER_MAPREDUCE_MEMORY_FRACTION=0.4
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HDFS_MASTER_MEMORY_FRACTION=0.4
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ NODEMANAGER_MEMORY_FRACTION=0.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ NUM_WORKERS=10
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ WORKERS=()
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_logging.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ readonly EXIT_CODE_INTERNAL_ERROR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ EXIT_CODE_INTERNAL_ERROR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ readonly EXIT_CODE_CLIENT_ERROR=2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ EXIT_CODE_CLIENT_ERROR=2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ CORES_PER_MAP_TASK=1.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ CORES_PER_REDUCE_TASK=2.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ CORES_PER_APP_MASTER=2.0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HDFS_DATA_DIRS_PERM=700
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ SPARK_CONF_DIR=/etc/spark/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ SPARK_WORKER_MEMORY_FRACTION=0.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ SPARK_EXECUTOR_MEMORY_FRACTION=0.8
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ SPARK_DAEMON_MEMORY_FRACTION=0.15
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ SPARK_EXECUTORS_PER_VM=2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ TEZ_CONF_DIR=/etc/tez/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ TEZ_LIB_DIR=/usr/lib/tez
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ MINICONDA3_INSTALL_PATH=/opt/conda/miniconda3
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ MINICONDA3_BIN_DIR=/opt/conda/miniconda3/bin
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ [[ -v BIGTABLE_HBASE_CLIENT_VERSION ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ BIGTABLE_HBASE_CLIENT_JAR=bigtable-hbase-2.x-hadoop-1.26.2.jar
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ BIGTABLE_HBASE_CONF_DIR=/etc/bigtable-hbase/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HDFS_METRIC_SOURCE=hdfs
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HIVESERVER2_METRIC_SOURCE=hiveserver2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HIVEMETASTORE_METRIC_SOURCE=hivemetastore
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ MONITORING_AGENT_DEFAULTS_SOURCE=monitoringAgentDefaults
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ SPARK_HISTORY_SERVER_METRIC_SOURCE=sparkHistoryServer
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ SPARK_METRIC_SOURCE=spark
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ YARN_METRIC_SOURCE=yarn
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HDFS_COLLECTD_CONF_FILE_NAME=collectd_hdfs_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HIVESERVER2_COLLECTD_CONF_FILE_NAME=collectd_hiveserver2_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ HIVEMETASTORE_COLLECTD_CONF_FILE_NAME=collectd_hivemetastore_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ SPARK_HISTORY_SERVER_COLLECTD_CONF_FILE_NAME=collectd_shs_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ [[ standard == \s\e\r\v\e\r\l\e\s\s\-\s\p\a\r\k ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ SPARK_COLLECTD_CONF_FILE_NAME=collectd_spark_yarn_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ YARN_COLLECTD_CONF_FILE_NAME=collectd_yarn_jmx_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ PROCESSES_DEFAULT_METRICS_CONF_FILE_NAME=collectd_processes_default_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ SPARK_DEFAULT_METRICS_CONF_FILE_NAME=collectd_spark_default_metrics.conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ COLLECTD_CONF_FILE_NAMES=($HDFS_COLLECTD_CONF_FILE_NAME $HIVESERVER2_COLLECTD_CONF_FILE_NAME $HIVEMETASTORE_COLLECTD_CONF_FILE_NAME $SPARK_HISTORY_SERVER_COLLECTD_CONF_FILE_NAME $SPARK_COLLECTD_CONF_FILE_NAME $YARN_COLLECTD_CONF_FILE_NAME)
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_logging.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ readonly EXIT_CODE_INTERNAL_ERROR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ EXIT_CODE_INTERNAL_ERROR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ readonly EXIT_CODE_CLIENT_ERROR=2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ EXIT_CODE_CLIENT_ERROR=2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/mapreduce.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_properties.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6664
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_logging.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ readonly EXIT_CODE_INTERNAL_ERROR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ EXIT_CODE_INTERNAL_ERROR=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ readonly EXIT_CODE_CLIENT_ERROR=2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ EXIT_CODE_CLIENT_ERROR=2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + pid=6664
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_retry.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_retry.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/mapreduce.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_retry.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/mapreduce.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component hdfs'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6664 cmd=[post_hdfs_activate_component hdfs]'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6664 cmd=[post_hdfs_activate_component hdfs]'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: Waiting on pid=6664 cmd=[post_hdfs_activate_component hdfs]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component hdfs'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6664.exitcode
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6664.exitcode ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_services.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + set -x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + [[ Master == \M\a\s\t\e\r ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + [[ 0 == \0 ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + start_service hadoop-mapreduce-historyserver
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + local -r service=hadoop-mapreduce-historyserver
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + local -r unit=hadoop-mapreduce-historyserver.service
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_properties.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + retry_constant_short systemctl start hadoop-mapreduce-historyserver.service
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + retry_constant_custom 30 1 systemctl start hadoop-mapreduce-historyserver.service
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + local -r max_retry_time=30
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + local -r retry_delay=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + cmd=("${@:3}")
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + local -r cmd
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + local -r max_retries=30
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + local reenable_x=false
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + [[ -o xtrace ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: About to run 'systemctl start hadoop-mapreduce-historyserver.service' with retries...
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_services.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: 'systemctl start hadoop-mapreduce-historyserver.service' succeeded after 1 execution(s).
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + return 0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_components.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: ++ date +%s.%N
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component hdfs] pid=6664 exited with 0'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6664.done
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component hdfs] pid=6664 exited with 0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6664.exitcode /tmp/dataproc/commands/6664.running
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_services.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + local -r end=1687968226.101686202
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + local -r runtime_s=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + echo 'Component mapreduce took 1s to activate post-hdfs'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: Component mapreduce took 1s to activate post-hdfs
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + local -r time_file=/tmp/dataproc/components/post-hdfs/mapreduce.time
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + touch /tmp/dataproc/components/post-hdfs/mapreduce.time
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../shared/hdfs.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ HCFS_DIRS=("/ hdfs:hadoop 1777" "/tmp hdfs:hadoop 1777" "/tmp/hadoop-yarn/staging yarn:hadoop 1777" "/tmp/hadoop-yarn/staging/history yarn:hadoop 755" "/user hdfs:hadoop 755" "/var hdfs:hadoop 775" "/var/tmp hdfs:hadoop 1777")
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + cat
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_networking.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ readonly IPTABLES_RESTORE_SCRIPT=/usr/local/share/google/dataproc/iptables_restore.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ IPTABLES_RESTORE_SCRIPT=/usr/local/share/google/dataproc/iptables_restore.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ readonly IPTABLES_SAVE_LOCATION=/usr/local/share/google/dataproc/iptables_saved
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ IPTABLES_SAVE_LOCATION=/usr/local/share/google/dataproc/iptables_saved
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + [[ 0 -ne 0 ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-mapreduce[6667]: + touch /tmp/dataproc/components/post-hdfs/mapreduce.done
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ is_component_selected kerberos
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../shared/hive.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ local -r component=kerberos
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ local activated_components
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../shared/hive-metastore.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ set -euo pipefail
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6665
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + pid=6665
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++++ get_components_to_activate
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/hive-server2.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../../bdutil_metadata.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ set -x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++++ get_dataproc_property dataproc.components.activate
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++++ set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++++ tr '[:upper:]' '[:lower:]'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++++ get_metadata_master
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++++ get_dataproc_metadata DATAPROC_METADATA_MASTER attributes/dataproc-master
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++++ set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component hive-metastore'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6665 cmd=[post_hdfs_activate_component hive-metastore]'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6665 cmd=[post_hdfs_activate_component hive-metastore]'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: Waiting on pid=6665 cmd=[post_hdfs_activate_component hive-metastore]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component hive-metastore'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6665.exitcode
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6665.exitcode ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6665.done
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component hive-metastore] pid=6665 exited with 0'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component hive-metastore] pid=6665 exited with 0
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6665.exitcode /tmp/dataproc/commands/6665.running
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ activated_components='hdfs yarn mapreduce mysql pig tez hive-metastore hive-server2 spark earlyoom miniconda3'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ [[ hdfs yarn mapreduce mysql pig tez hive-metastore hive-server2 spark earlyoom miniconda3 == *kerberos* ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ echo false
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ KERBEROS_ENABLED=false
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ get_property_in_xml /etc/hadoop/conf/hdfs-site.xml dfs.webhdfs.enabled true
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: +++ set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6666
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + pid=6666
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component hive-server2'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6666 cmd=[post_hdfs_activate_component hive-server2]'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6666 cmd=[post_hdfs_activate_component hive-server2]'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: Waiting on pid=6666 cmd=[post_hdfs_activate_component hive-server2]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component hive-server2'
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6666.exitcode
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ DATAPROC_MASTER=mjtelco-m
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++++ get_metadata_master_additional
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++++ get_dataproc_metadata DATAPROC_METADATA_MASTER_ADDITIONAL attributes/dataproc-master-additional
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++++ set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ DATAPROC_MASTER_ADDITIONAL=
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ MASTER_HOSTNAMES=($DATAPROC_MASTER ${DATAPROC_MASTER_ADDITIONAL//,/ })
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ NUM_MASTERS=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++++ get_metadata_role
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++++ get_dataproc_metadata DATAPROC_METADATA_ROLE attributes/dataproc-role
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++++ set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ ROLE=Master
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ [[ 1 -gt 1 ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ CLUSTER_MASTER_METASTORE_URIS=thrift://mjtelco-m:9083
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ HIVE_CONF_DIR=/etc/hive/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + set -x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + start_hive_server2
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + wait_for_hive_metastore
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + local timeout
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ get_dataproc_property_or_default startup.component.service-binding-timeout.hive-metastore 300
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + timeout=300
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: + local metastore_uri
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ get_hive_metastore_uri
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: ++ local uris_str
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ get_property_in_xml /etc/hive/conf/hive-site.xml hive.metastore.uris
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-hive-server2[6666]: +++ set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ WEBHDFS_ENABLED=true
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ WEBHDFS_BASE_URI=
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ dirname /usr/local/share/google/dataproc/bdutil/components/post-hdfs/spark.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + source /usr/local/share/google/dataproc/bdutil/components/post-hdfs/../shared/spark.sh
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ export SPARK_HOME=/usr/lib/spark
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_HOME=/usr/lib/spark
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ export SPARK_CONF_DIR=/etc/spark/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_CONF_DIR=/etc/spark/conf
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ export SPARK_AUTH_SECRET_FILE=/tmp/cluster/spark.auth.secret
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_AUTH_SECRET_FILE=/tmp/cluster/spark.auth.secret
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ export SPARK_DEFAULT_IMAGE_FILE=/etc/dataproc/spark-default-image.tar
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_DEFAULT_IMAGE_FILE=/etc/dataproc/spark-default-image.tar
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ [[ standard == \s\e\r\v\e\r\l\e\s\s\-\s\p\a\r\k ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ export SPARK_DATA_DIR=/hadoop/spark
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_DATA_DIR=/hadoop/spark
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ export SPARK_LOG_DIR=/var/log/spark
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_LOG_DIR=/var/log/spark
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ export SPARK_TMP_DIR=/hadoop/spark/tmp
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_TMP_DIR=/hadoop/spark/tmp
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ export SPARK_WORK_DIR=/hadoop/spark/work
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ SPARK_WORK_DIR=/hadoop/spark/work
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + set -x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ get_dataproc_property_or_default dataproc:componentgateway.ha.enabled false
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + readonly IS_COMPONENT_GATEWAY_HA_ENABLED=false
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + IS_COMPONENT_GATEWAY_HA_ENABLED=false
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + [[ Master == \M\a\s\t\e\r ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + [[ false == \t\r\u\e ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + [[ 0 == \0 ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + create_event_log_dir_in_cluster_hdfs
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + local event_log_dir
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ get_java_property /etc/spark/conf/spark-defaults.conf spark.eventLog.dir
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: ++ set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + event_log_dir=gs://dataproc-temp-us-east1-746779145865-aaezsxz3/7db0aaf5-a842-4945-a93b-c6d17e834515/spark-job-history
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + is_in_cluster_hdfs gs://dataproc-temp-us-east1-746779145865-aaezsxz3/7db0aaf5-a842-4945-a93b-c6d17e834515/spark-job-history
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + local uri=gs://dataproc-temp-us-east1-746779145865-aaezsxz3/7db0aaf5-a842-4945-a93b-c6d17e834515/spark-job-history
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + [[ gs://dataproc-temp-us-east1-746779145865-aaezsxz3/7db0aaf5-a842-4945-a93b-c6d17e834515/spark-job-history != hdfs://* ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + return 1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + start_spark_history_server
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + enable_service spark-history-server
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + local -r service=spark-history-server
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + local -r unit=spark-history-server.service
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + retry_constant_short systemctl enable spark-history-server.service
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + retry_constant_custom 30 1 systemctl enable spark-history-server.service
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + local -r max_retry_time=30
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + local -r retry_delay=1
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + cmd=("${@:3}")
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + local -r cmd
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + local -r max_retries=30
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + local reenable_x=false
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + [[ -o xtrace ]]
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: + set +x
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: About to run 'systemctl enable spark-history-server.service' with retries...
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: spark-history-server.service is not a native service, redirecting to systemd-sysv-install.
+<13>Jun 28 16:03:46 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:46 post-hdfs-activate-component-spark[6672]: Executing: /lib/systemd/systemd-sysv-install enable spark-history-server
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ uris_str=thrift://mjtelco-m:9083
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ uris=(${uris_str//,/' '})
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ local -a uris
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ for uri in "${uris[@]}"
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ [[ thrift://mjtelco-m:9083 == *mjtelco-m* ]]
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ echo thrift://mjtelco-m:9083
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ return 0
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + metastore_uri=thrift://mjtelco-m:9083
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local host
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ echo thrift://mjtelco-m:9083
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ sed -n 's#.*://\(.*\):.*#\1#p'
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + host=mjtelco-m
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + [[ -z mjtelco-m ]]
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local port
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ echo thrift://mjtelco-m:9083
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: ++ sed -n 's#.*://.*:\(.*\)#\1#p'
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + port=9083
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + [[ -z 9083 ]]
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + wait_for_port hive-metastore mjtelco-m 9083 300
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r name=hive-metastore
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r host=mjtelco-m
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r port=9083
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r timeout=300
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r capped_timeout=300
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + loginfo 'Waiting 300 seconds for service to come up on host=mjtelco-m port=9083 name=hive-metastore.'
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + echo 'Waiting 300 seconds for service to come up on host=mjtelco-m port=9083 name=hive-metastore.'
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: Waiting 300 seconds for service to come up on host=mjtelco-m port=9083 name=hive-metastore.
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + retry_constant_custom 300 1 nc -v -z -w 1 mjtelco-m 9083
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r max_retry_time=300
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r retry_delay=1
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + cmd=("${@:3}")
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r cmd
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r max_retries=300
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local reenable_x=false
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + [[ -o xtrace ]]
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + set +x
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: About to run 'nc -v -z -w 1 mjtelco-m 9083' with retries...
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: Connection to mjtelco-m 9083 port [tcp/*] succeeded!
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: 'nc -v -z -w 1 mjtelco-m 9083' succeeded after 1 execution(s).
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + return 0
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + loginfo 'Service up on host=mjtelco-m port=9083 name=hive-metastore.'
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + echo 'Service up on host=mjtelco-m port=9083 name=hive-metastore.'
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: Service up on host=mjtelco-m port=9083 name=hive-metastore.
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + enable_service hive-server2
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r service=hive-server2
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r unit=hive-server2.service
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + retry_constant_short systemctl enable hive-server2.service
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + retry_constant_custom 30 1 systemctl enable hive-server2.service
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r max_retry_time=30
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r retry_delay=1
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + cmd=("${@:3}")
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r cmd
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local -r max_retries=30
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + local reenable_x=false
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + [[ -o xtrace ]]
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: + set +x
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: About to run 'systemctl enable hive-server2.service' with retries...
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: hive-server2.service is not a native service, redirecting to systemd-sysv-install.
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:47 post-hdfs-activate-component-hive-server2[6666]: Executing: /lib/systemd/systemd-sysv-install enable hive-server2
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:47 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: 'systemctl enable spark-history-server.service' succeeded after 1 execution(s).
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: + return 0
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: + local -r common_restart_drop_in=/etc/systemd/system/common/restart.conf
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: + [[ ! -f /etc/systemd/system/common/restart.conf ]]
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: + local -r worker_restart_drop_in=/etc/systemd/system/common/worker-restart.conf
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: + [[ ! -f /etc/systemd/system/common/worker-restart.conf ]]
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: + local -r drop_in_dir=/etc/systemd/system/spark-history-server.service.d
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: + mkdir -p /etc/systemd/system/spark-history-server.service.d
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: + local props
+<13>Jun 28 16:03:48 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: ++ retry_constant_short systemctl show spark-history-server.service -p Restart,RemainAfterExit
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:48 post-hdfs-activate-component-spark[6672]: ++ retry_constant_custom 30 1 systemctl show spark-history-server.service -p Restart,RemainAfterExit
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: ++ local -r max_retry_time=30
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: ++ local -r retry_delay=1
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: ++ cmd=("${@:3}")
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: ++ local -r cmd
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: ++ local -r max_retries=30
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: ++ local reenable_x=false
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: ++ [[ -o xtrace ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: ++ set +x
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: About to run 'systemctl show spark-history-server.service -p Restart,RemainAfterExit' with retries...
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: 'systemctl enable hive-server2.service' succeeded after 1 execution(s).
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + return 0
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + local -r common_restart_drop_in=/etc/systemd/system/common/restart.conf
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + [[ ! -f /etc/systemd/system/common/restart.conf ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + local -r worker_restart_drop_in=/etc/systemd/system/common/worker-restart.conf
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + [[ ! -f /etc/systemd/system/common/worker-restart.conf ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + local -r drop_in_dir=/etc/systemd/system/hive-server2.service.d
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + mkdir -p /etc/systemd/system/hive-server2.service.d
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + local props
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: 'systemctl show spark-history-server.service -p Restart,RemainAfterExit' succeeded after 1 execution(s).
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: ++ return 0
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + props='Restart=no
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: RemainAfterExit=no'
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ retry_constant_short systemctl show hive-server2.service -p Restart,RemainAfterExit
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ retry_constant_custom 30 1 systemctl show hive-server2.service -p Restart,RemainAfterExit
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ local -r max_retry_time=30
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ local -r retry_delay=1
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + [[ spark-history-server != \h\a\d\o\o\p\-\h\d\f\s\-\d\a\t\a\n\o\d\e ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + [[ spark-history-server != \h\a\d\o\o\p\-\y\a\r\n\-\n\o\d\e\m\a\n\a\g\e\r ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + [[ Restart=no
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: RemainAfterExit=no == *\R\e\s\t\a\r\t\=\n\o* ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + [[ Restart=no
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: RemainAfterExit=no == *\R\e\m\a\i\n\A\f\t\e\r\E\x\i\t\=\n\o* ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + ln -s -f /etc/systemd/system/common/restart.conf /etc/systemd/system/spark-history-server.service.d
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ cmd=("${@:3}")
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ local -r cmd
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ local -r max_retries=30
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ local reenable_x=false
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ [[ -o xtrace ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ set +x
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: About to run 'systemctl show hive-server2.service -p Restart,RemainAfterExit' with retries...
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + local -r gate_start_on_agent_success_drop_in=/etc/systemd/system/common/agent-gate.conf
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + [[ ! -f /etc/systemd/system/common/agent-gate.conf ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + [[ spark-history-server == \h\a\d\o\o\p\-\h\d\f\s\-\d\a\t\a\n\o\d\e ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + [[ spark-history-server == \h\a\d\o\o\p\-\y\a\r\n\-\n\o\d\e\m\a\n\a\g\e\r ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + retry_constant systemctl start spark-history-server
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + retry_constant_custom 300 1 systemctl start spark-history-server
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + local -r max_retry_time=300
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + local -r retry_delay=1
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + cmd=("${@:3}")
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + local -r cmd
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + local -r max_retries=300
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + local reenable_x=false
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + [[ -o xtrace ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: + set +x
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: About to run 'systemctl start spark-history-server' with retries...
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: 'systemctl show hive-server2.service -p Restart,RemainAfterExit' succeeded after 1 execution(s).
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: ++ return 0
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-spark[6672]: Warning: The unit file, source configuration file or drop-ins of spark-history-server.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + props='Restart=no
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: RemainAfterExit=no'
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + [[ hive-server2 != \h\a\d\o\o\p\-\h\d\f\s\-\d\a\t\a\n\o\d\e ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + [[ hive-server2 != \h\a\d\o\o\p\-\y\a\r\n\-\n\o\d\e\m\a\n\a\g\e\r ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + [[ Restart=no
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: RemainAfterExit=no == *\R\e\s\t\a\r\t\=\n\o* ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + [[ Restart=no
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: RemainAfterExit=no == *\R\e\m\a\i\n\A\f\t\e\r\E\x\i\t\=\n\o* ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + ln -s -f /etc/systemd/system/common/restart.conf /etc/systemd/system/hive-server2.service.d
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + local -r gate_start_on_agent_success_drop_in=/etc/systemd/system/common/agent-gate.conf
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + [[ ! -f /etc/systemd/system/common/agent-gate.conf ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + [[ hive-server2 == \h\a\d\o\o\p\-\h\d\f\s\-\d\a\t\a\n\o\d\e ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + [[ hive-server2 == \h\a\d\o\o\p\-\y\a\r\n\-\n\o\d\e\m\a\n\a\g\e\r ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + retry_constant systemctl start hive-server2
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + retry_constant_custom 300 1 systemctl start hive-server2
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + local -r max_retry_time=300
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + local -r retry_delay=1
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + cmd=("${@:3}")
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + local -r cmd
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + local -r max_retries=300
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + local reenable_x=false
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + [[ -o xtrace ]]
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: + set +x
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: About to run 'systemctl start hive-server2' with retries...
+<13>Jun 28 16:03:49 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:49 post-hdfs-activate-component-hive-server2[6666]: Warning: The unit file, source configuration file or drop-ins of hive-server2.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+<13>Jun 28 16:03:50 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:50 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:51 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:51 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:52 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:52 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:52 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:52 post-hdfs-activate-component-hive-server2[6666]: 'systemctl start hive-server2' succeeded after 1 execution(s).
+<13>Jun 28 16:03:52 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:52 post-hdfs-activate-component-hive-server2[6666]: + return 0
+<13>Jun 28 16:03:52 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:52 post-hdfs-activate-component-hive-server2[6666]: + local thrift_port
+<13>Jun 28 16:03:52 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:52 post-hdfs-activate-component-hive-server2[6666]: ++ get_property_in_xml /etc/hive/conf/hive-site.xml hive.server2.thrift.port 10000
+<13>Jun 28 16:03:52 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:52 post-hdfs-activate-component-hive-server2[6666]: ++ set +x
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + thrift_port=10000
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local timeout
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: ++ get_dataproc_property_or_default startup.component.service-binding-timeout.hive-server2 300
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: ++ set +x
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: 'systemctl start spark-history-server' succeeded after 1 execution(s).
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: + return 0
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: ++ date +%s.%N
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: + local -r end=1687968233.260546228
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: + local -r runtime_s=8
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: + echo 'Component spark took 8s to activate post-hdfs'
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: Component spark took 8s to activate post-hdfs
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: + local -r time_file=/tmp/dataproc/components/post-hdfs/spark.time
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: + touch /tmp/dataproc/components/post-hdfs/spark.time
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: + cat
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + timeout=300
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + wait_for_port hive-server2 mjtelco-m 10000 300
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local -r name=hive-server2
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local -r host=mjtelco-m
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local -r port=10000
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local -r timeout=300
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local -r capped_timeout=300
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + loginfo 'Waiting 300 seconds for service to come up on host=mjtelco-m port=10000 name=hive-server2.'
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + echo 'Waiting 300 seconds for service to come up on host=mjtelco-m port=10000 name=hive-server2.'
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: Waiting 300 seconds for service to come up on host=mjtelco-m port=10000 name=hive-server2.
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + retry_constant_custom 300 1 nc -v -z -w 1 mjtelco-m 10000
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local -r max_retry_time=300
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local -r retry_delay=1
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + cmd=("${@:3}")
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local -r cmd
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local -r max_retries=300
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + local reenable_x=false
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + [[ -o xtrace ]]
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: + set +x
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: About to run 'nc -v -z -w 1 mjtelco-m 10000' with retries...
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: + [[ 0 -ne 0 ]]
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-spark[6672]: + touch /tmp/dataproc/components/post-hdfs/spark.done
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:03:53 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:53 post-hdfs-activate-component-hive-server2[6666]: 'nc -v -z -w 1 mjtelco-m 10000' attempt 1/300 failed! Sleeping 1s.
+<13>Jun 28 16:03:54 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:54 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:54 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:54 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:03:55 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:55 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:55 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:55 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:03:56 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:56 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:56 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:56 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:03:57 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:57 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:57 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:57 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:03:58 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:58 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:58 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:58 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:03:59 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:03:59 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:03:59 post-hdfs-startup-script[6642]: <13>Jun 28 16:03:59 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:04:00 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:00 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:04:00 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:00 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:04:01 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:01 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:04:01 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:01 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:04:02 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:02 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:04:02 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:02 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:04:03 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:03 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:04:03 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:03 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:04:04 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:04 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:04:04 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:04 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:04:04 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:04 post-hdfs-activate-component-hive-server2[6666]: 'nc -v -z -w 1 mjtelco-m 10000' attempt 12/300 failed! Sleeping 1s.
+<13>Jun 28 16:04:05 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:05 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:04:05 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:05 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:04:06 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:06 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:04:06 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:06 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:04:07 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:07 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:04:07 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:07 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:04:08 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:08 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:04:08 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:08 post-hdfs-activate-component-hive-server2[6666]: nc: connect to mjtelco-m port 10000 (tcp) failed: Connection refused
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: + sleep 1
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: Connection to mjtelco-m 10000 port [tcp/webmin] succeeded!
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: 'nc -v -z -w 1 mjtelco-m 10000' succeeded after 17 execution(s).
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + return 0
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + loginfo 'Service up on host=mjtelco-m port=10000 name=hive-server2.'
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + echo 'Service up on host=mjtelco-m port=10000 name=hive-server2.'
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: Service up on host=mjtelco-m port=10000 name=hive-server2.
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: ++ date +%s.%N
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + local -r end=1687968249.968778078
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + local -r runtime_s=24
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + echo 'Component hive-server2 took 24s to activate post-hdfs'
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: Component hive-server2 took 24s to activate post-hdfs
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + local -r time_file=/tmp/dataproc/components/post-hdfs/hive-server2.time
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + touch /tmp/dataproc/components/post-hdfs/hive-server2.time
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + cat
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + [[ 0 -ne 0 ]]
+<13>Jun 28 16:04:09 post-hdfs-startup-script[6642]: <13>Jun 28 16:04:09 post-hdfs-activate-component-hive-server2[6666]: + touch /tmp/dataproc/components/post-hdfs/hive-server2.done
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: ++ echo 0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6666.exitcode ]]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component hive-server2] pid=6666 exited with 0'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6666.done
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component hive-server2] pid=6666 exited with 0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6666.exitcode /tmp/dataproc/commands/6666.running
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6667
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + pid=6667
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component mapreduce'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6667 cmd=[post_hdfs_activate_component mapreduce]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6667 cmd=[post_hdfs_activate_component mapreduce]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Waiting on pid=6667 cmd=[post_hdfs_activate_component mapreduce]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component mapreduce'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6667.exitcode
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6667.exitcode ]]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component mapreduce] pid=6667 exited with 0'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6667.done
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component mapreduce] pid=6667 exited with 0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6667.exitcode /tmp/dataproc/commands/6667.running
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6668
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + pid=6668
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component miniconda3'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6668 cmd=[post_hdfs_activate_component miniconda3]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6668 cmd=[post_hdfs_activate_component miniconda3]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Waiting on pid=6668 cmd=[post_hdfs_activate_component miniconda3]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component miniconda3'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6668.exitcode
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6668.exitcode ]]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6668.done
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component miniconda3] pid=6668 exited with 0'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component miniconda3] pid=6668 exited with 0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6668.exitcode /tmp/dataproc/commands/6668.running
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6669
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + pid=6669
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component mysql'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6669 cmd=[post_hdfs_activate_component mysql]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6669 cmd=[post_hdfs_activate_component mysql]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Waiting on pid=6669 cmd=[post_hdfs_activate_component mysql]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component mysql'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6669.exitcode
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6669.exitcode ]]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6669.done
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component mysql] pid=6669 exited with 0'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component mysql] pid=6669 exited with 0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6669.exitcode /tmp/dataproc/commands/6669.running
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6670
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + pid=6670
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component pig'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6670 cmd=[post_hdfs_activate_component pig]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6670 cmd=[post_hdfs_activate_component pig]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Waiting on pid=6670 cmd=[post_hdfs_activate_component pig]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component pig'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6670.exitcode
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6670.exitcode ]]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component pig] pid=6670 exited with 0'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6670.done
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component pig] pid=6670 exited with 0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6670.exitcode /tmp/dataproc/commands/6670.running
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6672
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + pid=6672
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component spark'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6672 cmd=[post_hdfs_activate_component spark]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6672 cmd=[post_hdfs_activate_component spark]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Waiting on pid=6672 cmd=[post_hdfs_activate_component spark]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component spark'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6672.exitcode
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6672.exitcode ]]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component spark] pid=6672 exited with 0'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6672.done
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component spark] pid=6672 exited with 0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6672.exitcode /tmp/dataproc/commands/6672.running
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6674
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + pid=6674
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component tez'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6674 cmd=[post_hdfs_activate_component tez]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6674 cmd=[post_hdfs_activate_component tez]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Waiting on pid=6674 cmd=[post_hdfs_activate_component tez]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component tez'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6674.exitcode
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6674.exitcode ]]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6674.done
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component tez] pid=6674 exited with 0'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component tez] pid=6674 exited with 0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6674.exitcode /tmp/dataproc/commands/6674.running
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + for running_file in "${COMMANDS_TMP_DIR}/"*'.running'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local pid
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: ++ basename /tmp/dataproc/commands/6675
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + pid=6675
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local cmd
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + cmd='post_hdfs_activate_component yarn'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + loginfo 'Waiting on pid=6675 cmd=[post_hdfs_activate_component yarn]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Waiting on pid=6675 cmd=[post_hdfs_activate_component yarn]'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Waiting on pid=6675 cmd=[post_hdfs_activate_component yarn]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'post_hdfs_activate_component yarn'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local exitcode_file=/tmp/dataproc/commands/6675.exitcode
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + [[ ! -f /tmp/dataproc/commands/6675.exitcode ]]
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + local status
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + status=0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + (( status != 0 ))
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + tee /tmp/dataproc/commands/6675.done
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'Command cmd=[post_hdfs_activate_component yarn] pid=6675 exited with 0'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: Command cmd=[post_hdfs_activate_component yarn] pid=6675 exited with 0
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + rm /tmp/dataproc/commands/6675.exitcode /tmp/dataproc/commands/6675.running
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + loginfo 'All done'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: + echo 'All done'
+<13>Jun 28 16:04:10 post-hdfs-startup-script[6642]: All done
