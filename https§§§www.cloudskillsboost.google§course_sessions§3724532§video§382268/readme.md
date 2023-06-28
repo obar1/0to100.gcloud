@@ -7,15 +7,10 @@
 ![1687883454187.png](./1687883454187.png)
 
 Hello and welcome to the Building a Data Warehouse module. This is the third module in the course, Modernizing Data Lakes and Data Warehouses with Google Cloud. We'll start by describing what makes a modern data warehouse.
-00:14
 We'll also talk about what distinguishes a data lake from an enterprise data warehouse. Then we're going to introduce BigQuery, a data warehouse solution on Google Cloud. Once you're familiar with the basics of BigQuery,
-00:29
 we'll talk about how BigQuery organizes your data and then how to load new data into BigQuery. You'll also have the opportunity to load data into BigQuery through a hands-on lab.
-00:41
 Finally, we'll dive into the world of data warehouse schemas. We'll talk about efficient data warehouse schema design and take a closer look at BigQuery support for nested and repeated fields
-00:54
 and why this is such a popular schema design for enterprises. You'll get some experience working with JSON and array data in BigQuery through a hands-on lab. We'll end by discussing how you can optimize
-01:05
 the tables in your data warehouse with partitioning and clustering.
 
 # The modern data warehouse
@@ -561,43 +556,24 @@ Partitioning provides a way to obtain accurate cost estimates for queries.
 
  ![1687904760381.png](./1687904760381.png)
 
-00:00
 I started by describing what makes a modern data warehouse and what distinguishes a data lake from an enterprise data warehouse.
-00:08
 You were then introduced to BigQuery, a scalable data warehouse solution on Google Cloud.
-00:14
 You don't need to provision resources before using BigQuery unlike with many relational database systems.
-00:20
 BigQuery allocates storage and query resources dynamically based on your usage patterns.
-00:27
 BigQuery enables you to structure your information into datasets, projects, and tables.
-00:33
 You can use multiple datasets to separate tables pertaining to different analytical domains.
-00:39
 And you can use project level scoping to isolate datasets from each other according to your business needs.
-00:45
 Also, you can align projects to billing and use datasets for access control.
-00:51
 BigQuery allows you to batch load source data into a BigQuery table in a single batch operation.
-00:58
 For example, the data source could be a CSV file, an external database, or a set of log files.
-01:05
 BigQuery Data Transfer Service enables you to run batch transfers on a schedule.
-01:11
 Streaming allows you to continually send smaller batches of data in real time, so the data is available for querying as it arrives.
-01:20
 You can also use SQL to generate data and store the results in BigQuery.
-01:25
 Also, some third party applications and services provide connectors that can ingest data into BigQuery.
-01:33
 The table schema provides structure to the data.
-01:36
 Remember that every table has a schema which you can enter manually or provide a JSON file with the structure.
-01:44
 Those table schemas can also have array data types, which makes them repeated and or struct data types, which makes them nested.
-01:53
 This type of denormalization will often give you a performance boost because it avoids intensive joins.
-01:58
 You can also setup table partitioning and clustering to reduce the amount of data scanned and speed up your queries.
 
 

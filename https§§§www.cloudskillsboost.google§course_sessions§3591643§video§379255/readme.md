@@ -299,11 +299,8 @@ most of this code is all bolier plate to copy from
 
 ```
  Here, we specify a name for our function called Trigger DAG, then we tell it where your airflow environment is to be triggered
-03:59
 and which DAG in that airflow environment. In this case, it's looking for one called GCS to BigQuery triggered. Keep in mind, you can have multiple workflows or DAGs in a single airflow environment,
-04:13
 so be sure you specify the correct DAG underscore name to trigger. Then we have a few constants that we are provided, which construct the airflow URL that we're going to trigger a post request to,
-04:26
 as well as who's making the request and what the body of the request is. Lastly, the Trigger DAG function makes the actual request against the airflow server to kick off a workflow DAG
 ```
 

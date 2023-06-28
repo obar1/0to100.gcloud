@@ -25,7 +25,5 @@ or you can go study them to fill in the gaps
 
 
 But what you will get from this class
-04:55
 is a high-level overview of subject areas and tips and practice with exam-taking skills. And that will help you prepare. If you've already been studying and preparing for the exam,
-05:06
 this course will help you develop a good sense of what else you need to study or whether you're ready to attempt the exam.

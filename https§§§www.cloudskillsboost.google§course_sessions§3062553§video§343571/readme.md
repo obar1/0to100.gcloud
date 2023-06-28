@@ -15,13 +15,10 @@ BigQuery is the default storage for tabular data. Use Cloud Bigtable if you want
 ![1687948102953.png](./1687948102953.png)
 
 Here's some concrete advice on flexible data representation. You want the data divided up in a way that makes the most sense for your given use case. If the data is divided up too much,
-00:50
 it creates additional work. In the example on the left, each data item is stored separately, making it easy to filter on a specific field and to perform updates. In the example on the right, all of the data
-01:02
 is stored in a single record, like a single string. Editing and updating is difficult. Filtering on a particular field would be hard
 
 In the example on the bottom, a relation
-01:12
 is defined between two tables. This might make it easier to manage and report on the list of locations.
 
 ![1687948135265.png](./1687948135265.png)
@@ -35,9 +32,7 @@ acid versus base is essential data knowledge that you will want to be familiar w
 Cloud Storage is persistent.
 
 It has storage classes-- Nearline, Coldline, Regional, and Multi-regional.
-00:06
 There's granular access control.
-00:09
 You should be familiar with all the methods of access control, including IAM roles and signed URLs
 
 ![1687948291175.png](./1687948291175.png)
@@ -49,11 +44,8 @@ I want to highlight to you that there are several ways to securely connect to a 
 ![1687948313493.png](./1687948313493.png)
 
 Cloud Bigtable is meant for high throughput data.
-01:10
 It has millisecond latency.
-01:12
 So it's much faster than BigQuery, for example.
-01:14
 It's NoSQL, so this is good for columnular store.
 
 ![1687948367173.png](./1687948367173.png)
@@ -77,7 +69,6 @@ Cloud Datastore is a NoSQL solution that used to be private to App Engine.
 ![1687948441866.png](./1687948441866.png)
 
 Example, if the exam question contains data warehouse, you should be thinking BigQuery as a candidate.
-02:52
 If the case says something about large media files, you should immediately be thinking cloud storage.
 
 # Building and maintaining pipelines
@@ -87,7 +78,6 @@ The next section is on building and maintaining pipelines
 ![1687948473727.png](./1687948473727.png)
 
 Apache Beam is an open programming platform for
-00:10
 unifying batch and streaming. Before Apache Beam, you needed two pipelines to balance latency throughput and fault tolerance. Cloud Dataflow is Apache Beam as a service, a fully managed auto-scaling service that runs Beam pipelines. Continuous data can arrive out of order. Simple windowing can separate related events into independent windows, losing relationship information. Time-based windowing, or shuffling, overcomes this limitation.
 
 ![1687948520690.png](./1687948520690.png)
@@ -113,15 +103,12 @@ Remember to study side inputs. If you understand side inputs, you'll necessarily
 ![1687948636527.png](./1687948636527.png)
 
 You can stream unbounded data into BigQuery.
-00:17
 Cloud Pub/Sub guarantees delivery but might deliver the messages out of order.
-00:21
 If you have a timestamp, then cloud data float can remove duplicates and work out the order of messages.
 
 ![1687948660043.png](./1687948660043.png)
 
 BigQuery is an inexpensive data store for tabular data.
-00:33
 It's cost comparable with cloud storage, so it makes sense to adjust into BigQuery and leave the data there
 
 ![1687948685584.png](./1687948685584.png)
@@ -139,7 +126,6 @@ D
 ![1687948764442.png](./1687948764442.png)
 
 Do you know why? The clue is that the clients are read-only and the challenge is scale. Read replicas increase capacity for simultaneous reads.
-00:53
 Note that a high-availability configuration wouldn't help in this scenario, because it would not necessarily increase throughput
 
 ![1687948792622.png](./1687948792622.png)
@@ -149,7 +135,6 @@ B
 ![1687948809618.png](./1687948809618.png)
 
 use Cloud Spanner, monitor CPU utilization, and increase the number of nodes
-02:03
 as needed. B is correct, because of the requirement to globally scale transactions. Therefore, use Cloud Spanner. CPU utilization is a recommended metric for scaling, per Google best practices
 
 # Building and Operationalizing Data Processing Systems: Exam Guide Review
@@ -161,11 +146,9 @@ as needed. B is correct, because of the requirement to globally scale transactio
 ![1687948869702.png](./1687948869702.png)
 
 The actual processes were much more complicated, and it took 30 hours from start to finish
-01:06
 to generate one report. The processes were actually more of a spiderweb with many dependencies, so one part would run and then halt, waiting until another dependent part was complete before proceeding. ![1687948993164.png](./1687948993164.png)
 
 So if we developed in BigQuery, it
-01:42
 was going to make the solution more maintainable and usable to the group. If we developed in Dataproc, for example, they would have had to rely on another team that had Spark programmers.
 
 To make the solution work, we needed some automation. And for that, we chose Apache Airflow.
@@ -173,11 +156,8 @@ To make the solution work, we needed some automation. And for that, we chose Apa
 ![1687949039959.png](./1687949039959.png)
 
 Cloud Composer, Apache Airflow allowed
-03:00
 us to establish the dependencies between different queries that existed in the original reporting process. BigQuery served as both a data storage solution and the data processing query solution. We were able to implement all their processing as SQL queries
-03:16
 in BigQuery, and we were able to implement all the dependencies through Airflow. One of the time sinks in their original process had to do with that 30-hour start-to-finish window.
-03:27
 What they would do is start processing jobs, and sometimes, they would fail, because the data from a previous dependency wasn't yet available. They had a manual process for restarting those jobs.
 
 > We were able to automate away that toil and the rework by implementing the logic in Apache Airflow.

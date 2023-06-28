@@ -34,9 +34,7 @@ peace yourself
 ![1687942819379.png](./1687942819379.png)
 
 The first approach, which is the most common, is what I call cram for the exam. That is, you start with basic information, like the information covered in our courses,
-04:16
 and you review that information and make sure you've mastered and can recall the majority of it. Then you research and practice and practice and practice. In formal education science, this
-04:26
 is called the mastery method
 
 ![1687942861031.png](./1687942861031.png)
