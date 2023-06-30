@@ -71,91 +71,86 @@ BigQuery is like a common staging area for data analytics workloads. When your d
 
 bq is 2 service connected by  gnet
 
- ![1688104380907.png](./1688104380907.png)
+![1688104380907.png](./1688104380907.png)
 
 that allows BigQuery to scale both storage and compute independently, based on demand
 
 b1 can ingest
 
- ![1688104423992.png](./1688104423992.png)
+![1688104423992.png](./1688104423992.png)
 
 replicated and backed up and set to auto scale
 
- ![1688104458484.png](./1688104458484.png)
+![1688104458484.png](./1688104458484.png)
 
 That means a raw CSV file in Cloud Storage or a Google Sheet can be used to write a query without being ingested by BigQuery first.
- ![1688104500900.png](./1688104500900.png)
+![1688104500900.png](./1688104500900.png)
 
- ![1688104538420.png](./1688104538420.png)
+![1688104538420.png](./1688104538420.png)
 
 you can ingest from aws and azure or public data set
 
 you can ingest as batch load
 
- ![1688104562357.png](./1688104562357.png)
+![1688104562357.png](./1688104562357.png)
 
 you can create a new table or append data
 
- ![1688104576119.png](./1688104576119.png)
+![1688104576119.png](./1688104576119.png)
 
-or streaming data where smaller batches of data are streamed continuously so that the data is available for querying in near-real time. 
-
+or streaming data where smaller batches of data are streamed continuously so that the data is available for querying in near-real time.
 
 bq is to analyze data o TB of data and Pb in minutes
 
-
 ![1688104666642.png](./1688104666642.png)
 
- ![1688105450166.png](./1688105450166.png)
+![1688105450166.png](./1688105450166.png)
 
 image
 
- ![1688105513988.png](./1688105513988.png)
+![1688105513988.png](./1688105513988.png)
 
- ![1688105579634.png](./1688105579634.png)
+![1688105579634.png](./1688105579634.png)
 
 def is interactive queries
 
- ![1688105596393.png](./1688105596393.png)
+![1688105596393.png](./1688105596393.png)
 
 batch queries when idle resoruce are avialable  // min
 
-
 # BigQuery demo - San Francisco bike share
 
- ![1688105626930.png](./1688105626930.png)
+![1688105626930.png](./1688105626930.png)
 
 ...
-
 
 # Introduction to BigQuery ML
 
 bq is dwh but it supports feature for ml inisde
 
- ![1688105815698.png](./1688105815698.png)
+![1688105815698.png](./1688105815698.png)
 
 doing a mk model can be quite very time consuming
 
 steps:
 
- ![1688105859126.png](./1688105859126.png)
+![1688105859126.png](./1688105859126.png)
 
 back and forth to get more data and create new features
 
- ![1688105885202.png](./1688105885202.png)
+![1688105885202.png](./1688105885202.png)
 
- ![1688105896821.png](./1688105896821.png)
+![1688105896821.png](./1688105896821.png)
 
 2 steps:
 
- ![1688105914334.png](./1688105914334.png)
+![1688105914334.png](./1688105914334.png)
 
- ![1688105919104.png](./1688105919104.png)
+![1688105919104.png](./1688105919104.png)
 
-Step 1: Create a model with a SQL statement. Here we use the bikeshare dataset as an example. 
+Step 1: Create a model with a SQL statement. Here we use the bikeshare dataset as an example.
 
 Step 2: Write a SQL prediction query and invoke ml.Predict.
-
 
 BigQuery ML was designed to be simple, like building a model in two steps. That simplicity extends to defining the machine learning hyperparameters, which let you tune the model to achieve the best training result.
 
@@ -163,122 +158,109 @@ Hyperparameters are the settings applied to a model before the training starts, 
 
 types of models
 
- ![1688106040360.png](./1688106040360.png)
+![1688106040360.png](./1688106040360.png)
 
-BigQuery supports supervised models and unsupervised models. Supervised models are task-driven and identify a goal. Alternatively, unsupervised models are data-driven and identify a pattern. 
+BigQuery supports supervised models and unsupervised models. Supervised models are task-driven and identify a goal. Alternatively, unsupervised models are data-driven and identify a pattern.
 
- ![1688106080849.png](./1688106080849.png)
+![1688106080849.png](./1688106080849.png)
 
 if your goal is to classify data, like whether an email is spam, use logistic regression. If your goal is to predict a number, like shoe sales for the next three months, use linear regression
 
- ![1688106159875.png](./1688106159875.png)
+![1688106159875.png](./1688106159875.png)
 
 if your goal is to identify patterns or clusters and then determine the best way to group them, like grouping random pictures of flowers into categories, you should use cluster analysis.
 
 decide the  best model
 
- ![1688106202410.png](./1688106202410.png)
+![1688106202410.png](./1688106202410.png)
 
 start with
 
- ![1688106276780.png](./1688106276780.png)
+![1688106276780.png](./1688106276780.png)
 
 n addition to providing different types of machine learning models, BigQuery ML supports features to deploy, monitor, and manage the ML production, called ML Ops, which is short
 04:03
 for machine learning operations. Options include: Importing TensorFlow models for batch prediction Exporting models from BigQuery ML for online prediction And hyperparameter tuning using Vertex AI Vizier We discuss ML Ops in more detail later in this course.
 
- ![1688106263262.png](./1688106263262.png)
-
-
+![1688106263262.png](./1688106263262.png)
 
 # Using BigQuery ML to predict customer lifetime value
 
- ![1688106348333.png](./1688106348333.png)
+![1688106348333.png](./1688106348333.png)
 
- ![1688106372392.png](./1688106372392.png)
+![1688106372392.png](./1688106372392.png)
 
-use ecommerce 
+use ecommerce
 
- ![1688106383130.png](./1688106383130.png)
+![1688106383130.png](./1688106383130.png)
 
- ![1688106608759.png](./1688106608759.png)
+![1688106608759.png](./1688106608759.png)
 
 some fields are useful to feed the ml
 
- ![1688106688312.png](./1688106688312.png)
+![1688106688312.png](./1688106688312.png)
 
 observation
 
 label = correct answer to train the model
 
- ![1688106709358.png](./1688106709358.png)
+![1688106709358.png](./1688106709358.png)
 
 linear regression
 
- ![1688106802374.png](./1688106802374.png)
+![1688106802374.png](./1688106802374.png)
 
- ![1688106818974.png](./1688106818974.png)
+![1688106818974.png](./1688106818974.png)
 
 the othe columns
 
 > too many ingridients can ruin a disk
 
- ![1688106853670.png](./1688106853670.png)
+![1688106853670.png](./1688106853670.png)
 
 combine some of them // feature eng
 
- ![1688106899191.png](./1688106899191.png)
+![1688106899191.png](./1688106899191.png)
 
 BigQuery ML does much of the hard work for you, like automatically one-hot encoding categorical values. One-hot encoding is a method of converting categorical data to numeric data to prepare
 04:03
 it for model training. From there, BigQuery ML automatically splits the dataset into training data and evaluation data
 
- ![1688106922992.png](./1688106922992.png)
+![1688106922992.png](./1688106922992.png)
 
 predicting data is finding the value for label columns
 
-
 # BigQuery ML project phases
 
- ![1688107210285.png](./1688107210285.png)
-
-
+![1688107210285.png](./1688107210285.png)
 
 Let’s walk through the key phases of a machine learning project. In phase 1, you extract, transform, and load data into BigQuery, if it isn’t there already. If you’re already using other Google products, like YouTube for example, look out for easy
 00:15
-connectors to get that data into BigQuery before you build your own pipeline. You can enrich your existing data warehouse with other data sources by using SQL joins. 
+connectors to get that data into BigQuery before you build your own pipeline. You can enrich your existing data warehouse with other data sources by using SQL joins.
 
- ![1688107233170.png](./1688107233170.png)
-
-
+![1688107233170.png](./1688107233170.png)
 
 In phase 2, you select and preprocess features.
 00:31
 You can use SQL to create the training dataset for the model to learn from. You’ll recall that BigQuery ML does some of the preprocessing for you, like one-hot encoding of your categorical variables.
 00:44
-One-hot encoding converts your categorical data into numeric data that is required by a training model. 
+One-hot encoding converts your categorical data into numeric data that is required by a training model.
 
- ![1688107246925.png](./1688107246925.png)
-
-
+![1688107246925.png](./1688107246925.png)
 
 In phase 3, you create the model inside BigQuery. This is done by using the “CREATE MODEL” command.
 00:58
 Give it a name, specify the model type, and pass in a SQL query with your training dataset. From there, you can run the query.
 
- ![1688107256797.png](./1688107256797.png)
+![1688107256797.png](./1688107256797.png)
 
-
-
- In phase 4, after your model is trained, you can execute an ML.EVALUATE query to evaluate
+In phase 4, after your model is trained, you can execute an ML.EVALUATE query to evaluate
 01:15
 the performance of the trained model on your evaluation dataset. It’s here that you can analyze loss metrics like a Root Mean Squared Error for forecasting models and area-under-the-curve, accuracy, precision, and recall, for classification
 01:31
-models. We’ll explore these metrics later in this course. 
+models. We’ll explore these metrics later in this course.
 
- ![1688107277016.png](./1688107277016.png)
-
-
+![1688107277016.png](./1688107277016.png)
 
 In phase 5, the final phase, when you’re happy with your model performance, you can then use it to make predictions.
 01:43
@@ -286,14 +268,13 @@ To do so, invoke the ml.PREDICT command on your newly trained model to return wi
 01:58
 This is your model’s prediction for that label
 
-
 # BigQuery ML key commands
 
- ![1688107353379.png](./1688107353379.png)
+![1688107353379.png](./1688107353379.png)
 
 options // model type
 
- ![1688107368519.png](./1688107368519.png)
+![1688107368519.png](./1688107368519.png)
 
 The output of ML.WEIGHTS is a numerical value, and each feature has a weight from -1 to 1.
 00:42
@@ -301,14 +282,13 @@ That value indicates how important the feature is for predicting the result, or 
 00:57
 predicting the result
 
- ![1688107401300.png](./1688107401300.png)
+![1688107401300.png](./1688107401300.png)
 
- ![1688107409736.png](./1688107409736.png)
+![1688107409736.png](./1688107409736.png)
 
-for supervised 
+for supervised
 
- ![1688107576045.png](./1688107576045.png)
-
+![1688107576045.png](./1688107576045.png)
 
 Now let’s explore a consolidated list of BigQuery ML commands for supervised models. First in BigQuery ML, you need a field in your training dataset titled LABEL, or you need to specify which field or fields are your labels using the input_label_cols in
 01:39
@@ -326,16 +306,39 @@ of each feature as it relates to the label you’re predicting. The importance i
 03:14
 And lastly, getting predictions is as simple as writing ML.PREDICT and referencing your model name and prediction dataset.
 
-
-
 # Lab introduction: Predicting Visitor Purchases Using BigQuery ML
 
- ![1688107604609.png](./1688107604609.png)
+![1688107604609.png](./1688107604609.png)
 
 lab:
 
- ![1688107621938.png](./1688107621938.png)
-
-
+![1688107621938.png](./1688107621938.png)
 
 # Predicting Visitor Purchases with a Classification Model with BigQuery ML
+
+
+https://www.cloudskillsboost.google/course_sessions/3751705/labs/383359
+
+
+
+# Summary
+
+Mark as Completed
+
+ ![1688110752460.png](./1688110752460.png)
+
+
+# Quiz
+
+
+ ![1688111059150.png](./1688111059150.png)
+
+
+
+# Reading list
+
+ ![1688111076194.png](./1688111076194.png)
+
+https://workspace.google.com/blog/data-analytics/connecting-bigquery-and-google-sheets-to-help-with-hefty-data-analysis
+
+https://cloud.google.com/bigquery/docs/bqml-introduction
