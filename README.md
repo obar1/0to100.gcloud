@@ -4,6 +4,7 @@
 1. <.git> :o: [`here`](./.git/readme.md)
 1. <.vscode> :o: [`here`](./.vscode/readme.md)
 1. <0to100-latest> :o: [`here`](./0to100-latest/readme.md)
+1. <https///storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M1/index.html> :o: [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3062553/documents/343621> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§documents§343621/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3062553/labs/343580> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343580/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3062553/labs/343602> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343602/readme.md)
@@ -161,5 +162,5 @@
 1. <https///www.cloudskillsboost.google/quests/70> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§70/readme.md)
 1. <https///www.cloudskillsboost.google/quests/84> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§84/readme.md)
 1. <_tmp> :o: [`here`](./_tmp/readme.md)
-1. <https///storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M1/index.html> :o: [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3777998/labs/375038> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§labs§375038/readme.md)
         
