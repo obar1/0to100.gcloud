@@ -78,6 +78,9 @@
 1. <https///www.cloudskillsboost.google/course_sessions/3751705/video/383373> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3751705§video§383373/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3751705/video/383384> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3751705§video§383384/readme.md)
 1. <https///www.cloudskillsboost.google/course_sessions/3777998/documents/375036> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375036/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3777998/documents/375039> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375039/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3777998/documents/375041> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375041/readme.md)
+1. <https///www.cloudskillsboost.google/course_sessions/3777998/labs/375038> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§labs§375038/readme.md)
 1. <https///www.cloudskillsboost.google/course_templates/14> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§14/readme.md)
 1. <https///www.cloudskillsboost.google/course_templates/24> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§24/readme.md)
 1. <https///www.cloudskillsboost.google/course_templates/3> :o: [`here`](./https§§§www.cloudskillsboost.google§course_templates§3/readme.md)
@@ -162,5 +165,5 @@
 1. <https///www.cloudskillsboost.google/quests/70> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§70/readme.md)
 1. <https///www.cloudskillsboost.google/quests/84> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§84/readme.md)
 1. <_tmp> :o: [`here`](./_tmp/readme.md)
-1. <https///www.cloudskillsboost.google/course_sessions/3777998/labs/375038> :o: [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§labs§375038/readme.md)
+1. <https///storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M2/index.html> :o: [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M2§index.html/readme.md)
         
