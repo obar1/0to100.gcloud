@@ -1,4 +1,4 @@
 *.code-workspace
-_tmp/**
-.vscode/**
-./0to100-latest/**
+/_tmp
+/.vscode
+/0to100-latest
