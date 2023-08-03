@@ -2,6 +2,7 @@
 # /mnt/c/Users/mario/Dropbox/gcloud_0to100/readme.md
 > sorted:True
 1. <.git> :o: [`here`](./.git/readme.md)
+1. <.github> :o: [`here`](./.github/readme.md)
 1. <.vscode> :o: [`here`](./.vscode/readme.md)
 1. <0to100-latest> :o: [`here`](./0to100-latest/readme.md)
 1. <https///storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M1/index.html> :o: [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md)
@@ -149,6 +150,8 @@
 1. <https///www.cloudskillsboost.google/games/4112/labs/26515> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4112§labs§26515/readme.md)
 1. <https///www.cloudskillsboost.google/games/4112/labs/26516> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4112§labs§26516/readme.md)
 1. <https///www.cloudskillsboost.google/games/4255/labs/27514> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4255§labs§27514/readme.md)
+1. <https///www.cloudskillsboost.google/games/4255/labs/27515> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4255§labs§27515/readme.md)
+1. <https///www.cloudskillsboost.google/games/4255/labs/27517> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4255§labs§27517/readme.md)
 1. <https///www.cloudskillsboost.google/journeys/16> :o: [`here`](./https§§§www.cloudskillsboost.google§journeys§16/readme.md)
 1. <https///www.cloudskillsboost.google/public_profiles/0e4d9285-4960-419a-bfb3-1ed19850308> :o: [`here`](./https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308/readme.md)
 1. <https///www.cloudskillsboost.google/quests/116> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§116/readme.md)
@@ -170,5 +173,5 @@
 1. <https///www.cloudskillsboost.google/quests/70> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§70/readme.md)
 1. <https///www.cloudskillsboost.google/quests/84> :o: [`here`](./https§§§www.cloudskillsboost.google§quests§84/readme.md)
 1. <_tmp> :o: [`here`](./_tmp/readme.md)
-1. <https///www.cloudskillsboost.google/games/4255/labs/27515> :o: [`here`](./https§§§www.cloudskillsboost.google§games§4255§labs§27515/readme.md)
+1. <https///www.cloudskillsboost.google/focuses/577/parent=catalog> :o: [`here`](./https§§§www.cloudskillsboost.google§focuses§577§parent=catalog/readme.md)
         
