@@ -51,6 +51,8 @@ docker run --rm --tty -v \
 --postgresql-pass=$password \
 --postgresql-database=$database
 
+echo "Press [ENTER] to continue"
+read -s < /dev/tty
 
 ./cleanup-db.sh
 

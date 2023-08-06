@@ -51,6 +51,9 @@ docker run --rm --tty -v \
 --sqlserver-pass=$password \
 --sqlserver-database=$database
 
+echo "Press [ENTER] to continue"
+read -s < /dev/tty
+
 ./cleanup-db.sh
 
 docker run --rm --tty -v \

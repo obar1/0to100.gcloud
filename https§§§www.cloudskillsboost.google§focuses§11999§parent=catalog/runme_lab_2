@@ -48,6 +48,10 @@ docker run --rm --tty -v \
 --mysql-pass=$password \
 --mysql-database=$database
 
+
+echo "Press [ENTER] to continue"
+read -s < /dev/tty
+
 ./cleanup-db.sh
 
 docker run --rm --tty -v \
