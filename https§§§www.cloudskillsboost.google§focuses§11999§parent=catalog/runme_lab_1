@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+set -u
+set -o pipefail
+set -e
+# set -x
+# v0.1
+
+# sql server
+
+export PROJECT_ID=$(gcloud config get-value project)
+
+cd
+gsutil cp gs://spls/gsp814/cloudsql-postgresql-tooling.zip .
+unzip cloudsql-postgresql-tooling.zip
+
+cd cloudsql-postgresql-tooling
+bash init-db.sh
+# Create a Service Account:
+gcloud iam service-accounts create postgresql2dc-credentials \
+--display-name  "Service Account for PostgreSQL to Data Catalog connector" \
+--project $PROJECT_ID
+
+# Next create and download the Service Account Key:
+gcloud iam service-accounts keys create "postgresql2dc-credentials.json" \
+--iam-account "postgresql2dc-credentials@$PROJECT_ID.iam.gserviceaccount.com"
+
+# Next add Data Catalog admin role to the Service Account:
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+--member "serviceAccount:postgresql2dc-credentials@$PROJECT_ID.iam.gserviceaccount.com" \
+--quiet \
+--project $PROJECT_ID \
+--role "roles/datacatalog.admin"
+
+cd infrastructure/terraform/
+
+public_ip_address=$(terraform output -raw public_ip_address)
+username=$(terraform output -raw username)
+password=$(terraform output -raw password)
+database=$(terraform output -raw db_name)
+
+cd ~/cloudsql-postgresql-tooling
+# Execute the connector:
+
+
+docker run --rm --tty -v \
+"$PWD":/data mesmacosta/postgresql2datacatalog:stable \
+--datacatalog-project-id=$PROJECT_ID \
+--datacatalog-location-id=us-central1 \
+--postgresql-host=$public_ip_address \
+--postgresql-user=$username \
+--postgresql-pass=$password \
+--postgresql-database=$database
+
+
+./cleanup-db.sh
+
+docker run --rm --tty -v \
+"$PWD":/data mesmacosta/postgresql-datacatalog-cleaner:stable \
+--datacatalog-project-ids=$PROJECT_ID \
+--rdbms-type=postgresql \
+--table-container-type=schema
+
+
+./delete-db.sh
