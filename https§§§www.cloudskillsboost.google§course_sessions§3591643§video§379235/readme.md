@@ -236,7 +236,7 @@ as they work in ditributed env and parallell
 
 ## A Simple Dataflow Pipeline (Python) 2.5 1 hour 30 minutes
 
-https://www.cloudskillsboost.google/course_sessions/3591643/labs/379242
+[https://www.cloudskillsboost.google/course_sessions/3591643/labs/379242](https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379242/readme.md)
 
 ## ~Serverless Data Analysis with Dataflow: A Simple Dataflow Pipeline (Java) 1 hour 30 minutes~
 
@@ -314,7 +314,7 @@ map/reduce on pcolection
 
 ## MapReduce in Beam (Python) 2.5 1 hour 30 minutes
 
-https://www.cloudskillsboost.google/course_sessions/3591643/labs/379246
+[https://www.cloudskillsboost.google/course_sessions/3591643/labs/379246](https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379246/readme.md)
 
 ## ~Serverless Data Analysis with Beam: MapReduce in Beam (Java) 1 hour 30 minutes~
 
@@ -378,7 +378,7 @@ you can do this streaming shit in bactch 📦
 
 ## Serverless Data Analysis with Dataflow: Side Inputs (Python) 1 hour 30 minutes
 
-https://www.cloudskillsboost.google/course_sessions/3591643/labs/379250
+[https://www.cloudskillsboost.google/course_sessions/3591643/labs/379250](https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379250/readme.md)
 
 ## ~Serverless Data Analysis with Dataflow: Side Inputs (Java) 1 hour 30 minutes~
 

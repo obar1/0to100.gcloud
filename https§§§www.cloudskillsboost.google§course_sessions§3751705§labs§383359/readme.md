@@ -8,7 +8,7 @@
 
 ![1688107766044.png](./1688107766044.png)
 
-https://console.cloud.google.com/bigquery?p=data-to-insights&d=ecommerce&t=web_analytics&page=table
+[https://console.cloud.google.com/bigquery?p=data-to-insights&d=ecommerce&t=web_analytics&page=table](https§§§console.cloud.google.com§bigquery§p=data-to-insights&d=ecommerce&t=web_analytics&page=table/readme.md)
 
 ## Task 1. Explore ecommerce data
 
@@ -417,4 +417,4 @@ ORDER BY
 
 ![1688110476263.png](./1688110476263.png)
 
-https://en.wikipedia.org/wiki/Precision_and_recall
+[https://en.wikipedia.org/wiki/Precision_and_recall](https§§§en.wikipedia.org§wiki§Precision_and_recall/readme.md)

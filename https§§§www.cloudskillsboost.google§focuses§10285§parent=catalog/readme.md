@@ -10,9 +10,9 @@
 ## Task 1. Reinforcement learning 101
 
 
-https://en.wikipedia.org/wiki/Reinforcement_learning
+[https://en.wikipedia.org/wiki/Reinforcement_learning](https§§§en.wikipedia.org§wiki§Reinforcement_learning/readme.md)
 
-https://gymnasium.farama.org/
+[https://gymnasium.farama.org/](https§§§gymnasium.farama.org§/readme.md)
 
 
 

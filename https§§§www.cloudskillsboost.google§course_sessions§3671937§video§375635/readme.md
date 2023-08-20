@@ -82,7 +82,7 @@ Now it's time for you to explore an ecommerce dataset that has millions of Googl
 
 # Explore and Create Reports with Looker Studio v1.5
 
-https://www.cloudskillsboost.google/course_sessions/3671937/labs/375640
+[https://www.cloudskillsboost.google/course_sessions/3671937/labs/375640](https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375640/readme.md)
 
 
 # Module Quiz

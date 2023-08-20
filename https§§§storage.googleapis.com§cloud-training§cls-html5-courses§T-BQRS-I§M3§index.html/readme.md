@@ -34,17 +34,17 @@ summary of access control, encryption, and network security options
 
 ![1688415161293.png](./1688415161293.png)
 
-https://cloud.google.com/bigquery/docs/data-governance
+[https://cloud.google.com/bigquery/docs/data-governance](https§§§cloud.google.com§bigquery§docs§data-governance/readme.md)
 
-https://cloud.google.com/bigquery/docs/control-access-to-resources-iam#grant_access_to_a_table_or_view
+[https://cloud.google.com/bigquery/docs/control-access-to-resources-iam#grant_access_to_a_table_or_view](https§§§cloud.google.com§bigquery§docs§control-access-to-resources-iam#grant_access_to_a_table_or_view/readme.md)
 
-https://cloud.google.com/bigquery/docs/column-level-security-intro
+[https://cloud.google.com/bigquery/docs/column-level-security-intro](https§§§cloud.google.com§bigquery§docs§column-level-security-intro/readme.md)
 
-https://cloud.google.com/bigquery/docs/row-level-security-intro
+[https://cloud.google.com/bigquery/docs/row-level-security-intro](https§§§cloud.google.com§bigquery§docs§row-level-security-intro/readme.md)
 
-https://cloud.google.com/bigquery/docs/column-key-encrypt
+[https://cloud.google.com/bigquery/docs/column-key-encrypt](https§§§cloud.google.com§bigquery§docs§column-key-encrypt/readme.md)
 
-https://cloud.google.com/vpc/docs/private-access-options
+[https://cloud.google.com/vpc/docs/private-access-options](https§§§cloud.google.com§vpc§docs§private-access-options/readme.md)
 
 ## OVERVIEW OF THE GOOGLE CLOUD IAM MODEL AND OTHER SECURITY FEATURES
 
@@ -90,9 +90,9 @@ Google Cloud includes [private access methods(opens in a new tab)](https://cloud
 
 ### References
 
-https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#inheritance
-https://cloud.google.com/bigquery/docs/data-governance#security_framework
-https://cloud.google.com/docs/authentication
+[https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#inheritance](https§§§cloud.google.com§resource-manager§docs§cloud-platform-resource-hierarchy#inheritance/readme.md)
+[https://cloud.google.com/bigquery/docs/data-governance#security_framework](https§§§cloud.google.com§bigquery§docs§data-governance#security_framework/readme.md)
+[https://cloud.google.com/docs/authentication](https§§§cloud.google.com§docs§authentication/readme.md)
 
 ## GOOGLE CLOUD IAM ROLES AND PERMISSIONS FOR BIGQUERY
 
@@ -138,12 +138,12 @@ details:
 
 Custom roles provide access according to a user-specified list of permissions.  For example, you may consider creating a custom role when a principal needs a permission, but each predefined role that includes that permission also includes other permissions that the principal does not need and should not have.
 
-https://cloud.google.com/iam/docs/roles-overview#custom
+[https://cloud.google.com/iam/docs/roles-overview#custom](https§§§cloud.google.com§iam§docs§roles-overview#custom/readme.md)
 
 ### References
 
-https://cloud.google.com/bigquery/docs/access-control#bigquery
-https://cloud.google.com/bigquery/docs/reference/auditlogs
+[https://cloud.google.com/bigquery/docs/access-control#bigquery](https§§§cloud.google.com§bigquery§docs§access-control#bigquery/readme.md)
+[https://cloud.google.com/bigquery/docs/reference/auditlogs](https§§§cloud.google.com§bigquery§docs§reference§auditlogs/readme.md)
 
 ## FINE-GRAINED ACCESS CONTROLS FOR BIGQUERY
 
@@ -156,8 +156,8 @@ you will learn about fine-grained access control for BigQuery including how you 
 What are your options if you want admins or super users to see all the data in a table, and others to see only a subset of the data?
 ![1688416207392.png](./1688416207392.png)
 
-https://cloud.google.com/bigquery/docs/authorized-datasets
-https://cloud.google.com/bigquery/docs/authorized-routines
+[https://cloud.google.com/bigquery/docs/authorized-datasets](https§§§cloud.google.com§bigquery§docs§authorized-datasets/readme.md)
+[https://cloud.google.com/bigquery/docs/authorized-routines](https§§§cloud.google.com§bigquery§docs§authorized-routines/readme.md)
 
 An authorized view lets you share query results with particular users and groups without giving them access to the underlying source data. You can also use the view's SQL query to restrict the columns (fields) the users are able to query.
 ![1688416261099.png](./1688416261099.png)
@@ -196,12 +196,12 @@ Authorized views, row-level access policies, and storing data in separate tables
 
 ![1688416473243.png](./1688416473243.png)
 
-https://cloud.google.com/bigquery/docs/best-practices-row-level-security#use_the_filtered_data_viewer_role_with_caution
+[https://cloud.google.com/bigquery/docs/best-practices-row-level-security#use_the_filtered_data_viewer_role_with_caution](https§§§cloud.google.com§bigquery§docs§best-practices-row-level-security#use_the_filtered_data_viewer_role_with_caution/readme.md)
 
 ### References
 
-https://cloud.google.com/bigquery/docs/scan-with-dlp
-https://cloud.google.com/bigquery/docs/authorized-datasets
-https://cloud.google.com/bigquery/docs/authorized-views
-https://cloud.google.com/bigquery/docs/column-level-security-intro
+[https://cloud.google.com/bigquery/docs/scan-with-dlp](https§§§cloud.google.com§bigquery§docs§scan-with-dlp/readme.md)
+[https://cloud.google.com/bigquery/docs/authorized-datasets](https§§§cloud.google.com§bigquery§docs§authorized-datasets/readme.md)
+[https://cloud.google.com/bigquery/docs/authorized-views](https§§§cloud.google.com§bigquery§docs§authorized-views/readme.md)
+[https://cloud.google.com/bigquery/docs/column-level-security-intro](https§§§cloud.google.com§bigquery§docs§column-level-security-intro/readme.md)
 

@@ -176,7 +176,7 @@ CREATE OR REPLACE TABLE ecommerce.revenue_transactions_20170801
 
 ### What are ways to overcome stale data?
 
-https://cloud.google.com/bigquery/docs/scheduling-queries
+[https://cloud.google.com/bigquery/docs/scheduling-queries](https§§§cloud.google.com§bigquery§docs§scheduling-queries/readme.md)
 
 
  ![1687592653462.png](./1687592653462.png)
@@ -319,7 +319,7 @@ SELECT DISTINCT
 
 ### Extra credit
 
-https://cloud.google.com/bigquery/docs/reference/standard-sql/functions-and-operators#string_agg
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/functions-and-operators#string_agg](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§functions-and-operators#string_agg/readme.md)
 
 
  ![1687592953045.png](./1687592953045.png)
@@ -457,7 +457,7 @@ Confirm with the below SELECT statement you can see the data returned in the vie
 SELECT * FROM ecommerce.vw_large_transactions;
 ```
 
-https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§data-definition-language/readme.md)
 
 
 

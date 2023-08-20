@@ -165,7 +165,7 @@ calculated field and filter and wrangle the data as recipe
 
 ## Building and Executing a Pipeline Graph with Data Fusion 2.5 2 hours 30 minutes
 
-https://www.cloudskillsboost.google/course_sessions/3591643/labs/379262
+[https://www.cloudskillsboost.google/course_sessions/3591643/labs/379262](https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379262/readme.md)
 
 ## Orchestrate work between Google Cloud services with Cloud Composer 1 minute
 
@@ -348,6 +348,6 @@ when using cf check gcloud logs
 
 ## An Introduction to Cloud Composer 2.5 1 hour 30 minutes
 
-https://www.cloudskillsboost.google/course_sessions/3591643/labs/379269
+[https://www.cloudskillsboost.google/course_sessions/3591643/labs/379269](https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379269/readme.md)
 
 ## QUIZ Manage Data Pipelines with Cloud Data Fusion and Cloud Composer

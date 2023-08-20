@@ -317,7 +317,7 @@ lab:
 # Predicting Visitor Purchases with a Classification Model with BigQuery ML
 
 
-https://www.cloudskillsboost.google/course_sessions/3751705/labs/383359
+[https://www.cloudskillsboost.google/course_sessions/3751705/labs/383359](https§§§www.cloudskillsboost.google§course_sessions§3751705§labs§383359/readme.md)
 
 
 
@@ -339,6 +339,6 @@ Mark as Completed
 
  ![1688111076194.png](./1688111076194.png)
 
-https://workspace.google.com/blog/data-analytics/connecting-bigquery-and-google-sheets-to-help-with-hefty-data-analysis
+[https://workspace.google.com/blog/data-analytics/connecting-bigquery-and-google-sheets-to-help-with-hefty-data-analysis](https§§§workspace.google.com§blog§data-analytics§connecting-bigquery-and-google-sheets-to-help-with-hefty-data-analysis/readme.md)
 
-https://cloud.google.com/bigquery/docs/bqml-introduction
+[https://cloud.google.com/bigquery/docs/bqml-introduction](https§§§cloud.google.com§bigquery§docs§bqml-introduction/readme.md)

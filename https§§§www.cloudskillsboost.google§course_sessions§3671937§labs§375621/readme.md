@@ -6,7 +6,7 @@
 
 ## Overview
 
-https://www.en.advertisercommunity.com/t5/Articles/Introducing-the-Google-Analytics-Sample-Dataset-for-BigQuery/ba-p/1676331#
+[https://www.en.advertisercommunity.com/t5/Articles/Introducing-the-Google-Analytics-Sample-Dataset-for-BigQuery/ba-p/1676331#](https§§§www.en.advertisercommunity.com§t5§Articles§Introducing-the-Google-Analytics-Sample-Dataset-for-BigQuery§ba-p§1676331#/readme.md)
 
 ## Task 1. Create a new dataset to store tables
 
@@ -14,7 +14,7 @@ https://www.en.advertisercommunity.com/t5/Articles/Introducing-the-Google-Analyt
 
 ## Task 2. Ingest a new dataset from a CSV
 
-https://storage.googleapis.com/data-insights-course/exports/products.csv
+[https://storage.googleapis.com/data-insights-course/exports/products.csv](https§§§storage.googleapis.com§data-insights-course§exports§products.csv/readme.md)
 
 ![1687695707308.png](./1687695707308.png)
 

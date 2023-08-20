@@ -28,7 +28,7 @@ data definition models
 ![1688308861861.png](./1688308861861.png)
 
 ![1688308895275.png](./1688308895275.png)
-https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§data-types/readme.md)
 
 ## **OVERVIEW OF BIGQUERY RESOURCE HIERARCHY**
 
@@ -59,8 +59,8 @@ The IAM policy hierarchy follows the same path as the Google Cloud resource hier
 
 Similarly, **moving a project resource from one folder resource to another will change the inherited permissions**
 
-https://cloud.google.com/bigquery/docs/resource-hierarchy#organizations
-https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy
+[https://cloud.google.com/bigquery/docs/resource-hierarchy#organizations](https§§§cloud.google.com§bigquery§docs§resource-hierarchy#organizations/readme.md)
+[https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy](https§§§cloud.google.com§resource-manager§docs§cloud-platform-resource-hierarchy/readme.md)
 
 ## **CREATING DATASETS AND TABLES IN BIGQUERY**
 
@@ -82,7 +82,7 @@ BigQuery provides many options for managing your datasets including creating, co
 
  ![1688313057774.png](./1688313057774.png)
 
-https://cloud.google.com/bigquery/docs/datasets#create-dataset
+[https://cloud.google.com/bigquery/docs/datasets#create-dataset](https§§§cloud.google.com§bigquery§docs§datasets#create-dataset/readme.md)
 
 ```
 To create a dataset, you need the IAM permission named *`bigquery.datasets.create,`* which is in many predefined IAM roles for BigQuery, including **`roles/bigquery.user` **and  **`roles/bigquery.dataEditor`** .
@@ -96,7 +96,7 @@ BigQuery provides many options for managing your tables, including creating, cop
 
 ![1688313168236.png](./1688313168236.png)
 
-https://cloud.google.com/bigquery/docs/tables#create-table
+[https://cloud.google.com/bigquery/docs/tables#create-table](https§§§cloud.google.com§bigquery§docs§tables#create-table/readme.md)
 
 ```
 To create a table within a BigQuery dataset, you need the following specific IAM permissions:  *`bigquery.tables.create`* ,*`bigquery.tables.updateData`* and *`bigquery.jobs.create`* . 
@@ -108,9 +108,9 @@ These permissions are included in many predefined IAM roles for BigQuery, includ
 
 ### References
 
-https://cloud.google.com/bigquery/docs/datasets-intro
-https://cloud.google.com/bigquery/docs/tables
-https://cloud.google.com/bigquery/docs/views
+[https://cloud.google.com/bigquery/docs/datasets-intro](https§§§cloud.google.com§bigquery§docs§datasets-intro/readme.md)
+[https://cloud.google.com/bigquery/docs/tables](https§§§cloud.google.com§bigquery§docs§tables/readme.md)
+[https://cloud.google.com/bigquery/docs/views](https§§§cloud.google.com§bigquery§docs§views/readme.md)
 
 ## **MAPPING DATA TYPES FROM REDSHIFT TO BIGQUERY**
 
@@ -138,14 +138,14 @@ There are some similarities
 
 ### Map of data types in BigQuery and Redshift
 
-https://cloud.google.com/bigquery/docs/migration/redshift-sql
+[https://cloud.google.com/bigquery/docs/migration/redshift-sql](https§§§cloud.google.com§bigquery§docs§migration§redshift-sql/readme.md)
 
 ![1688313505932.png](./1688313505932.png)
 ![1688313520008.png](./1688313520008.png)
 ![1688313528394.png](./1688313528394.png)
 
 
-https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#struct_type
-https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#array_type
-https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#struct_type
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#struct_type](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§data-types#struct_type/readme.md)
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#array_type](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§data-types#array_type/readme.md)
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#struct_type](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§data-types#struct_type/readme.md)
 

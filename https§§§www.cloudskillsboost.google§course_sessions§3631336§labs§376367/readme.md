@@ -4,9 +4,9 @@
 
 ## Overview
 
-https://www.en.advertisercommunity.com/t5/Articles/Introducing-the-Google-Analytics-Sample-Dataset-for-BigQuery/ba-p/1676331#
+[https://www.en.advertisercommunity.com/t5/Articles/Introducing-the-Google-Analytics-Sample-Dataset-for-BigQuery/ba-p/1676331#](https§§§www.en.advertisercommunity.com§t5§Articles§Introducing-the-Google-Analytics-Sample-Dataset-for-BigQuery§ba-p§1676331#/readme.md)
 
-https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§query-syntax/readme.md)
 
 ![1687428080945.png](./1687428080945.png)
 

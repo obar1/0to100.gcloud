@@ -21,8 +21,8 @@ Use a pull subscriber with a flag to output multiple messages.
 
 Before taking this lab, consider your proficiency with Pub/Sub. Below is a list of more challenging labs that will let you apply your knowledge of Pub/Sub to different cloud services and use cases:
 
-https://google.qwiklabs.com/catalog_lab/934
-https://www.cloudskillsboost.google/focuses/1831?parent=catalog
+[https://google.qwiklabs.com/catalog_lab/934](https§§§google.qwiklabs.com§catalog_lab§934/readme.md)
+[https://www.cloudskillsboost.google/focuses/1831?parent=catalog](https§§§www.cloudskillsboost.google§focuses§1831§parent=catalog/readme.md)
 
 ## Pub/Sub basics
 

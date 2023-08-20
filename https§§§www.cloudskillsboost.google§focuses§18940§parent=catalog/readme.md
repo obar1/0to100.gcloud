@@ -2,15 +2,15 @@
 
 > [https://www.cloudskillsboost.google/focuses/18940?parent=catalog](https://www.cloudskillsboost.google/focuses/18940?parent=catalog)
 
-https://cloud.google.com/vertex-ai
+[https://cloud.google.com/vertex-ai](https§§§cloud.google.com§vertex-ai/readme.md)
 
 ![1687441429121.png](./1687441429121.png)
 
-https://cloud.google.com/vertex-ai/docs/workbench/introduction
+[https://cloud.google.com/vertex-ai/docs/workbench/introduction](https§§§cloud.google.com§vertex-ai§docs§workbench§introduction/readme.md)
 
-https://cloud.google.com/vertex-ai/docs/training/using-managed-datasets
+[https://cloud.google.com/vertex-ai/docs/training/using-managed-datasets](https§§§cloud.google.com§vertex-ai§docs§training§using-managed-datasets/readme.md)
 
-https://cloud.google.com/vertex-ai/docs/experiments/tensorboard-overview
+[https://cloud.google.com/vertex-ai/docs/experiments/tensorboard-overview](https§§§cloud.google.com§vertex-ai§docs§experiments§tensorboard-overview/readme.md)
 
 ## Task 1. Enable Google Cloud services
 

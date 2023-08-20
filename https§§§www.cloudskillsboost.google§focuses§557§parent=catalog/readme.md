@@ -71,9 +71,9 @@ after a bit
 
 ## Task 3. Pods
 
-https://kubernetes.io/docs/concepts/workloads/pods/
+[https://kubernetes.io/docs/concepts/workloads/pods/](https§§§kubernetes.io§docs§concepts§workloads§pods§/readme.md)
 
-https://kubernetes.io/docs/concepts/storage/volumes/
+[https://kubernetes.io/docs/concepts/storage/volumes/](https§§§kubernetes.io§docs§concepts§storage§volumes§/readme.md)
 
 
 
@@ -153,7 +153,7 @@ kubectl exec monolith --stdin --tty -c monolith -- /bin/sh
 ## Task 6. Services
 
 
-https://kubernetes.io/docs/concepts/services-networking/service/
+[https://kubernetes.io/docs/concepts/services-networking/service/](https§§§kubernetes.io§docs§concepts§services-networking§service§/readme.md)
 
  ![1687857438903.png](./1687857438903.png)
 
@@ -270,9 +270,9 @@ curl -k https://<EXTERNAL_IP>:31000
 
 ## Task 9. Deploying applications with Kubernetes
 
-https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#what-is-a-deployment
+[https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#what-is-a-deployment](https§§§kubernetes.io§docs§concepts§workloads§controllers§deployment§#what-is-a-deployment/readme.md)
 
-https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
+[https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/](https§§§kubernetes.io§docs§concepts§workloads§controllers§replicaset§/readme.md)
 
 
 

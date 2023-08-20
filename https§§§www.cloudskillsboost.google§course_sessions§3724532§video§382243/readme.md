@@ -334,7 +334,7 @@ and give access to us from there
 
 ![1687869799493.png](./1687869799493.png)
 
-https://github.com/priyankavergadia/google-cloud-4-words
+[https://github.com/priyankavergadia/google-cloud-4-words](https§§§github.com§priyankavergadia§google-cloud-4-words/readme.md)
 
 # Lab Intro: Using BigQuery to do Analysis
 
@@ -342,7 +342,7 @@ https://github.com/priyankavergadia/google-cloud-4-words
 
 # Using BigQuery to do Analysis
 
-https://www.cloudskillsboost.google/course_sessions/3724532/labs/382256
+[https://www.cloudskillsboost.google/course_sessions/3724532/labs/382256](https§§§www.cloudskillsboost.google§course_sessions§3724532§labs§382256/readme.md)
 
 
 

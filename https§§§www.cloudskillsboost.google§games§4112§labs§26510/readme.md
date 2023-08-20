@@ -64,6 +64,6 @@ stop vm
  You will see Lamp Uptime Check listed. Since you have just restarted your instance, the regions are in a failed status. It may take up to 5 minutes for the regions to become active. Reload your browser window as necessary until the regions are active.
 
 
-https://www.cloudskillsboost.google/quests/35
+[https://www.cloudskillsboost.google/quests/35](https§§§www.cloudskillsboost.google§quests§35/readme.md)
 
-https://www.cloudskillsboost.google/quests/33
+[https://www.cloudskillsboost.google/quests/33](https§§§www.cloudskillsboost.google§quests§33/readme.md)

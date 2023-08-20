@@ -3,7 +3,7 @@
 
 # Dataplex: Qwik Start - Command Line
 
-https://cloud.google.com/dataplex
+[https://cloud.google.com/dataplex](https§§§cloud.google.com§dataplex/readme.md)
 
 ## Setup and requirements
 

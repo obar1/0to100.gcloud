@@ -5,7 +5,7 @@
 
 ## Overview
 
-https://cloud.google.com/dataplex
+[https://cloud.google.com/dataplex](https§§§cloud.google.com§dataplex/readme.md)
 
 Dataplex harvests the metadata for both structured and unstructured data, and automatically registers all metadata in a secure, unified metastore. Data and metadata can then be assessed via Google Cloud services such as Data Catalog and BigQuery.
 

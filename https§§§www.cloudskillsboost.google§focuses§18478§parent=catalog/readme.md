@@ -72,8 +72,8 @@ Under Users Limited, select the First Name dimension and the Count measure.
 Finish your quest
 
 
-https://www.cloudskillsboost.google/quests/170
-https://www.cloudskillsboost.google/quests/187
+[https://www.cloudskillsboost.google/quests/170](https§§§www.cloudskillsboost.google§quests§170/readme.md)
+[https://www.cloudskillsboost.google/quests/187](https§§§www.cloudskillsboost.google§quests§187/readme.md)
 
 Next steps / Learn more
-https://community.looker.com/
+[https://community.looker.com/](https§§§community.looker.com§/readme.md)

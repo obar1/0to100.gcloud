@@ -100,7 +100,7 @@ ex
 
 # Exploring and Creating an Ecommerce Analytics Pipeline with Cloud Dataprep v1.5
 
-https://www.cloudskillsboost.google/course_sessions/3631336/labs/376387
+[https://www.cloudskillsboost.google/course_sessions/3631336/labs/376387](https§§§www.cloudskillsboost.google§course_sessions§3631336§labs§376387/readme.md)
 
 Components of Data Fusion
 
@@ -176,7 +176,7 @@ recipes
 
 # Building Transformations and Preparing Data with Wrangler in Cloud Data Fusion
 
-https://www.cloudskillsboost.google/course_sessions/3631336/labs/376391
+[https://www.cloudskillsboost.google/course_sessions/3631336/labs/376391](https§§§www.cloudskillsboost.google§course_sessions§3631336§labs§376391/readme.md)
 
 
 # Quiz: Cleaning and Transforming Your Data

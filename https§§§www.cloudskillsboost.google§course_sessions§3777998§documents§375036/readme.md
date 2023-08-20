@@ -7,7 +7,7 @@
 # BigQuery Architecture and Resource Provisioning
 
 
-https://storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M1/index.html
+[https://storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M1/index.html](https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md)
 
 
 
@@ -20,4 +20,4 @@ https://storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M1/inde
 # Monitoring BigQuery Workloads
 
 
-https://www.cloudskillsboost.google/course_sessions/3777998/labs/375038
+[https://www.cloudskillsboost.google/course_sessions/3777998/labs/375038](https§§§www.cloudskillsboost.google§course_sessions§3777998§labs§375038/readme.md)

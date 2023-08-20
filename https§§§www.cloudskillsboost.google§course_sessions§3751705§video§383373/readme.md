@@ -310,7 +310,7 @@ AutoML requires at least 1,000 data points in a dataset.
 
 # Vertex AI: Predicting Loan Risk with AutoML
 
-https://www.cloudskillsboost.google/course_sessions/3751705/labs/383379
+[https://www.cloudskillsboost.google/course_sessions/3751705/labs/383379](https§§§www.cloudskillsboost.google§course_sessions§3751705§labs§383379/readme.md)
 
 
 
@@ -386,4 +386,4 @@ Quiz
 
  ![1688122441827.png](./1688122441827.png)
 
-https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#mlops_level_1_ml_pipeline_automation
+[https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#mlops_level_1_ml_pipeline_automation](https§§§cloud.google.com§architecture§mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#mlops_level_1_ml_pipeline_automation/readme.md)

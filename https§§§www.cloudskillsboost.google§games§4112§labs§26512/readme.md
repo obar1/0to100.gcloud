@@ -20,7 +20,7 @@ sudo apt-get install apache2 php7.0
 
 ## Task 3. Install and configure the Ops Agent
 
-https://cloud.google.com/logging/docs/agent/ops-agent
+[https://cloud.google.com/logging/docs/agent/ops-agent](https§§§cloud.google.com§logging§docs§agent§ops-agent/readme.md)
 
 curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh
 sudo bash add-google-cloud-ops-agent-repo.sh --also-install

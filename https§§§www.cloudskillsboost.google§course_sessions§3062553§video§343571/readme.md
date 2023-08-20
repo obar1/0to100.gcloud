@@ -168,7 +168,7 @@ What they would do is start processing jobs, and sometimes, they would fail, bec
 
 # PDE Prep: BigQuery Essentials
 
-https://www.cloudskillsboost.google/course_sessions/3062553/labs/343580
+[https://www.cloudskillsboost.google/course_sessions/3062553/labs/343580](https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343580/readme.md)
 
 # Exam Tips #4
 

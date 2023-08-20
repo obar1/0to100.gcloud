@@ -8,16 +8,16 @@
 
 ## Overview
 
-https://cloud.google.com/looker-studio
+[https://cloud.google.com/looker-studio](https§§§cloud.google.com§looker-studio/readme.md)
 
  ![1687708227343.png](./1687708227343.png)
 
 ## Task 1. Launch Looker Studio and create a blank report
 
-https://lookerstudio.google.com/overview
+[https://lookerstudio.google.com/overview](https§§§lookerstudio.google.com§overview/readme.md)
 
 
-https://lookerstudio.google.com/navigation/reporting
+[https://lookerstudio.google.com/navigation/reporting](https§§§lookerstudio.google.com§navigation§reporting/readme.md)
 
 
  ![1687708322955.png](./1687708322955.png)

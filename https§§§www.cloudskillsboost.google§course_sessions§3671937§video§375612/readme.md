@@ -51,4 +51,4 @@ bq stores all your result for 24 hours automatically
 # Creating Permanent Tables and Access-Controlled Views in BigQuery v1.5
 
 
-https://www.cloudskillsboost.google/course_sessions/3671937/labs/375617
+[https://www.cloudskillsboost.google/course_sessions/3671937/labs/375617](https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375617/readme.md)

@@ -4,7 +4,7 @@
 # Cloud IAM: Qwik Start 
 
 more info
-https://google.qwiklabs.com/catalog_lab/955
+[https://google.qwiklabs.com/catalog_lab/955](https§§§google.qwiklabs.com§catalog_lab§955/readme.md)
 
 
 ## explore editor roles
@@ -21,4 +21,4 @@ Remove Project Viewer access for Username 2 by clicking the trashcan icon next t
 ![](1687094787336.png)
 
 
-https://www.cloudskillsboost.google/quests/40
+[https://www.cloudskillsboost.google/quests/40](https§§§www.cloudskillsboost.google§quests§40/readme.md)

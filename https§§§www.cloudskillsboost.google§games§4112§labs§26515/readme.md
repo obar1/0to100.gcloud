@@ -36,7 +36,7 @@ gcloud compute instances stop --zone $ZONE instance-1
 
 Cloud Logging can export logs to Cloud Storage, BigQuery, and Cloud Pub/Sub. You can include or exclude log messages from the export using filters.
 
-https://cloud.google.com/logging/docs/view/building-queries
+[https://cloud.google.com/logging/docs/view/building-queries](https§§§cloud.google.com§logging§docs§view§building-queries/readme.md)
 
 ![](1687166710750.png)
 

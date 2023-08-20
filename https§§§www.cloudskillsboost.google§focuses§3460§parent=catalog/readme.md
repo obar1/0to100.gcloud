@@ -14,7 +14,7 @@
 
 # Task 2. Download the starter code
 
-https://github.com/GoogleCloudPlatform/professional-services/blob/main/examples/dataflow-python-examples/README.md
+[https://github.com/GoogleCloudPlatform/professional-services/blob/main/examples/dataflow-python-examples/README.md](https§§§github.com§GoogleCloudPlatform§professional-services§blob§main§examples§dataflow-python-examples§README.md/readme.md)
 
 ```bash
 gsutil -m cp -R gs://spls/gsp290/dataflow-python-examples .

@@ -73,7 +73,7 @@ gcloud storage cp ~/training-data-analyst/quests/sparktobq/*.ipynb $DP_STORAGE/n
 
 ![](1687249393298.png)
 
-https://cloud.google.com/sdk/gcloud/reference/storage
+[https://cloud.google.com/sdk/gcloud/reference/storage](https§§§cloud.google.com§sdk§gcloud§reference§storage/readme.md)
 
 ### Log in to the Jupyter Notebook
 

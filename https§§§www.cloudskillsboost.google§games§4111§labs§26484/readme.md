@@ -124,4 +124,4 @@ gsutil rb gs://${BUCKET_NAME}
 
 Next step / learn more
 
-https://www.cloudskillsboost.google/quests/289
+[https://www.cloudskillsboost.google/quests/289](https§§§www.cloudskillsboost.google§quests§289/readme.md)

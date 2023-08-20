@@ -66,7 +66,7 @@ pip install -U -r requirements.txt  # Install Apache Beam dependencies
 
 ## Task 2. Review code to stream messages from Pub/Sub to Cloud Storage
 
-https://github.com/GoogleCloudPlatform/python-docs-samples/blob/HEAD/pubsub/streaming-analytics/PubSubToGCS.py
+[https://github.com/GoogleCloudPlatform/python-docs-samples/blob/HEAD/pubsub/streaming-analytics/PubSubToGCS.py](https§§§github.com§GoogleCloudPlatform§python-docs-samples§blob§HEAD§pubsub§streaming-analytics§PubSubToGCS.py/readme.md)
 
 ## Task 3. Start the pipeline
 
@@ -110,5 +110,5 @@ gsutil rb gs://${BUCKET_NAME}
 
 Next step / learn more
 
-https://cloud.google.com/dataflow/docs/concepts/beam-programming-model
-https://cloud.google.com/dataflow/docs/guides/templates/provided-templates#streaming-templates
+[https://cloud.google.com/dataflow/docs/concepts/beam-programming-model](https§§§cloud.google.com§dataflow§docs§concepts§beam-programming-model/readme.md)
+[https://cloud.google.com/dataflow/docs/guides/templates/provided-templates#streaming-templates](https§§§cloud.google.com§dataflow§docs§guides§templates§provided-templates#streaming-templates/readme.md)

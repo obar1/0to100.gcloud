@@ -31,7 +31,7 @@ rs has snapshot while bq automatic recovery and HA and durability
 both fully managed API
 bq omni ofers cross cloud solution and replicate data
 bq does automatic bkp and table snapshots
-https://cloud.google.com/bigquery/docs/table-snapshots-intro
+[https://cloud.google.com/bigquery/docs/table-snapshots-intro](https§§§cloud.google.com§bigquery§docs§table-snapshots-intro/readme.md)
 
 ### BigQuery and Redshift
 
@@ -93,9 +93,9 @@ bq is most efficient when working with data contained in BigQuery's storage serv
 
 ### References
 
-https://cloud.google.com/bigquery/docs/query-overview#query_processing
-https://cloud.google.com/bigquery/docs/sandbox
-https://cloud.google.com/bigquery/docs/quickstarts/query-public-dataset-console
+[https://cloud.google.com/bigquery/docs/query-overview#query_processing](https§§§cloud.google.com§bigquery§docs§query-overview#query_processing/readme.md)
+[https://cloud.google.com/bigquery/docs/sandbox](https§§§cloud.google.com§bigquery§docs§sandbox/readme.md)
+[https://cloud.google.com/bigquery/docs/quickstarts/query-public-dataset-console](https§§§cloud.google.com§bigquery§docs§quickstarts§query-public-dataset-console/readme.md)
 
 ## HOW TO UTILIZE BIGQUERY SLOTS
 
@@ -177,11 +177,11 @@ Monitor user growth
 
 Load Slot Estimator
 
-https://lookerstudio.google.com/reporting/c30ea9f1-31d4-401a-8ab7-b3f869b75d29/page/8Qi4B
+[https://lookerstudio.google.com/reporting/c30ea9f1-31d4-401a-8ab7-b3f869b75d29/page/8Qi4B](https§§§lookerstudio.google.com§reporting§c30ea9f1-31d4-401a-8ab7-b3f869b75d29§page§8Qi4B/readme.md)
 
-https://github.com/GoogleCloudPlatform/bigquery-utils/tree/master/dashboards/system_tables
+[https://github.com/GoogleCloudPlatform/bigquery-utils/tree/master/dashboards/system_tables](https§§§github.com§GoogleCloudPlatform§bigquery-utils§tree§master§dashboards§system_tables/readme.md)
 
-https://cloud.google.com/bigquery/quotas#query_jobs
+[https://cloud.google.com/bigquery/quotas#query_jobs](https§§§cloud.google.com§bigquery§quotas#query_jobs/readme.md)
 
 ## WORKLOAD MANAGEMENT IN BIGQUERY
 
@@ -299,7 +299,7 @@ In summary, the cost of a query is always assigned to the active project from wh
 [
 ### References
 
-https://cloud.google.com/bigquery/pricing#storage
-https://cloud.google.com/bigquery/docs/reservations-intro
-https://cloud.google.com/products/calculator
+[https://cloud.google.com/bigquery/pricing#storage](https§§§cloud.google.com§bigquery§pricing#storage/readme.md)
+[https://cloud.google.com/bigquery/docs/reservations-intro](https§§§cloud.google.com§bigquery§docs§reservations-intro/readme.md)
+[https://cloud.google.com/products/calculator](https§§§cloud.google.com§products§calculator/readme.md)
 

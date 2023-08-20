@@ -3,9 +3,9 @@
 
 # Cloud Functions 2nd Gen: Qwik Start
 
-https://cloud.google.com/functions
-https://cloud.google.com/run
-https://cloud.google.com/eventarc/docs
+[https://cloud.google.com/functions](https§§§cloud.google.com§functions/readme.md)
+[https://cloud.google.com/run](https§§§cloud.google.com§run/readme.md)
+[https://cloud.google.com/eventarc/docs](https§§§cloud.google.com§eventarc§docs/readme.md)
 
 ![](1686932223929.png)
 
@@ -168,7 +168,7 @@ gcloud functions logs read nodejs-storage-function \
 
 ## Task 4. Create a Cloud Audit Logs function
 
-https://cloud.google.com/logging/docs/audit
+[https://cloud.google.com/logging/docs/audit](https§§§cloud.google.com§logging§docs§audit/readme.md)
 when a Compute Engine VM instance is created. In response, it adds a label to the newly created VM, specifying the creator of the VM.
 
 ### Setup
@@ -229,5 +229,5 @@ The index.js file contains the application code that receives the Audit Log wrap
 
 Next Steps / Learn More
 
-https://cloud.google.com/blog/products/serverless/cloud-functions-2nd-generation-now-generally-available
-https://codelabs.developers.google.com/codelabs/cloud-starting-cloudfunctions-v2#0
+[https://cloud.google.com/blog/products/serverless/cloud-functions-2nd-generation-now-generally-available](https§§§cloud.google.com§blog§products§serverless§cloud-functions-2nd-generation-now-generally-available/readme.md)
+[https://codelabs.developers.google.com/codelabs/cloud-starting-cloudfunctions-v2#0](https§§§codelabs.developers.google.com§codelabs§cloud-starting-cloudfunctions-v2#0/readme.md)

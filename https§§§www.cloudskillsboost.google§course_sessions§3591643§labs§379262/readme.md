@@ -7,7 +7,7 @@
 
 ## Task 1. Creating a Cloud Data Fusion instance
 
-https://cloud.google.com/data-fusion/docs/how-to/create-instance
+[https://cloud.google.com/data-fusion/docs/how-to/create-instance](https§§§cloud.google.com§data-fusion§docs§how-to§create-instance/readme.md)
 
 ![](1687328676782.png)
 

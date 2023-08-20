@@ -201,7 +201,7 @@ LIMIT 10
 
 ## Task 5. Introduction to STRUCTs
 
-https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#struct-type
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#struct-type](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§data-types#struct-type/readme.md)
 
  ![1687903147020.png](./1687903147020.png)
 

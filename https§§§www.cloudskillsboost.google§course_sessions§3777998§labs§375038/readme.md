@@ -6,11 +6,11 @@
 
 ## Overview
 
-https://cloud.google.com/bigquery/docs/estimate-costs#estimate_query_costs
+[https://cloud.google.com/bigquery/docs/estimate-costs#estimate_query_costs](https§§§cloud.google.com§bigquery§docs§estimate-costs#estimate_query_costs/readme.md)
 
-https://cloud.google.com/bigquery/docs/dry-run-queries#bq
+[https://cloud.google.com/bigquery/docs/dry-run-queries#bq](https§§§cloud.google.com§bigquery§docs§dry-run-queries#bq/readme.md)
 
-https://cloud.google.com/products/calculator/
+[https://cloud.google.com/products/calculator/](https§§§cloud.google.com§products§calculator§/readme.md)
 
 ![1688290367369.png](./1688290367369.png)
 
@@ -29,7 +29,7 @@ WHERE
 
 ## Task 2. Determine slot usage using a SQL query
 
-https://cloud.google.com/bigquery/docs/slots
+[https://cloud.google.com/bigquery/docs/slots](https§§§cloud.google.com§bigquery§docs§slots/readme.md)
 
 After you run a query in the Google Cloud console, you receive both the results and a summary of the amount of resources that were used to execute the query.
 
@@ -163,7 +163,7 @@ So understanding the total slot time used to run the query (value provided in th
 
 ## Task 3. Determine slot usage using an API call
 
-https://cloud.google.com/bigquery/docs/reference/rest/v2/jobs/get
+[https://cloud.google.com/bigquery/docs/reference/rest/v2/jobs/get](https§§§cloud.google.com§bigquery§docs§reference§rest§v2§jobs§get/readme.md)
 
 ![1688290849999.png](./1688290849999.png)
 

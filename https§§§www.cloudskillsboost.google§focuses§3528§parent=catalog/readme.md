@@ -8,7 +8,7 @@
 # Overview
 
 http://airflow.apache.org/
-https://cloud.google.com/bigquery/docs/
+[https://cloud.google.com/bigquery/docs/](https§§§cloud.google.com§bigquery§docs§/readme.md)
 
 ![](1687774050701.png)
 
@@ -38,8 +38,8 @@ nyc_tlc_EU in eu
 
 # Task 4. Airflow and core concepts, a brief introduction
 
-https://airflow.apache.org/
-https://airflow.apache.org/docs/apache-airflow/1.10.15/concepts.html
+[https://airflow.apache.org/](https§§§airflow.apache.org§/readme.md)
+[https://airflow.apache.org/docs/apache-airflow/1.10.15/concepts.html](https§§§airflow.apache.org§docs§apache-airflow§1.10.15§concepts.html/readme.md)
 
 
 # Task 5. Defining the workflow
@@ -75,7 +75,7 @@ DAGS_BUCKET=us-east1-composer-advanced--76d055f9-bucket
 
 # Task 8. Setting Airflow variables
 
-https://cloud.google.com/composer/docs/how-to/managing/environment-variables
+[https://cloud.google.com/composer/docs/how-to/managing/environment-variables](https§§§cloud.google.com§composer§docs§how-to§managing§environment-variables/readme.md)
 
 table_list_file_path, gcs_source_bucket, and gcs_dest_bucket.
 
@@ -131,7 +131,7 @@ gsutil cp python-docs-samples/composer/workflows/bq_copy_eu_to_us_sample.csv gs:
 ![](1687775261582.png)
 
 
-https://cloud.google.com/blog/products/data-analytics/how-to-transfer-bigquery-tables-between-locations-with-cloud-composer
+[https://cloud.google.com/blog/products/data-analytics/how-to-transfer-bigquery-tables-between-locations-with-cloud-composer](https§§§cloud.google.com§blog§products§data-analytics§how-to-transfer-bigquery-tables-between-locations-with-cloud-composer/readme.md)
 
 ![](1687775865244.png)
 

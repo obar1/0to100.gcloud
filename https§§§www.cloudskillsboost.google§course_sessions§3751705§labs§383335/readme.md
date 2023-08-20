@@ -6,13 +6,13 @@
 
 ## Overview
 
-https://cloud.google.com/bigquery/docs/introduction
+[https://cloud.google.com/bigquery/docs/introduction](https§§§cloud.google.com§bigquery§docs§introduction/readme.md)
 
-https://cloud.google.com/bigquery/docs/bq-command-line-tool
+[https://cloud.google.com/bigquery/docs/bq-command-line-tool](https§§§cloud.google.com§bigquery§docs§bq-command-line-tool/readme.md)
 
-https://cloud.google.com/bigquery/docs/reference/rest
+[https://cloud.google.com/bigquery/docs/reference/rest](https§§§cloud.google.com§bigquery§docs§reference§rest/readme.md)
 
-https://cloud.google.com/bigquery/docs/reference/libraries
+[https://cloud.google.com/bigquery/docs/reference/libraries](https§§§cloud.google.com§bigquery§docs§reference§libraries/readme.md)
 
 ![1688028257995.png](./1688028257995.png)
 
@@ -36,9 +36,9 @@ LIMIT
 
 ## Task 2. Create a custom table
 
-https://www.ssa.gov/OACT/babynames/names.zip
+[https://www.ssa.gov/OACT/babynames/names.zip](https§§§www.ssa.gov§OACT§babynames§names.zip/readme.md)
 
-https://www.ssa.gov/OACT/babynames/background.html
+[https://www.ssa.gov/OACT/babynames/background.html](https§§§www.ssa.gov§OACT§babynames§background.html/readme.md)
 
 Note the location of the `yob2014.txt` file so that you can find it later.
 

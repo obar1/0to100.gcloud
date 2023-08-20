@@ -37,24 +37,24 @@ severity=("WARNING" OR "ERROR")
 
 ## Task 4. Airflow and core concepts
 
-https://airflow.apache.org/
+[https://airflow.apache.org/](https§§§airflow.apache.org§/readme.md)
 
 Use Airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The airflow scheduler executes your tasks on an array of workers while following the specified dependencies.
 
 ### Core concepts
 
-https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html
+[https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html](https§§§airflow.apache.org§docs§apache-airflow§stable§core-concepts§dags.html/readme.md)
 A Directed Acyclic Graph is a collection of all the tasks you want to run, organized in a way that reflects their relationships and dependencies.
 
-https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/operators.htmlThe description of a single task, it is usually atomic. For example, the *BashOperator* is used to execute bash commands.
+[https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/operators.htmlThe description of a single task, it is usually atomic. For example, the *BashOperator* is used to execute bash commands.](https§§§airflow.apache.org§docs§apache-airflow§stable§core-concepts§operators.htmlThe description of a single task, it is usually atomic. For example, the §BashOperator§ is used to execute bash commands./readme.md)
 
-https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/tasks.html
+[https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/tasks.html](https§§§airflow.apache.org§docs§apache-airflow§stable§core-concepts§tasks.html/readme.md)
 A parameterised instance of an Operator; a node in the DAG.
 
-https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/tasks.html
+[https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/tasks.html](https§§§airflow.apache.org§docs§apache-airflow§stable§core-concepts§tasks.html/readme.md)
 
 A specific run of a task; characterized as: a DAG, a Task, and a point in time. It has an indicative state:  *running* ,  *success* ,  *failed* ,  *skipped* , ...
-https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/index.html
+[https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/index.html](https§§§airflow.apache.org§docs§apache-airflow§stable§core-concepts§index.html/readme.md)
 
 ## Task 5. Defining the workflow
 
@@ -68,7 +68,7 @@ Airflow will execute the code in each file to dynamically build the `DAG` object
 """Example Airflow DAG that creates a Cloud Dataproc cluster, runs the Hadoop
 wordcount example, and deletes the cluster.
 This DAG relies on three Airflow variables
-https://airflow.apache.org/concepts.html#variables
+[https://airflow.apache.org/concepts.html#variables](https§§§airflow.apache.org§concepts.html#variables/readme.md)
 * gcp_project - Google Cloud Project to use for the Cloud Dataproc cluster.
 * gce_zone - Google Compute Engine zone where Cloud Dataproc cluster should be
   created.
@@ -166,7 +166,7 @@ env and airflow server
 
 ## Task 8. Setting Airflow
 
-https://cloud.google.com/composer/docs/how-to/managing/environment-variablesvariables
+[https://cloud.google.com/composer/docs/how-to/managing/environment-variablesvariables](https§§§cloud.google.com§composer§docs§how-to§managing§environment-variablesvariables/readme.md)
 
 ![1687336681347.png](./1687336681347.png)
 
@@ -222,7 +222,7 @@ done
 wordcount example, and deletes the cluster.
 
 This DAG relies on three Airflow variables
-https://airflow.apache.org/concepts.html#variables
+[https://airflow.apache.org/concepts.html#variables](https§§§airflow.apache.org§concepts.html#variables/readme.md)
 * gcp_project - Google Cloud Project to use for the Cloud Dataproc cluster.
 * gce_zone - Google Compute Engine zone where Cloud Dataproc cluster should be
   created.

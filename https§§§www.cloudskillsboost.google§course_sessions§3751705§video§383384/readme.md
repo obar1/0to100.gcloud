@@ -43,4 +43,4 @@ In stage two, model training, the model is trained and evaluated. And in stage t
 
  ![1688122684362.png](./1688122684362.png)
 
-https://cloud.google.com/training/machinelearning-ai
+[https://cloud.google.com/training/machinelearning-ai](https§§§cloud.google.com§training§machinelearning-ai/readme.md)

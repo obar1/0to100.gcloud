@@ -20,10 +20,10 @@ create instance
 name
 region
 zone
-https://cloud.google.com/compute/docs/regions-zones
+[https://cloud.google.com/compute/docs/regions-zones](https§§§cloud.google.com§compute§docs§regions-zones/readme.md)
 series
 machine type
-https://cloud.google.com/compute/docs/machine-resource
+[https://cloud.google.com/compute/docs/machine-resource](https§§§cloud.google.com§compute§docs§machine-resource/readme.md)
 boot disk
 firewall
 create

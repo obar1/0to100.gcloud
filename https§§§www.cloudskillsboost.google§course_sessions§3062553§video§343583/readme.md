@@ -368,7 +368,7 @@ We ended up with a fairly simple solution
 
 # PDE Prep: Cloud Dataproc Cluster Operations and Maintenance
 
-https://www.cloudskillsboost.google/course_sessions/3062553/labs/343602
+[https://www.cloudskillsboost.google/course_sessions/3062553/labs/343602](https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343602/readme.md)
 
 # Exam Tips #5
 

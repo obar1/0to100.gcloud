@@ -5,7 +5,7 @@
 
 ## BigQuery Data Definition Model
 
-https://storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M2/index.html#/
+[https://storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M2/index.html#/](https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M2§index.html#§/readme.md)
 
 ## Module 2 Quiz
 

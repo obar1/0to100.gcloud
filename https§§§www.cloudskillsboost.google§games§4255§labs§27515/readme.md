@@ -41,7 +41,7 @@ go build -mod=readonly -v -o gcp-data-Drive
 
 ![](1690391841865.png)
 ```
-https://8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev/
+[https://8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev/](https§§§8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev§/readme.md)
 
 
 export PROJECT_ID=$(gcloud info --format="value(config.project)")
@@ -57,14 +57,14 @@ echo $PREVIEW_URL/fs/$PROJECT_ID/symbols/product/symbol
 
 url is 
 ```
-https://8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev/fs/qwiklabs-gcp-02-57207d5d17f5/symbols/product/symbol
+[https://8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev/fs/qwiklabs-gcp-02-57207d5d17f5/symbols/product/symbol](https§§§8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev§fs§qwiklabs-gcp-02-57207d5d17f5§symbols§product§symbol/readme.md)
 
 
  use bq
 
-https://8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev/bq/
+[https://8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev/bq/](https§§§8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev§bq§/readme.md)
 
-https://8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev/bq/qwiklabs-gcp-02-57207d5d17f5/publicviews/ca_zip_codes?authuser=0&environment_name=default
+[https://8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev/bq/qwiklabs-gcp-02-57207d5d17f5/publicviews/ca_zip_codes?authuser=0&environment_name=default](https§§§8080-cs-2ce4c15f-3c28-4008-a7f6-c059af357baf.ql-europe-west4-yeaf.cloudshell.dev§bq§qwiklabs-gcp-02-57207d5d17f5§publicviews§ca_zip_codes§authuser=0&environment_name=default/readme.md)
 
 ![](1690392120614.png)
 
@@ -78,7 +78,7 @@ gcloud app deploy app.yaml --project $PROJECT_ID -q
 export TARGET_URL=https://$(gcloud app describe --format="value(defaultHostname)")
 
 echo  $TARGET_URL
-https://qwiklabs-gcp-02-57207d5d17f5.uc.r.appspot.com
+[https://qwiklabs-gcp-02-57207d5d17f5.uc.r.appspot.com](https§§§qwiklabs-gcp-02-57207d5d17f5.uc.r.appspot.com/readme.md)
 
 ```
 test

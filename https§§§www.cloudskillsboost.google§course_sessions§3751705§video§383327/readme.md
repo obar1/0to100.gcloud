@@ -58,7 +58,7 @@ curr:
 
 ![1688025316515.png](./1688025316515.png)
 
-https://cloud.google.com/about/locations
+[https://cloud.google.com/about/locations](https§§§cloud.google.com§about§locations/readme.md)
 
 2023/06
 
@@ -303,7 +303,7 @@ now
 
 # Exploring a BigQuery Public Dataset
 
-https://www.cloudskillsboost.google/course_sessions/3751705/labs/383335
+[https://www.cloudskillsboost.google/course_sessions/3751705/labs/383335](https§§§www.cloudskillsboost.google§course_sessions§3751705§labs§383335/readme.md)
 
 
 # Summary

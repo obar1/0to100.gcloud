@@ -301,7 +301,7 @@ use cmd line and the console and use ddl
 
 # Loading data into BigQuery
 
-https://www.cloudskillsboost.google/course_sessions/3724532/labs/382275
+[https://www.cloudskillsboost.google/course_sessions/3724532/labs/382275](https§§§www.cloudskillsboost.google§course_sessions§3724532§labs§382275/readme.md)
 
 # Demo: Exploring Schemas
 
@@ -486,7 +486,7 @@ the performance impact of a join increases. At some point, it can be better to d
 
 # Working with JSON and Array data in BigQuery 2.5
 
-https://www.cloudskillsboost.google/course_sessions/3724532/labs/382283
+[https://www.cloudskillsboost.google/course_sessions/3724532/labs/382283](https§§§www.cloudskillsboost.google§course_sessions§3724532§labs§382283/readme.md)
 
 
 # Optimize with partitioning and clustering

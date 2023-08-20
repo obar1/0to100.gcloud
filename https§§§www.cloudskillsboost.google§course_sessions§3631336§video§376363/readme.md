@@ -133,7 +133,7 @@ learning model
 # Exploring an Ecommerce Dataset using SQL in Google BigQuery
 
 
-https://www.cloudskillsboost.google/course_sessions/3631336/labs/376367
+[https://www.cloudskillsboost.google/course_sessions/3631336/labs/376367](https§§§www.cloudskillsboost.google§course_sessions§3631336§labs§376367/readme.md)
 
 # Quiz: Big Data Tools Overview
  ![1687427000013.png](./1687427000013.png)

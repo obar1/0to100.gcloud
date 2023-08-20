@@ -5,8 +5,8 @@
 
 ## Overview
 
-https://developers.google.com/apis-explorer/
-https://cloud.google.com/storage/
+[https://developers.google.com/apis-explorer/](https§§§developers.google.com§apis-explorer§/readme.md)
+[https://cloud.google.com/storage/](https§§§cloud.google.com§storage§/readme.md)
 
 ![](1686907392885.png)
 
@@ -14,10 +14,10 @@ https://cloud.google.com/storage/
 
 ![](1686907497215.png)
 
-https://cloud.google.com/storage/docs/json_api/v1/buckets/insert
+[https://cloud.google.com/storage/docs/json_api/v1/buckets/insert](https§§§cloud.google.com§storage§docs§json_api§v1§buckets§insert/readme.md)
 
 api ref
-https://cloud.google.com/storage/docs/json_api/v1/
+[https://cloud.google.com/storage/docs/json_api/v1/](https§§§cloud.google.com§storage§docs§json_api§v1§/readme.md)
 
 ![](1686907588969.png)
 api explorer
@@ -58,7 +58,7 @@ api explorer
 ![](1686907894826.png)
 
 naming
-https://cloud.google.com/storage/docs/buckets#naming
+[https://cloud.google.com/storage/docs/buckets#naming](https§§§cloud.google.com§storage§docs§buckets#naming/readme.md)
 
 
 ## Task 3. Upload files to your Cloud Storage bucket
@@ -67,7 +67,7 @@ https://cloud.google.com/storage/docs/buckets#naming
 
 ## Task 4. Copy files between Cloud Storage buckets
 
-https://cloud.google.com/storage/docs/json_api/v1/objects/copy
+[https://cloud.google.com/storage/docs/json_api/v1/objects/copy](https§§§cloud.google.com§storage§docs§json_api§v1§objects§copy/readme.md)
 
 ## Task 5. Delete files from a Cloud Storage bucket
 
@@ -75,7 +75,7 @@ https://cloud.google.com/storage/docs/json_api/v1/objects/copy
 
 ## Task 6. Delete your Cloud Storage bucket
 
-https://cloud.google.com/storage/docs/json_api/v1/buckets/delete
+[https://cloud.google.com/storage/docs/json_api/v1/buckets/delete](https§§§cloud.google.com§storage§docs§json_api§v1§buckets§delete/readme.md)
 
 ```json
 {

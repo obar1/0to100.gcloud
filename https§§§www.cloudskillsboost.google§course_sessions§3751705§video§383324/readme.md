@@ -39,8 +39,8 @@ course for:
 
  ![1688024762840.png](./1688024762840.png)
 
-https://cloud.google.com/learn/training?hl=en#learning-paths
+[https://cloud.google.com/learn/training?hl=en#learning-paths](https§§§cloud.google.com§learn§training§hl=en#learning-paths/readme.md)
 
-https://cloud.google.com/learn/training/data-engineering-and-analytics
+[https://cloud.google.com/learn/training/data-engineering-and-analytics](https§§§cloud.google.com§learn§training§data-engineering-and-analytics/readme.md)
 
-https://cloud.google.com/learn/training/machinelearning-ai
+[https://cloud.google.com/learn/training/machinelearning-ai](https§§§cloud.google.com§learn§training§machinelearning-ai/readme.md)

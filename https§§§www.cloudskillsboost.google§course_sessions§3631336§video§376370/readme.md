@@ -28,7 +28,7 @@ ansi 2011 sql is used from bq
 
 ![1687501219290.png](./1687501219290.png)
 
-https://console.cloud.google.com/marketplace/product/internal-revenue-service/irs-990
+[https://console.cloud.google.com/marketplace/product/internal-revenue-service/irs-990](https§§§console.cloud.google.com§marketplace§product§internal-revenue-service§irs-990/readme.md)
 
 # Query basics
 
@@ -176,7 +176,7 @@ summary:
 
 # Troubleshooting Common SQL Errors with BigQuery v1.5
 
-https://www.cloudskillsboost.google/course_sessions/3631336/labs/376377
+[https://www.cloudskillsboost.google/course_sessions/3631336/labs/376377](https§§§www.cloudskillsboost.google§course_sessions§3631336§labs§376377/readme.md)
 
 # Quiz: Exploring your Data with SQL
 

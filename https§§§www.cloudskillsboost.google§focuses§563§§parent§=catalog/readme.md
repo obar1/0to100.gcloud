@@ -16,7 +16,7 @@ gcloud auth list
 
 ![](1686575793702.png)
 
-https://cloud.google.com/sdk/gcloud
+[https://cloud.google.com/sdk/gcloud](https§§§cloud.google.com§sdk§gcloud/readme.md)
 
 ## Task 1. Configuring your environment
 
@@ -62,7 +62,7 @@ gcloud config --help
 gcloud help config
 
 ```
-https://cloud.google.com/sdk/gcloud/reference/
+[https://cloud.google.com/sdk/gcloud/reference/](https§§§cloud.google.com§sdk§gcloud§reference§/readme.md)
 
 
 ```bash
@@ -132,4 +132,4 @@ gcloud logging read "resource.type=gce_instance AND labels.instance_name='gcelab
 
 ```
 
-https://www.cloudskillsboost.google/focuses/7140?parent=catalog
+[https://www.cloudskillsboost.google/focuses/7140?parent=catalog](https§§§www.cloudskillsboost.google§focuses§7140§parent=catalog/readme.md)

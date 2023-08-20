@@ -1,6 +1,6 @@
 
-# /mnt/c/Users/mario/Dropbox/gcloud_0to100/readme.md
-> sorted:False
+# /mnt/c/Users/mario/Dropbox/gcloud_0to100/README.md
+> sorted:True
 1. <.git>  [`here`](./.git/readme.md) :footprints:
 1. <.github>  [`here`](./.github/readme.md) :footprints:
 1. <.vscode>  [`here`](./.vscode/readme.md) :footprints:
@@ -89,6 +89,7 @@
 1. <https///www.cloudskillsboost.google/course_templates/24>  [`here`](./https§§§www.cloudskillsboost.google§course_templates§24/readme.md) :green_heart:
 1. <https///www.cloudskillsboost.google/course_templates/3>  [`here`](./https§§§www.cloudskillsboost.google§course_templates§3/readme.md) :footprints:
 1. <https///www.cloudskillsboost.google/course_templates/443>  [`here`](./https§§§www.cloudskillsboost.google§course_templates§443/readme.md) :footprints:
+1. <https///www.cloudskillsboost.google/course_templates/484>  [`here`](./https§§§www.cloudskillsboost.google§course_templates§484/readme.md) :footprints:
 1. <https///www.cloudskillsboost.google/course_templates/512>  [`here`](./https§§§www.cloudskillsboost.google§course_templates§512/readme.md) :footprints:
 1. <https///www.cloudskillsboost.google/course_templates/52>  [`here`](./https§§§www.cloudskillsboost.google§course_templates§52/readme.md) :footprints:
 1. <https///www.cloudskillsboost.google/course_templates/53>  [`here`](./https§§§www.cloudskillsboost.google§course_templates§53/readme.md) :green_heart:
@@ -164,6 +165,7 @@
 1. <https///www.cloudskillsboost.google/public_profiles/0e4d9285-4960-419a-bfb3-1ed19850308c>  [`here`](./https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints:
 1. <https///www.cloudskillsboost.google/quests/116>  [`here`](./https§§§www.cloudskillsboost.google§quests§116/readme.md) :footprints:
 1. <https///www.cloudskillsboost.google/quests/120>  [`here`](./https§§§www.cloudskillsboost.google§quests§120/readme.md) :green_heart:
+1. <https///www.cloudskillsboost.google/quests/141>  [`here`](./https§§§www.cloudskillsboost.google§quests§141/readme.md) :footprints:
 1. <https///www.cloudskillsboost.google/quests/25>  [`here`](./https§§§www.cloudskillsboost.google§quests§25/readme.md) :green_heart:
 1. <https///www.cloudskillsboost.google/quests/279>  [`here`](./https§§§www.cloudskillsboost.google§quests§279/readme.md) :green_heart:
 1. <https///www.cloudskillsboost.google/quests/285>  [`here`](./https§§§www.cloudskillsboost.google§quests§285/readme.md) :green_heart:
@@ -181,4 +183,5 @@
 1. <https///www.cloudskillsboost.google/quests/70>  [`here`](./https§§§www.cloudskillsboost.google§quests§70/readme.md) :footprints:
 1. <https///www.cloudskillsboost.google/quests/84>  [`here`](./https§§§www.cloudskillsboost.google§quests§84/readme.md) :footprints:
 1. <_tmp>  [`here`](./_tmp/readme.md) :footprints:
+1. <https///www.cloudskillsboost.google/course_sessions/4463274/>  [`here`](./https§§§www.cloudskillsboost.google§course_sessions§4463274§/readme.md) :footprints:
         

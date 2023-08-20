@@ -55,7 +55,7 @@ biz needs and tek req is the key
 
 # Exam Tips #1
 
-https://cloud.google.com/learn/certification/guides/data-engineer
+[https://cloud.google.com/learn/certification/guides/data-engineer](https§§§cloud.google.com§learn§certification§guides§data-engineer/readme.md)
 
 [here](T-GCPPDE-A-Locales-1-l5-file-en-4.pdf)
 

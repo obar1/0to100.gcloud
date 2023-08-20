@@ -5,11 +5,11 @@
 
 ## Overview
 
-https://cloud.google.com/bigquery/docs/introduction
+[https://cloud.google.com/bigquery/docs/introduction](https§§§cloud.google.com§bigquery§docs§introduction/readme.md)
 
 ## Task 1. Examine a table
 
-https://cloud.google.com/bigquery/public-data#sample_tables
+[https://cloud.google.com/bigquery/public-data#sample_tables](https§§§cloud.google.com§bigquery§public-data#sample_tables/readme.md)
 
 ```
 bq show bigquery-public-data:samples.shakespeare

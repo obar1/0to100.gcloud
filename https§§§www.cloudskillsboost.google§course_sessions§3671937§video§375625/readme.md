@@ -150,7 +150,7 @@ through to reach your site.
 
 # Troubleshooting and Solving Data Join Pitfalls v1.5
 
-https://www.cloudskillsboost.google/course_sessions/3671937/labs/375631
+[https://www.cloudskillsboost.google/course_sessions/3671937/labs/375631](https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375631/readme.md)
 
 
 # Lab Intro: Unioning and Joining Datasets
@@ -164,7 +164,7 @@ Specifically what we'll tackle is merging together historical annual IRS filings
 
 # Data to Insights: Unioning and Joining Datasets v1.1
 
-https://www.cloudskillsboost.google/course_sessions/3671937/labs/375633
+[https://www.cloudskillsboost.google/course_sessions/3671937/labs/375633](https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375633/readme.md)
 
 
 # Module Quiz

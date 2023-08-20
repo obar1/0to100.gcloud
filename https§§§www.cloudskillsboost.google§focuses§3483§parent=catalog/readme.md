@@ -3,8 +3,8 @@
 
 # Google Cloud Storage - Bucket Lock
 
-https://cloud.google.com/storage/docs/org-policy-constraints#audit-logging
-https://cloud.google.com/storage/docs/lifecycle
+[https://cloud.google.com/storage/docs/org-policy-constraints#audit-logging](https§§§cloud.google.com§storage§docs§org-policy-constraints#audit-logging/readme.md)
+[https://cloud.google.com/storage/docs/lifecycle](https§§§cloud.google.com§storage§docs§lifecycle/readme.md)
 
 ![](1686912096033.png)
 

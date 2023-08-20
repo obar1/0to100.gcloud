@@ -11,7 +11,7 @@
 * *Left join* : Each row in the left table appears in the results, regardless of whether there are matches in the right table.
 * *Right join* : the reverse of a left join. Each row in the right table appears in the results, regardless of whether there are matches in the left table.
 
-https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§query-syntax/readme.md)
 
 ![1687758596959.png](./1687758596959.png)
 

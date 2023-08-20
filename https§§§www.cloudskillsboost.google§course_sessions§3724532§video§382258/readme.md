@@ -322,4 +322,4 @@ After the instance is up, you'll create a new Cloud SQL database, and then impor
 
 # Loading Taxi Data into Google Cloud SQL 2.5
 
-https://www.cloudskillsboost.google/course_sessions/3724532/labs/382266
+[https://www.cloudskillsboost.google/course_sessions/3724532/labs/382266](https§§§www.cloudskillsboost.google§course_sessions§3724532§labs§382266/readme.md)

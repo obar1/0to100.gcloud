@@ -306,7 +306,7 @@ ex in google analytics
 
 # Creating a Streaming Data Pipeline for a Real-Time Dashboard with Dataflow
 
-https://www.cloudskillsboost.google/course_sessions/3751705/labs/383347
+[https://www.cloudskillsboost.google/course_sessions/3751705/labs/383347](https§§§www.cloudskillsboost.google§course_sessions§3751705§labs§383347/readme.md)
 
 
 
@@ -321,10 +321,10 @@ https://www.cloudskillsboost.google/course_sessions/3751705/labs/383347
 
  ![1688044761007.png](./1688044761007.png)
 
-https://cloud.google.com/pubsub/docs/
+[https://cloud.google.com/pubsub/docs/](https§§§cloud.google.com§pubsub§docs§/readme.md)
 
-https://cloud.google.com/dataflow/docs/
+[https://cloud.google.com/dataflow/docs/](https§§§cloud.google.com§dataflow§docs§/readme.md)
 
-https://developers.google.com/looker-studio
+[https://developers.google.com/looker-studio](https§§§developers.google.com§looker-studio/readme.md)
 
-https://cloud.google.com/looker/docs
+[https://cloud.google.com/looker/docs](https§§§cloud.google.com§looker§docs/readme.md)

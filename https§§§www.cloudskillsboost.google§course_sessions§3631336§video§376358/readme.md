@@ -73,11 +73,11 @@ bq scales autmatically, pay for what you process
 
  ![1687418942839.png](./1687418942839.png)
 
-https://cloud.google.com/customers/featured/ocado-technology
+[https://cloud.google.com/customers/featured/ocado-technology](https§§§cloud.google.com§customers§featured§ocado-technology/readme.md)
 
  ![1687418972145.png](./1687418972145.png)
 
-https://cloud.google.com/customers/spotify
+[https://cloud.google.com/customers/spotify](https§§§cloud.google.com§customers§spotify/readme.md)
 
 
 

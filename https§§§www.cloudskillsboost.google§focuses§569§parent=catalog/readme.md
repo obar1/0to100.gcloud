@@ -13,7 +13,7 @@ gcloud config set compute/region us-east1
 
 ## Task 1. Create a bucket
 
-https://cloud.google.com/storage/docs/gsutil
+[https://cloud.google.com/storage/docs/gsutil](https§§§cloud.google.com§storage§docs§gsutil/readme.md)
 
 ![](1686910958204.png)
 

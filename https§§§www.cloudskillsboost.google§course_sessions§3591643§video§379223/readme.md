@@ -319,7 +319,7 @@ monitoring
 
 ## Lab Running Apache Spark jobs on Cloud Dataproc 1 hour 30 minutes
 
-https://www.cloudskillsboost.google/course_sessions/3591643/labs/379232
+[https://www.cloudskillsboost.google/course_sessions/3591643/labs/379232](https§§§www.cloudskillsboost.google§course_sessions§3591643§labs§379232/readme.md)
 
 
 ## Summary 1 minute

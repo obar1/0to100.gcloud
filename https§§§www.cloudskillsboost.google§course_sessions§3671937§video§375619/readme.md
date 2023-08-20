@@ -22,7 +22,7 @@ you can stream to  bq
 
 # Lab Intro: Ingesting New Datasets into BigQuery
 
-https://www.cloudskillsboost.google/course_sessions/3671937/labs/375621
+[https://www.cloudskillsboost.google/course_sessions/3671937/labs/375621](https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375621/readme.md)
 
 Module Quiz
 
@@ -37,12 +37,12 @@ Module Quiz
 
  ![1687696388437.png](./1687696388437.png)
 
-https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#timestamp_type
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#timestamp_type](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§data-types#timestamp_type/readme.md)
 
-https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#date_type
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#date_type](https§§§cloud.google.com§bigquery§docs§reference§standard-sql§data-types#date_type/readme.md)
 
 
 
 # Creating Date-Partitioned Tables in BigQuery v1.5
 
-https://www.cloudskillsboost.google/course_sessions/3671937/labs/375624
+[https://www.cloudskillsboost.google/course_sessions/3671937/labs/375624](https§§§www.cloudskillsboost.google§course_sessions§3671937§labs§375624/readme.md)
