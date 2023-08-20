@@ -1,5 +1,5 @@
 type: map
 repo:
   path: '.'
-  map_md: README.md
+  map_md: map.md
   sorted : true

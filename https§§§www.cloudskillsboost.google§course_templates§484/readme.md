@@ -2,7 +2,6 @@
 > <https://www.cloudskillsboost.google/course_templates/484>
 
 # Cloud Composer
-Welcome to Cloud Composer, where we discuss how to orchestrate data lake workflows with Cloud Composer.
 
 DOCUMENT
 Course Introduction
