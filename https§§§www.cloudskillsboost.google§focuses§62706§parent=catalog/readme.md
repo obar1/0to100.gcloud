@@ -1,7 +1,7 @@
 # <https§§§www.cloudskillsboost.google§focuses§62706§parent=catalog>
 > <https://www.cloudskillsboost.google/focuses/62706?parent=catalog>
 
-# https://www.cloudskillsboost.google/focuses/62706?parent=catalog
+# Get Started with Cloud Storage: Challenge Lab
 
 ## Challenge scenario
 
