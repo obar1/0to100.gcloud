@@ -2,7 +2,7 @@
 # <https§§§www.cloudskillsboost.google§games§4111§labs§26480>
 > <https://www.cloudskillsboost.google/games/4111/labs/26480>
 
-
+# Get Started with Looker: Challenge Lab
 ## Task 1. Create a new report in Looker Studio
 
 ![](1686730781979.png)

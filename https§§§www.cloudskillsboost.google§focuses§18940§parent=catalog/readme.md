@@ -2,6 +2,8 @@
 
 > [https://www.cloudskillsboost.google/focuses/18940?parent=catalog](https://www.cloudskillsboost.google/focuses/18940?parent=catalog)
 
+# Vertex AI: Qwik Start
+
 [https://cloud.google.com/vertex-ai](https§§§cloud.google.com§vertex-ai/readme.md)
 
 ![1687441429121.png](./1687441429121.png)
@@ -31,7 +33,7 @@ gcloud services enable \
 
 ## Task 2. Create Vertex AI custom service account for Vertex Tensorboard integration
 
-```ba
+```bash
 # custome services
 SERVICE_ACCOUNT_ID=vertex-custom-training-sa
 gcloud iam service-accounts create $SERVICE_ACCOUNT_ID  \

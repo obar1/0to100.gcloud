@@ -2,6 +2,7 @@
 
 > [https://www.cloudskillsboost.google/course_sessions/3591643/video/379223](https://www.cloudskillsboost.google/course_sessions/3591643/video/379223)
 
+# [Building Batch Data Pipelines on Google Cloud] Executing Spark on Dataproc
 ## Module introduction 1 minute
 
 ![1687192250905.png](./1687192250905.png)

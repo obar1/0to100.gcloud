@@ -2,6 +2,8 @@
 
 > [https://www.cloudskillsboost.google/course_sessions/3591643/video/379271](https://www.cloudskillsboost.google/course_sessions/3591643/video/379271)
 
+# [Building Batch Data Pipelines on Google Cloud].Course Summary
+
 ![1687339514141.png](./1687339514141.png)
 
 ```

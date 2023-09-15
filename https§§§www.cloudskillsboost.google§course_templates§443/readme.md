@@ -1,4 +1,4 @@
 # <https§§§www.cloudskillsboost.google§course_templates§443>
 > <https://www.cloudskillsboost.google/course_templates/443>
 
-TODO:
+# # Getting Started with Terraform for Google Cloud

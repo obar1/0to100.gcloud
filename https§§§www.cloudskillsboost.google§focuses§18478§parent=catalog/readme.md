@@ -1,7 +1,8 @@
 
-   <https§§§www.cloudskillsboost.google§focuses§18478§parent=catalog>
+# <https§§§www.cloudskillsboost.google§focuses§18478§parent=catalog>
 > <https://www.cloudskillsboost.google/focuses/18478?parent=catalog>
-        
+
+# Looker Developer - Qwik Start
 ## Task 1. Create a view
 
 > dev mode

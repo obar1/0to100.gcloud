@@ -2,7 +2,10 @@
 
 > [https://www.cloudskillsboost.google/course_sessions/3671937/video/375635](https://www.cloudskillsboost.google/course_sessions/3671937/video/375635)
 
-# Overview of data visualization principles![1687706752982.png](./1687706752982.png)
+# Overview of data visualization principles
+
+
+![1687706752982.png](./1687706752982.png)
 
 ![1687706852138.png](./1687706852138.png)
 

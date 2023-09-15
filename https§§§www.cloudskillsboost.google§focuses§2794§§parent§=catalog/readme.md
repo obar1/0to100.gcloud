@@ -1,7 +1,7 @@
 # <https§§§www.cloudskillsboost.google§focuses§2794§§parent§=catalog>
 > <https://www.cloudskillsboost.google/focuses/2794?parent=catalog>
 
-## A Tour of Google Cloud Hands-on Labs
+# A Tour of Google Cloud Hands-on Labs
 
 [https://cloud.google.com/](https§§§cloud.google.com§/readme.md)
 google cloud services
