@@ -177,5 +177,5 @@
 1. # Security & Identity Fundamentals [`here`](./https§§§www.cloudskillsboost.google§quests§40/readme.md) :footprints:
 1. # BigQuery for Data Warehousing [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md) :green_heart:
 1. # Advanced ML: ML Infrastructure [`here`](./https§§§www.cloudskillsboost.google§quests§84/readme.md) :footprints:
-1. # <https§§§www.cloudskillsboost.google§focuses§49746§catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=26588762> [`here`](./https§§§www.cloudskillsboost.google§focuses§49746§catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=26588762/readme.md) :footprints:
+1. # Using BigQuery Omni with AWS [`here`](./https§§§www.cloudskillsboost.google§focuses§49746§catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=26588762/readme.md) :green_heart:
         
