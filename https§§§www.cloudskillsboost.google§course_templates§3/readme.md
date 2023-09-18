@@ -5,4 +5,4 @@
 
 # Google Cloud Big Data and Machine Learning Fundamentals
 
-![](1688134559984.png)
+![](1695070462371.png)
