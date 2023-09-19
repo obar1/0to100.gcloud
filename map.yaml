@@ -3,4 +3,4 @@ repo:
   path: '.'
   map_md: README.md
   uml_md: UML.md
-  sorted : true
+  sorted : False

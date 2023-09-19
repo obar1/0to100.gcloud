@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.pdf diff=pdf
+
+# Force bash scripts to always use LF line endings so that if a repo is accessed
+# in Unix via a file share from Windows, the scripts will work.
+*.sh text eol=lf
+
+# Force batch scripts to always use CRLF line endings so that if a repo is accessed
+# in Windows via a file share from Linux, the scripts will work.
+*.ps1 text eol=crlf
+ 
+
+# disabled :P
+# https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-storage-and-bandwidth-usage
+# .pdf filter=lfs diff=lfs merge=lfs -text
