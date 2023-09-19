@@ -167,6 +167,7 @@
 1. # Getting Started with BigQuery Machine Learning [`here`](./https§§§www.cloudskillsboost.google§games§4301§labs§27851/readme.md) :footprints: :floppy_disk:
 1. # Level 1: Sports Data [`here`](./https§§§www.cloudskillsboost.google§games§4423/readme.md) :footprints: :snake:
 1. # Modularizing LookML Code with Extends [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28617/readme.md) :green_heart: :floppy_disk:
+1. # Troubleshooting Data Models in Looker [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28618/readme.md) :green_heart: :floppy_disk:
 1. # <https§§§www.cloudskillsboost.google§games§4423§labs§28622> [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28622/readme.md) :footprints: :floppy_disk:
 1. # <https§§§www.cloudskillsboost.google§games§4423§labs§28623> [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28623/readme.md) :footprints: :floppy_disk:
 1. # <https§§§www.cloudskillsboost.google§games§4423§labs§28624> [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28624/readme.md) :footprints: :floppy_disk:
@@ -189,4 +190,5 @@
 1. # Monitoring in Google Cloud [`here`](./https§§§www.cloudskillsboost.google§quests§304/readme.md) :green_heart: :cyclone:
 1. # Baseline: Data, ML, AI [`here`](./https§§§www.cloudskillsboost.google§quests§34/readme.md) :green_heart: :cyclone:
 1. # BigQuery for Data Warehousing [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md) :green_heart: :cyclone:
+1. # Employing Best Practices for Improving the Usability of LookML Projects [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28619/readme.md) :green_heart: :floppy_disk:
         
