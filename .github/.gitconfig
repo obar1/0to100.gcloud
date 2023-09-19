@@ -1,3 +1,0 @@
-[diff "pdf"]
-    binary = true
-    textconv = sh -c 'pdftotext -layout "$0" -enc UTF-8 -'
