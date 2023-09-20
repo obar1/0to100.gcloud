@@ -3,6 +3,4 @@
 
 # Manage Data Models in Looker
 
-TODO: last 2
-
 ![Alt text](image.png)

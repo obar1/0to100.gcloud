@@ -177,6 +177,8 @@
 1. # <https§§§www.cloudskillsboost.google§games§4423§labs§28624> [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28624/readme.md) :footprints: :floppy_disk:
 1. # <https§§§www.cloudskillsboost.google§games§4423§labs§28625> [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28625/readme.md) :footprints: :floppy_disk:
 1. # Data Publishing on BigQuery using Authorized Views for Data Sharing Partners [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28627/readme.md) :footprints: :floppy_disk:
+1. # Analytics as a Service for Data Sharing Partners [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28628/readme.md) :green_heart: :floppy_disk:
+1. # How to Build a BI Dashboard Using Google Looker Studio and BigQuery [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28630/readme.md) :green_heart: :floppy_disk:
 1. # Data Engineer Learning Path [`here`](./https§§§www.cloudskillsboost.google§journeys§16/readme.md) :footprints: :pushpin:
 1. # `obar1` [`here`](./https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints: :pushpin:
 1. # Deploy to Kubernetes in Google Cloud [`here`](./https§§§www.cloudskillsboost.google§quests§116/readme.md) :green_heart: :cyclone:
@@ -194,5 +196,5 @@
 1. # Monitoring in Google Cloud [`here`](./https§§§www.cloudskillsboost.google§quests§304/readme.md) :green_heart: :cyclone:
 1. # Baseline: Data, ML, AI [`here`](./https§§§www.cloudskillsboost.google§quests§34/readme.md) :green_heart: :cyclone:
 1. # BigQuery for Data Warehousing [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md) :green_heart: :cyclone:
-1. # <https§§§www.cloudskillsboost.google§games§4423§labs§28628> [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28628/readme.md) :footprints: :floppy_disk:
+1. # <https§§§www.cloudskillsboost.google§course_templates§657§utm_source=qwiklabs> [`here`](./https§§§www.cloudskillsboost.google§course_templates§657§utm_source=qwiklabs/readme.md) :footprints: :whale:
         
