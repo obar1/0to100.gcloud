@@ -105,6 +105,7 @@
 1. # Building Batch Data Pipelines on Google Cloud [`here`](./https§§§www.cloudskillsboost.google§course_templates§53/readme.md) :green_heart: :whale:
 1. # Modernizing Data Lakes and Data Warehouses with Google Cloud [`here`](./https§§§www.cloudskillsboost.google§course_templates§54/readme.md) :green_heart: :whale:
 1. # Manage Data Models in Looker [`here`](./https§§§www.cloudskillsboost.google§course_templates§651§utm_source=qwiklabs/readme.md) :green_heart: :whale:
+1. # Predict Soccer Match Outcomes with BigQuery ML [`here`](./https§§§www.cloudskillsboost.google§course_templates§656§utm_source=qwiklabs&utm_campaign=arcade23-september-level1&utm_medium=gametemplate/readme.md) :green_heart: :whale:
 1. # Preparing for the Google Cloud Professional Data Engineer Exam [`here`](./https§§§www.cloudskillsboost.google§course_templates§72/readme.md) :green_heart: :whale:
 1. # Create and Manage Cloud Resources: Challenge Lab [`here`](./https§§§www.cloudskillsboost.google§focuses§10258§parent=catalog/readme.md) :footprints: :pushpin:
 1. # Reinforcement Learning: Qwik Start [`here`](./https§§§www.cloudskillsboost.google§focuses§10285§parent=catalog/readme.md) :footprints: :pushpin:
@@ -193,5 +194,5 @@
 1. # Monitoring in Google Cloud [`here`](./https§§§www.cloudskillsboost.google§quests§304/readme.md) :green_heart: :cyclone:
 1. # Baseline: Data, ML, AI [`here`](./https§§§www.cloudskillsboost.google§quests§34/readme.md) :green_heart: :cyclone:
 1. # BigQuery for Data Warehousing [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md) :green_heart: :cyclone:
-1. # Predict Soccer Match Outcomes with BigQuery ML [`here`](./https§§§www.cloudskillsboost.google§course_templates§656§utm_source=qwiklabs&utm_campaign=arcade23-september-level1&utm_medium=gametemplate/readme.md) :green_heart: :whale:
+1. # <https§§§www.cloudskillsboost.google§games§4423§labs§28628> [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28628/readme.md) :footprints: :floppy_disk:
         
