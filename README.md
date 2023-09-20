@@ -106,6 +106,7 @@
 1. # Modernizing Data Lakes and Data Warehouses with Google Cloud [`here`](./https§§§www.cloudskillsboost.google§course_templates§54/readme.md) :green_heart: :whale:
 1. # Manage Data Models in Looker [`here`](./https§§§www.cloudskillsboost.google§course_templates§651§utm_source=qwiklabs/readme.md) :green_heart: :whale:
 1. # Predict Soccer Match Outcomes with BigQuery ML [`here`](./https§§§www.cloudskillsboost.google§course_templates§656§utm_source=qwiklabs&utm_campaign=arcade23-september-level1&utm_medium=gametemplate/readme.md) :green_heart: :whale:
+1. # Share Data Using Google Data Cloud [`here`](./https§§§www.cloudskillsboost.google§course_templates§657§utm_source=qwiklabs/readme.md) :footprints: :whale:
 1. # Preparing for the Google Cloud Professional Data Engineer Exam [`here`](./https§§§www.cloudskillsboost.google§course_templates§72/readme.md) :green_heart: :whale:
 1. # Create and Manage Cloud Resources: Challenge Lab [`here`](./https§§§www.cloudskillsboost.google§focuses§10258§parent=catalog/readme.md) :footprints: :pushpin:
 1. # Reinforcement Learning: Qwik Start [`here`](./https§§§www.cloudskillsboost.google§focuses§10285§parent=catalog/readme.md) :footprints: :pushpin:
@@ -167,7 +168,6 @@
 1. # Use Go Code to Work with Google Cloud Data Sources [`here`](./https§§§www.cloudskillsboost.google§games§4255§labs§27515/readme.md) :green_heart: :floppy_disk:
 1. # Hosting a Web App on Google Cloud Using Compute Engine [`here`](./https§§§www.cloudskillsboost.google§games§4255§labs§27517/readme.md) :green_heart: :floppy_disk:
 1. # Getting Started with BigQuery Machine Learning [`here`](./https§§§www.cloudskillsboost.google§games§4301§labs§27851/readme.md) :footprints: :floppy_disk:
-1. # Level 1: Sports Data [`here`](./https§§§www.cloudskillsboost.google§games§4423/readme.md) :footprints: :snake:
 1. # Modularizing LookML Code with Extends [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28617/readme.md) :green_heart: :floppy_disk:
 1. # Troubleshooting Data Models in Looker [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28618/readme.md) :green_heart: :floppy_disk:
 1. # Employing Best Practices for Improving the Usability of LookML Projects [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28619/readme.md) :green_heart: :floppy_disk:
@@ -196,5 +196,5 @@
 1. # Monitoring in Google Cloud [`here`](./https§§§www.cloudskillsboost.google§quests§304/readme.md) :green_heart: :cyclone:
 1. # Baseline: Data, ML, AI [`here`](./https§§§www.cloudskillsboost.google§quests§34/readme.md) :green_heart: :cyclone:
 1. # BigQuery for Data Warehousing [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md) :green_heart: :cyclone:
-1. # <https§§§www.cloudskillsboost.google§course_templates§657§utm_source=qwiklabs> [`here`](./https§§§www.cloudskillsboost.google§course_templates§657§utm_source=qwiklabs/readme.md) :footprints: :whale:
+1. # Level 1: Sports Data [`here`](./https§§§www.cloudskillsboost.google§games§4423/readme.md) :green_heart: :snake:
         
