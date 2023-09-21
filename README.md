@@ -168,17 +168,16 @@
 1. # Use Go Code to Work with Google Cloud Data Sources [`here`](./https§§§www.cloudskillsboost.google§games§4255§labs§27515/readme.md) :green_heart: :floppy_disk:
 1. # Hosting a Web App on Google Cloud Using Compute Engine [`here`](./https§§§www.cloudskillsboost.google§games§4255§labs§27517/readme.md) :green_heart: :floppy_disk:
 1. # Getting Started with BigQuery Machine Learning [`here`](./https§§§www.cloudskillsboost.google§games§4301§labs§27851/readme.md) :footprints: :floppy_disk:
+1. # Level 1: Sports Data [`here`](./https§§§www.cloudskillsboost.google§games§4423/readme.md) :green_heart: :snake:
 1. # Modularizing LookML Code with Extends [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28617/readme.md) :green_heart: :floppy_disk:
 1. # Troubleshooting Data Models in Looker [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28618/readme.md) :green_heart: :floppy_disk:
 1. # Employing Best Practices for Improving the Usability of LookML Projects [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28619/readme.md) :green_heart: :floppy_disk:
 1. # Caching and Datagroups with LookML [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28620/readme.md) :green_heart: :floppy_disk:
 1. # BigQuery Soccer Data Analytical Insight [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28622/readme.md) :footprints: :floppy_disk:
-1. # <https§§§www.cloudskillsboost.google§games§4423§labs§28623> [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28623/readme.md) :footprints: :floppy_disk:
-1. # <https§§§www.cloudskillsboost.google§games§4423§labs§28624> [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28624/readme.md) :footprints: :floppy_disk:
-1. # <https§§§www.cloudskillsboost.google§games§4423§labs§28625> [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28625/readme.md) :footprints: :floppy_disk:
 1. # Data Publishing on BigQuery using Authorized Views for Data Sharing Partners [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28627/readme.md) :footprints: :floppy_disk:
 1. # Analytics as a Service for Data Sharing Partners [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28628/readme.md) :green_heart: :floppy_disk:
 1. # How to Build a BI Dashboard Using Google Looker Studio and BigQuery [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28630/readme.md) :green_heart: :floppy_disk:
+1. # Level 2: BigQuery and BigLake Data Skills [`here`](./https§§§www.cloudskillsboost.google§games§4424/readme.md) :footprints: :snake:
 1. # Data Engineer Learning Path [`here`](./https§§§www.cloudskillsboost.google§journeys§16/readme.md) :footprints: :pushpin:
 1. # `obar1` [`here`](./https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints: :pushpin:
 1. # Deploy to Kubernetes in Google Cloud [`here`](./https§§§www.cloudskillsboost.google§quests§116/readme.md) :green_heart: :cyclone:
@@ -196,5 +195,5 @@
 1. # Monitoring in Google Cloud [`here`](./https§§§www.cloudskillsboost.google§quests§304/readme.md) :green_heart: :cyclone:
 1. # Baseline: Data, ML, AI [`here`](./https§§§www.cloudskillsboost.google§quests§34/readme.md) :green_heart: :cyclone:
 1. # BigQuery for Data Warehousing [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md) :green_heart: :cyclone:
-1. # Level 1: Sports Data [`here`](./https§§§www.cloudskillsboost.google§games§4423/readme.md) :green_heart: :snake:
+1. # Creating and Populating a Bigtable Instance [`here`](./https§§§www.cloudskillsboost.google§games§4424§labs§28636/readme.md) :green_heart: :floppy_disk:
         
