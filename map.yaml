@@ -2,5 +2,4 @@ type: map
 repo:
   path: '.'
   map_md: README.md
-  uml_md: UML.md
   sorted : False
