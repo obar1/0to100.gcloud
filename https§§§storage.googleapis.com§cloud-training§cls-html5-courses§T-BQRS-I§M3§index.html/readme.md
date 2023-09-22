@@ -2,7 +2,7 @@
 
 > [https://storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M3/index.html](https://storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M3/index.html)
 
-# BigQuery and Google Cloud IAM
+# BigQuery Fundamentals for Redshift Professionals.BigQuery and Google Cloud IAM
 
 ### BigQuery and Google Cloud IAM
 

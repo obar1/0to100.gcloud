@@ -2,7 +2,7 @@
 
 > [https://www.cloudskillsboost.google/course_sessions/3777998/labs/375038](https://www.cloudskillsboost.google/course_sessions/3777998/labs/375038)
 
-# Monitoring BigQuery Workloads
+# BigQuery Fundamentals for Redshift Professionals.Monitoring BigQuery Workloads
 
 ## Overview
 

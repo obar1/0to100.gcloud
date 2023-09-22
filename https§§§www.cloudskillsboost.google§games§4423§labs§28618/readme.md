@@ -5,10 +5,10 @@
 
 ## Tools for troubleshooting LookML code and common use cases
 
-https://docs.looker.com/data-modeling/getting-started/lookml-validation#validating_your_lookml
+[https://docs.looker.com/data-modeling/getting-started/lookml-validation#validating_your_lookml](../https§§§docs.looker.com§data-modeling§getting-started§lookml-validation#validating_your_lookml/readme.md)
 SQL Runner
 Content Validator
-https://docs.looker.com/reference/looker-error-catalog
+[https://docs.looker.com/reference/looker-error-catalog](../https§§§docs.looker.com§reference§looker-error-catalog/readme.md)
 
 ## Task 1. Use SQL Runner to explore available data and troubleshoot SQL queries
 
@@ -60,5 +60,5 @@ dimension: average_sales  {
 
 ![](image-14.png)
 
-https://docs.looker.com/reference/looker-error-catalog
+[https://docs.looker.com/reference/looker-error-catalog](../https§§§docs.looker.com§reference§looker-error-catalog/readme.md)
 

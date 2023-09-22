@@ -14,11 +14,11 @@
 :footprints: wip
 
 1. # BigQuery Architecture and Resource Provisioning [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md) :green_heart: :pushpin:
-1. # BigQuery Data Definition Model [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M2§index.html/readme.md) :green_heart: :pushpin:
-1. # BigQuery and Google Cloud IAM [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M3§index.html/readme.md) :green_heart: :pushpin:
-1. # <https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M4§index.html> [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M4§index.html/readme.md) :footprints: :pushpin:
-1. # <https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M5§index.html> [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M5§index.html/readme.md) :footprints: :pushpin:
-1. # <https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M6§index.html> [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M6§index.html/readme.md) :footprints: :pushpin:
+1. # BigQuery Fundamentals for Redshift Professionals.BigQuery Data Definition Model [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M2§index.html/readme.md) :green_heart: :pushpin:
+1. # BigQuery Fundamentals for Redshift Professionals.BigQuery and Google Cloud IAM [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M3§index.html/readme.md) :green_heart: :pushpin:
+1. # BigQuery Fundamentals for Redshift Professionals.BigQuery Data Ingestion [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M4§index.html/readme.md) :footprints: :pushpin:
+1. # BigQuery Fundamentals for Redshift Professionals.BigQuery Schema Design and Optimization [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M5§index.html/readme.md) :footprints: :pushpin:
+1. # BigQuery Fundamentals for Redshift Professionals.SQL in BigQuery [`here`](./https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M6§index.html/readme.md) :footprints: :pushpin:
 1. # Course Resources [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§documents§343621/readme.md) :footprints: :pushpin:
 1. # PDE Prep: BigQuery Essentials [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343580/readme.md) :green_heart: :floppy_disk:
 1. # PDE Prep: Cloud Dataproc Cluster Operations and Maintenance [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343602/readme.md) :green_heart: :floppy_disk:
@@ -94,7 +94,8 @@
 1. # BigQuery Architecture and Resource Provisioning [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375036/readme.md) :green_heart: :pushpin:
 1. # [BigQuery Fundamentals for Redshift Professionals].BigQuery Data Definition Model [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375039/readme.md) :green_heart: :pushpin:
 1. # BigQuery and Google Cloud IAM [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375041/readme.md) :green_heart: :pushpin:
-1. # Monitoring BigQuery Workloads [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§labs§375038/readme.md) :green_heart: :floppy_disk:
+1. # BigQuery Fundamentals for Redshift Professionals.Course Resources [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375052/readme.md) :footprints: :pushpin:
+1. # BigQuery Fundamentals for Redshift Professionals.Monitoring BigQuery Workloads [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§labs§375038/readme.md) :green_heart: :floppy_disk:
 1. # Securing and Sharing BigQuery Datasets and Tables [`here`](./https§§§www.cloudskillsboost.google§course_sessions§3777998§labs§375043/readme.md) :green_heart: :floppy_disk:
 1. # [Data Lake Modernization on Google Cloud: Cloud Composer].Cloud Composer [`here`](./https§§§www.cloudskillsboost.google§course_sessions§4463274§documents§368589/readme.md) :footprints: :pushpin:
 1. # Demo: Cloud Composer Code Walkthrough [`here`](./https§§§www.cloudskillsboost.google§course_sessions§4463274§video§368590/readme.md) :footprints: :pushpin:
@@ -102,6 +103,7 @@
 1. # Creating New BigQuery Datasets and Visualizing Insights [`here`](./https§§§www.cloudskillsboost.google§course_templates§24/readme.md) :green_heart: :whale:
 1. # Google Cloud Big Data and Machine Learning Fundamentals [`here`](./https§§§www.cloudskillsboost.google§course_templates§3/readme.md) :green_heart: :whale:
 1. # Cloud Composer [`here`](./https§§§www.cloudskillsboost.google§course_templates§484/readme.md) :footprints: :whale:
+1. # BigQuery Fundamentals for Redshift Professionals [`here`](./https§§§www.cloudskillsboost.google§course_templates§512§catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=26818326/readme.md) :footprints: :whale:
 1. # Building Batch Data Pipelines on Google Cloud [`here`](./https§§§www.cloudskillsboost.google§course_templates§53/readme.md) :green_heart: :whale:
 1. # Modernizing Data Lakes and Data Warehouses with Google Cloud [`here`](./https§§§www.cloudskillsboost.google§course_templates§54/readme.md) :green_heart: :whale:
 1. # Manage Data Models in Looker [`here`](./https§§§www.cloudskillsboost.google§course_templates§651§utm_source=qwiklabs/readme.md) :green_heart: :whale:
@@ -178,6 +180,7 @@
 1. # Analytics as a Service for Data Sharing Partners [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28628/readme.md) :green_heart: :floppy_disk:
 1. # How to Build a BI Dashboard Using Google Looker Studio and BigQuery [`here`](./https§§§www.cloudskillsboost.google§games§4423§labs§28630/readme.md) :green_heart: :floppy_disk:
 1. # Level 2: BigQuery and BigLake Data Skills [`here`](./https§§§www.cloudskillsboost.google§games§4424/readme.md) :footprints: :snake:
+1. # Creating and Populating a Bigtable Instance [`here`](./https§§§www.cloudskillsboost.google§games§4424§labs§28636/readme.md) :green_heart: :floppy_disk:
 1. # Data Engineer Learning Path [`here`](./https§§§www.cloudskillsboost.google§journeys§16/readme.md) :footprints: :pushpin:
 1. # `obar1` [`here`](./https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints: :pushpin:
 1. # Deploy to Kubernetes in Google Cloud [`here`](./https§§§www.cloudskillsboost.google§quests§116/readme.md) :green_heart: :cyclone:
@@ -195,5 +198,4 @@
 1. # Monitoring in Google Cloud [`here`](./https§§§www.cloudskillsboost.google§quests§304/readme.md) :green_heart: :cyclone:
 1. # Baseline: Data, ML, AI [`here`](./https§§§www.cloudskillsboost.google§quests§34/readme.md) :green_heart: :cyclone:
 1. # BigQuery for Data Warehousing [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md) :green_heart: :cyclone:
-1. # Creating and Populating a Bigtable Instance [`here`](./https§§§www.cloudskillsboost.google§games§4424§labs§28636/readme.md) :green_heart: :floppy_disk:
         

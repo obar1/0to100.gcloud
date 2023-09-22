@@ -7,7 +7,7 @@
 
 ## Overview
 
-https://cloud.google.com/bigquery/docs/omni-introductionhttps://cloud.google.com/bigquery/docs/omni-aws-introduction
+[https://cloud.google.com/bigquery/docs/omni-introductionhttps://cloud.google.com/bigquery/docs/omni-aws-introduction](../https§§§cloud.google.com§bigquery§docs§omni-introductionhttps§§§cloud.google.com§bigquery§docs§omni-aws-introduction/readme.md)
 
 ![1694631608353.png](./1694631608353.png)
 

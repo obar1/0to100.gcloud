@@ -2,7 +2,7 @@
 
 > [https://storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M2/index.html](https://storage.googleapis.com/cloud-training/cls-html5-courses/T-BQRS-I/M2/index.html)
 
-# BigQuery Data Definition Model
+# BigQuery Fundamentals for Redshift Professionals.BigQuery Data Definition Model
 
 ## **INTRODUCTION**
 

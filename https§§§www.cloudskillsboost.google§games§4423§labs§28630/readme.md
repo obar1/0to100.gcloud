@@ -37,4 +37,4 @@ GROUP BY
 
 ![Alt text](image-2.png)
 
-https://cloud.google.com/blog/products/gcp/how-to-build-a-bi-dashboard-using-google-data-studio-and-bigquery
+[https://cloud.google.com/blog/products/gcp/how-to-build-a-bi-dashboard-using-google-data-studio-and-bigquery](../https§§§cloud.google.com§blog§products§gcp§how-to-build-a-bi-dashboard-using-google-data-studio-and-bigquery/readme.md)
