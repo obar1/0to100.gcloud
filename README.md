@@ -197,5 +197,6 @@
 1. # BigQuery Fundamentals for Redshift Professionals.Course Resources [`here`](https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375052/readme.md) :footprints: :pushpin:
 1. # Data Catalog: Qwik Start [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28640/readme.md) :green_heart: :floppy_disk:
 1. # Tag and Discover BigLake Data: Challenge Lab [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28641/readme.md) :green_heart: :floppy_disk:
+1. # <https§§§www.cloudskillsboost.google§games§4424§labs§28644> [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28644/readme.md) :footprints: :floppy_disk:
 1. # Migrating On-premises MySQL Using a Continuous Database Migration Service Job [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28643/readme.md) :green_heart: :floppy_disk:
         
