@@ -195,4 +195,7 @@
 1. # BigQuery Architecture and Resource Provisioning [`here`](https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md) :green_heart: :pushpin:
 1. # BigQuery Fundamentals for Redshift Professionals [`here`](https§§§www.cloudskillsboost.google§course_templates§512§catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=26818326/readme.md) :footprints: :whale:
 1. # BigQuery Fundamentals for Redshift Professionals.Course Resources [`here`](https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375052/readme.md) :footprints: :pushpin:
+1. # Data Catalog: Qwik Start [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28640/readme.md) :green_heart: :floppy_disk:
+1. # Tag and Discover BigLake Data: Challenge Lab [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28641/readme.md) :green_heart: :floppy_disk:
+1. # <https§§§www.cloudskillsboost.google§games§4424§labs§28643> [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28643/readme.md) :footprints: :floppy_disk:
         
