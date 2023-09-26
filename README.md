@@ -184,9 +184,7 @@
 1. # Analytics as a Service for Data Sharing Partners [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28628/readme.md) :green_heart: :floppy_disk:
 1. # How to Build a BI Dashboard Using Google Looker Studio and BigQuery [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28630/readme.md) :green_heart: :floppy_disk:
 1. # Share Data Using Google Data Cloud [`here`](https§§§www.cloudskillsboost.google§course_templates§657§utm_source=qwiklabs/readme.md) :footprints: :whale:
-1. # `obar1` [`here`](https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints: :pushpin:
 1. # Level 1: Sports Data [`here`](https§§§www.cloudskillsboost.google§games§4423/readme.md) :green_heart: :snake:
-1. # Level 2: BigQuery and BigLake Data Skills [`here`](https§§§www.cloudskillsboost.google§games§4424/readme.md) :footprints: :snake:
 1. # BigQuery Soccer Data Analytical Insight [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28622/readme.md) :footprints: :floppy_disk:
 1. # Creating and Populating a Bigtable Instance [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28636/readme.md) :green_heart: :floppy_disk:
 1. # BigQuery Architecture and Resource Provisioning [`here`](https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md) :green_heart: :pushpin:
@@ -204,4 +202,8 @@
 1. # IRS public dataset overview [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376370/readme.md) :green_heart: :pushpin:
 1. # Optical Character Recognition (OCR) with Document AI (Python) [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28650/readme.md) :green_heart: :floppy_disk:
 1. # Form Parsing with Document AI (Python) [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28651/readme.md) :green_heart: :floppy_disk:
+1. # Using Specialized Processors with Document AI (Python) [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28652/readme.md) :green_heart: :floppy_disk:
+1. # Level 2: BigQuery and BigLake Data Skills [`here`](https§§§www.cloudskillsboost.google§games§4424/readme.md) :green_heart: :snake:
+1. # `obar1` [`here`](https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints: :pushpin:
+1. # <https§§§www.cloudskillsboost.google§course_templates§855> [`here`](https§§§www.cloudskillsboost.google§course_templates§855/readme.md) :footprints: :whale:
         

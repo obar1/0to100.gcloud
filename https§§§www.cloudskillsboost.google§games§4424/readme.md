@@ -3,6 +3,4 @@
 
 # Level 2: BigQuery and BigLake Data Skills
 
-TODO:
-
-![Alt text](image.png)
+![Alt text](image-1.png)
