@@ -98,7 +98,6 @@
 1. # Analytics challenges faced by data analysts [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376358/readme.md) :green_heart: :pushpin:
 1. # Data analyst tasks and challenges and Google Cloud data tools [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376363/readme.md) :green_heart: :pushpin:
 1. # Introduction to the Google Analytics ecommerce dataset [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376369/readme.md) :green_heart: :pushpin:
-1. # IRS public dataset overview [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376370/readme.md) :green_heart: :pushpin:
 1. # BigQuery jobs [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376379/readme.md) :green_heart: :pushpin:
 1. # 5 principles of dataset integrity [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376383/readme.md) :green_heart: :pushpin:
 1. # Course summary [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376393/readme.md) :green_heart: :pushpin:
@@ -202,5 +201,7 @@
 1. # <https§§§www.cloudskillsboost.google§focuses§3642§parent=catalog> [`here`](https§§§www.cloudskillsboost.google§focuses§3642§parent=catalog/readme.md) :footprints: :pushpin:
 1. # <https§§§www.cloudskillsboost.google§focuses§609§parent=catalog> [`here`](https§§§www.cloudskillsboost.google§focuses§609§parent=catalog/readme.md) :footprints: :pushpin:
 1. # Troubleshooting Common SQL Errors with BigQuery [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28647/readme.md) :footprints: :floppy_disk:
-1. # <https§§§www.cloudskillsboost.google§games§4424§labs§28650> [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28650/readme.md) :footprints: :floppy_disk:
+1. # IRS public dataset overview [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376370/readme.md) :green_heart: :pushpin:
+1. # Optical Character Recognition (OCR) with Document AI (Python) [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28650/readme.md) :green_heart: :floppy_disk:
+1. # Form Parsing with Document AI (Python) [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28651/readme.md) :green_heart: :floppy_disk:
         
