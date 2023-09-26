@@ -8,7 +8,7 @@ GSP852
 
 ## Task 1. Explore the NYC Citi Bike Trips dataset
 
-```
+```sql
 SELECT
    bikeid,
    starttime,
@@ -20,7 +20,7 @@ WHERE starttime is not null
 LIMIT 5
 ```
 
-```
+```sql
 SELECT
    bikeid,
    starttime,
@@ -36,7 +36,7 @@ LIMIT 5
 
 ## Task 2. Cleaned training data
 
-```
+```sql
 SELECT
  DATE(starttime) AS trip_date,
  start_station_id,
@@ -53,7 +53,7 @@ GROUP BY
 
 ## Task 3. Training a model
 
-```
+```sql
 CREATE OR REPLACE MODEL bqmlforecast.bike_model
   OPTIONS(
     MODEL_TYPE='ARIMA',
@@ -73,7 +73,7 @@ CREATE OR REPLACE MODEL bqmlforecast.bike_model
 
 ## Task 4. Evaluate the time series model
 
-```
+```sql
 SELECT
   *
 FROM

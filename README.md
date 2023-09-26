@@ -67,7 +67,6 @@
 1. # Building Batch Data Pipelines on Google Cloud [`here`](https§§§www.cloudskillsboost.google§course_templates§53/readme.md) :green_heart: :whale:
 1. # Preparing for the Google Cloud Professional Data Engineer Exam [`here`](https§§§www.cloudskillsboost.google§course_templates§72/readme.md) :green_heart: :whale:
 1. # Level 1: Data with Google Cloud [`here`](https§§§www.cloudskillsboost.google§games§4111/readme.md) :green_heart: :snake:
-1. # Level 2: Cloud security [`here`](https§§§www.cloudskillsboost.google§games§4112/readme.md) :green_heart: :snake:
 1. # PDE Prep: BigQuery Essentials [`here`](https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343580/readme.md) :green_heart: :floppy_disk:
 1. # PDE Prep: Cloud Dataproc Cluster Operations and Maintenance [`here`](https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343602/readme.md) :green_heart: :floppy_disk:
 1. # Introduction [`here`](https§§§www.cloudskillsboost.google§course_sessions§3062553§video§343555/readme.md) :green_heart: :pushpin:
@@ -93,7 +92,6 @@
 1. # Data Warehouse Solutions on Google Cloud [`here`](https§§§www.cloudskillsboost.google§course_sessions§3605921§video§337129/readme.md) :green_heart: :pushpin:
 1. # Course Resources [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§documents§376394/readme.md) :green_heart: :pushpin:
 1. # Overview [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§labs§376367/readme.md) :green_heart: :floppy_disk:
-1. # Troubleshooting Common SQL Errors with BigQuery v1.5 [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§labs§376377/readme.md) :green_heart: :floppy_disk:
 1. # Exploring and Creating an Ecommerce Analytics Pipeline with Cloud Dataprep v1.5 [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§labs§376387/readme.md) :green_heart: :floppy_disk:
 1. # Building Transformations and Preparing Data with Wrangler in Cloud Data Fusion [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§labs§376391/readme.md) :green_heart: :floppy_disk:
 1. # Course series introduction [`here`](https§§§www.cloudskillsboost.google§course_sessions§3631336§video§376357/readme.md) :green_heart: :pushpin:
@@ -197,6 +195,11 @@
 1. # BigQuery Fundamentals for Redshift Professionals.Course Resources [`here`](https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375052/readme.md) :footprints: :pushpin:
 1. # Data Catalog: Qwik Start [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28640/readme.md) :green_heart: :floppy_disk:
 1. # Tag and Discover BigLake Data: Challenge Lab [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28641/readme.md) :green_heart: :floppy_disk:
-1. # <https§§§www.cloudskillsboost.google§games§4424§labs§28644> [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28644/readme.md) :footprints: :floppy_disk:
+1. # Level 2: Cloud security [`here`](https§§§www.cloudskillsboost.google§games§4112/readme.md) :footprints: :snake:
 1. # Migrating On-premises MySQL Using a Continuous Database Migration Service Job [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28643/readme.md) :green_heart: :floppy_disk:
+1. # Building Demand Forecasting with BigQuery ML [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28644/readme.md) :green_heart: :floppy_disk:
+1. # <https§§§www.cloudskillsboost.google§games§4424§labs§28646> [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28646/readme.md) :footprints: :floppy_disk:
+1. # <https§§§www.cloudskillsboost.google§focuses§3642§parent=catalog> [`here`](https§§§www.cloudskillsboost.google§focuses§3642§parent=catalog/readme.md) :footprints: :pushpin:
+1. # <https§§§www.cloudskillsboost.google§focuses§609§parent=catalog> [`here`](https§§§www.cloudskillsboost.google§focuses§609§parent=catalog/readme.md) :footprints: :pushpin:
+1. # <https§§§www.cloudskillsboost.google§games§4424§labs§28647> [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28647/readme.md) :footprints: :floppy_disk:
         
