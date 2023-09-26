@@ -201,5 +201,6 @@
 1. # <https§§§www.cloudskillsboost.google§games§4424§labs§28646> [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28646/readme.md) :footprints: :floppy_disk:
 1. # <https§§§www.cloudskillsboost.google§focuses§3642§parent=catalog> [`here`](https§§§www.cloudskillsboost.google§focuses§3642§parent=catalog/readme.md) :footprints: :pushpin:
 1. # <https§§§www.cloudskillsboost.google§focuses§609§parent=catalog> [`here`](https§§§www.cloudskillsboost.google§focuses§609§parent=catalog/readme.md) :footprints: :pushpin:
-1. # <https§§§www.cloudskillsboost.google§games§4424§labs§28647> [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28647/readme.md) :footprints: :floppy_disk:
+1. # Troubleshooting Common SQL Errors with BigQuery [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28647/readme.md) :footprints: :floppy_disk:
+1. # <https§§§www.cloudskillsboost.google§games§4424§labs§28650> [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28650/readme.md) :footprints: :floppy_disk:
         
