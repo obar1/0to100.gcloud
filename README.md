@@ -206,4 +206,7 @@
 1. # Level 2: BigQuery and BigLake Data Skills [`here`](https§§§www.cloudskillsboost.google§games§4424/readme.md) :green_heart: :snake:
 1. # `obar1` [`here`](https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints: :pushpin:
 1. # <https§§§www.cloudskillsboost.google§course_templates§855> [`here`](https§§§www.cloudskillsboost.google§course_templates§855/readme.md) :footprints: :whale:
+1. # Level 3: GenAI [`here`](https§§§www.cloudskillsboost.google§games§4422/readme.md) :footprints: :snake:
+1. # APIs Explorer: Qwik Start [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28603/readme.md) :green_heart: :floppy_disk:
+1. # <https§§§www.cloudskillsboost.google§games§4422§labs§28604> [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28604/readme.md) :footprints: :floppy_disk:
         
