@@ -210,7 +210,7 @@
 1. # APIs Explorer: Qwik Start [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28603/readme.md) :green_heart: :floppy_disk:
 1. # Extract, Analyze, and Translate Text from Images with the Cloud ML APIs [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28604/readme.md) :green_heart: :floppy_disk:
 1. # Analyze Images with the Cloud Vision API: Challenge Lab [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28605/readme.md) :green_heart: :floppy_disk:
-1. TODO: [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28606/readme.md) :footprints: :floppy_disk:
 1. # Generative AI with Vertex AI: Prompt Design [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28608/readme.md) :green_heart: :floppy_disk:
 1. # Generative AI with Vertex AI: Getting Started [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28609/readme.md) :green_heart: :floppy_disk:
+1. # Get Started with Generative AI Studio [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28610/readme.md) :green_heart: :floppy_disk:
         
