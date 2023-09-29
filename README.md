@@ -66,7 +66,6 @@
 1. # Creating New BigQuery Datasets and Visualizing Insights [`here`](https§§§www.cloudskillsboost.google§course_templates§24/readme.md) :green_heart: :whale:
 1. # Building Batch Data Pipelines on Google Cloud [`here`](https§§§www.cloudskillsboost.google§course_templates§53/readme.md) :green_heart: :whale:
 1. # Preparing for the Google Cloud Professional Data Engineer Exam [`here`](https§§§www.cloudskillsboost.google§course_templates§72/readme.md) :green_heart: :whale:
-1. # Level 1: Data with Google Cloud [`here`](https§§§www.cloudskillsboost.google§games§4111/readme.md) :green_heart: :snake:
 1. # PDE Prep: BigQuery Essentials [`here`](https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343580/readme.md) :green_heart: :floppy_disk:
 1. # PDE Prep: Cloud Dataproc Cluster Operations and Maintenance [`here`](https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343602/readme.md) :green_heart: :floppy_disk:
 1. # Introduction [`here`](https§§§www.cloudskillsboost.google§course_sessions§3062553§video§343555/readme.md) :green_heart: :pushpin:
@@ -170,7 +169,6 @@
 1. # Demo: Cloud Composer Code Walkthrough [`here`](https§§§www.cloudskillsboost.google§course_sessions§4463274§video§368590/readme.md) :footprints: :pushpin:
 1. # Introduction to Building Batch Data Pipelines [`here`](https§§§www.cloudskillsboost.google§course_sessions§3591643§video§379216/readme.md) :green_heart: :pushpin:
 1. # Using BigQuery Omni with AWS [`here`](https§§§www.cloudskillsboost.google§focuses§49746§catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=26588762/readme.md) :green_heart: :pushpin:
-1. # Data Publishing on BigQuery using Authorized Views for Data Sharing Partners [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28627/readme.md) :footprints: :floppy_disk:
 1. # Deploy to Kubernetes in Google Cloud [`here`](https§§§www.cloudskillsboost.google§quests§116/readme.md) :green_heart: :cyclone:
 1. # Modernizing Data Lakes and Data Warehouses with Google Cloud [`here`](https§§§www.cloudskillsboost.google§course_templates§54/readme.md) :green_heart: :whale:
 1. # Google Cloud Big Data and Machine Learning Fundamentals [`here`](https§§§www.cloudskillsboost.google§course_templates§3/readme.md) :green_heart: :whale:
@@ -185,17 +183,14 @@
 1. # How to Build a BI Dashboard Using Google Looker Studio and BigQuery [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28630/readme.md) :green_heart: :floppy_disk:
 1. # Share Data Using Google Data Cloud [`here`](https§§§www.cloudskillsboost.google§course_templates§657§utm_source=qwiklabs/readme.md) :footprints: :whale:
 1. # Level 1: Sports Data [`here`](https§§§www.cloudskillsboost.google§games§4423/readme.md) :green_heart: :snake:
-1. # BigQuery Soccer Data Analytical Insight [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28622/readme.md) :footprints: :floppy_disk:
 1. # Creating and Populating a Bigtable Instance [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28636/readme.md) :green_heart: :floppy_disk:
 1. # BigQuery Architecture and Resource Provisioning [`here`](https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md) :green_heart: :pushpin:
 1. # BigQuery Fundamentals for Redshift Professionals [`here`](https§§§www.cloudskillsboost.google§course_templates§512§catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=26818326/readme.md) :footprints: :whale:
 1. # BigQuery Fundamentals for Redshift Professionals.Course Resources [`here`](https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375052/readme.md) :footprints: :pushpin:
 1. # Data Catalog: Qwik Start [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28640/readme.md) :green_heart: :floppy_disk:
 1. # Tag and Discover BigLake Data: Challenge Lab [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28641/readme.md) :green_heart: :floppy_disk:
-1. # Level 2: Cloud security [`here`](https§§§www.cloudskillsboost.google§games§4112/readme.md) :footprints: :snake:
 1. # Migrating On-premises MySQL Using a Continuous Database Migration Service Job [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28643/readme.md) :green_heart: :floppy_disk:
 1. # Building Demand Forecasting with BigQuery ML [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28644/readme.md) :green_heart: :floppy_disk:
-1. # <https§§§www.cloudskillsboost.google§games§4424§labs§28646> [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28646/readme.md) :footprints: :floppy_disk:
 1. # <https§§§www.cloudskillsboost.google§focuses§3642§parent=catalog> [`here`](https§§§www.cloudskillsboost.google§focuses§3642§parent=catalog/readme.md) :footprints: :pushpin:
 1. # <https§§§www.cloudskillsboost.google§focuses§609§parent=catalog> [`here`](https§§§www.cloudskillsboost.google§focuses§609§parent=catalog/readme.md) :footprints: :pushpin:
 1. # Troubleshooting Common SQL Errors with BigQuery [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28647/readme.md) :footprints: :floppy_disk:
@@ -204,13 +199,16 @@
 1. # Form Parsing with Document AI (Python) [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28651/readme.md) :green_heart: :floppy_disk:
 1. # Using Specialized Processors with Document AI (Python) [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28652/readme.md) :green_heart: :floppy_disk:
 1. # Level 2: BigQuery and BigLake Data Skills [`here`](https§§§www.cloudskillsboost.google§games§4424/readme.md) :green_heart: :snake:
-1. # `obar1` [`here`](https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints: :pushpin:
 1. # <https§§§www.cloudskillsboost.google§course_templates§855> [`here`](https§§§www.cloudskillsboost.google§course_templates§855/readme.md) :footprints: :whale:
-1. # Level 3: GenAI [`here`](https§§§www.cloudskillsboost.google§games§4422/readme.md) :footprints: :snake:
 1. # APIs Explorer: Qwik Start [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28603/readme.md) :green_heart: :floppy_disk:
 1. # Extract, Analyze, and Translate Text from Images with the Cloud ML APIs [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28604/readme.md) :green_heart: :floppy_disk:
 1. # Analyze Images with the Cloud Vision API: Challenge Lab [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28605/readme.md) :green_heart: :floppy_disk:
 1. # Generative AI with Vertex AI: Prompt Design [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28608/readme.md) :green_heart: :floppy_disk:
 1. # Generative AI with Vertex AI: Getting Started [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28609/readme.md) :green_heart: :floppy_disk:
 1. # Get Started with Generative AI Studio [`here`](https§§§www.cloudskillsboost.google§games§4422§labs§28610/readme.md) :green_heart: :floppy_disk:
+1. # Level 3: GenAI [`here`](https§§§www.cloudskillsboost.google§games§4422/readme.md) :green_heart: :snake:
+1. # `obar1` [`here`](https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints: :pushpin:
+1. # BigQuery Soccer Data Analytical Insight [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28622/readme.md) :green_heart: :floppy_disk:
+1. # Level 2: Cloud security [`here`](https§§§www.cloudskillsboost.google§games§4112/readme.md) :green_heart: :snake:
+1. # Level 1: Data with Google Cloud [`here`](https§§§www.cloudskillsboost.google§games§4111/readme.md) :green_heart: :snake:
         
