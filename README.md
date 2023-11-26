@@ -13,10 +13,10 @@
 :green_heart: completed
 :footprints: wip
 
-1. # A Tour of Google Cloud Hands-on Labs [`here`](https§§§www.cloudskillsboost.google§focuses§2794§§parent§=catalog/readme.md) :footprints: :pushpin:
-1. # Creating a Virtual Machine [`here`](https§§§www.cloudskillsboost.google§focuses§3563§§parent§=catalog/readme.md) :footprints: :pushpin:
-1. # Getting Started with Cloud Shell and gcloud [`here`](https§§§www.cloudskillsboost.google§focuses§563§§parent§=catalog/readme.md) :footprints: :pushpin:
-1. # Kubernetes Engine: Qwik Start [`here`](https§§§www.cloudskillsboost.google§focuses§878§§parent§=catalog/readme.md) :footprints: :pushpin:
+1. # A Tour of Google Cloud Hands-on Labs [`here`](https§§§www.cloudskillsboost.google§focuses§2794§§parent=catalog/readme.md) :footprints: :pushpin:
+1. # Creating a Virtual Machine [`here`](https§§§www.cloudskillsboost.google§focuses§3563§§parent=catalog/readme.md) :footprints: :pushpin:
+1. # Getting Started with Cloud Shell and gcloud [`here`](https§§§www.cloudskillsboost.google§focuses§563§§parent=catalog/readme.md) :footprints: :pushpin:
+1. # Kubernetes Engine: Qwik Start [`here`](https§§§www.cloudskillsboost.google§focuses§878§§parent=catalog/readme.md) :footprints: :pushpin:
 1. # Google Cloud Pub/Sub: Qwik Start - Command Line [`here`](https§§§www.cloudskillsboost.google§focuses§925§parent=catalog/readme.md) :footprints: :pushpin:
 1. # Entity and Sentiment Analysis with the Natural Language API [`here`](https§§§www.cloudskillsboost.google§focuses§1843§parent=catalog/readme.md) :footprints: :pushpin:
 1. # Cloud Natural Language API: Qwik Start [`here`](https§§§www.cloudskillsboost.google§focuses§582§parent=catalog/readme.md) :footprints: :pushpin:
@@ -64,7 +64,6 @@
 1. # BigQuery Fundamentals for Redshift Professionals.BigQuery and Google Cloud IAM [`here`](https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M3§index.html/readme.md) :green_heart: :pushpin:
 1. # Exploring and Preparing your Data with BigQuery [`here`](https§§§www.cloudskillsboost.google§course_templates§14/readme.md) :green_heart: :whale:
 1. # Creating New BigQuery Datasets and Visualizing Insights [`here`](https§§§www.cloudskillsboost.google§course_templates§24/readme.md) :green_heart: :whale:
-1. # Building Batch Data Pipelines on Google Cloud [`here`](https§§§www.cloudskillsboost.google§course_templates§53/readme.md) :green_heart: :whale:
 1. # Preparing for the Google Cloud Professional Data Engineer Exam [`here`](https§§§www.cloudskillsboost.google§course_templates§72/readme.md) :green_heart: :whale:
 1. # PDE Prep: BigQuery Essentials [`here`](https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343580/readme.md) :green_heart: :floppy_disk:
 1. # PDE Prep: Cloud Dataproc Cluster Operations and Maintenance [`here`](https§§§www.cloudskillsboost.google§course_sessions§3062553§labs§343602/readme.md) :green_heart: :floppy_disk:
@@ -168,7 +167,7 @@
 1. # [Data Lake Modernization on Google Cloud: Cloud Composer].Cloud Composer [`here`](https§§§www.cloudskillsboost.google§course_sessions§4463274§documents§368589/readme.md) :footprints: :pushpin:
 1. # Demo: Cloud Composer Code Walkthrough [`here`](https§§§www.cloudskillsboost.google§course_sessions§4463274§video§368590/readme.md) :footprints: :pushpin:
 1. # Introduction to Building Batch Data Pipelines [`here`](https§§§www.cloudskillsboost.google§course_sessions§3591643§video§379216/readme.md) :green_heart: :pushpin:
-1. # Using BigQuery Omni with AWS [`here`](https§§§www.cloudskillsboost.google§focuses§49746§catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=26588762/readme.md) :green_heart: :pushpin:
+1. # Using BigQuery Omni with AWS [`here`](https§§§www.cloudskillsboost.google§focuses§49746§parent=catalog/readme.md) :green_heart: :pushpin:
 1. # Deploy to Kubernetes in Google Cloud [`here`](https§§§www.cloudskillsboost.google§quests§116/readme.md) :green_heart: :cyclone:
 1. # Google Cloud Big Data and Machine Learning Fundamentals [`here`](https§§§www.cloudskillsboost.google§course_templates§3/readme.md) :green_heart: :whale:
 1. # Data Engineer Learning Path [`here`](https§§§www.cloudskillsboost.google§journeys§16/readme.md) :footprints: :pushpin:
@@ -176,15 +175,14 @@
 1. # Troubleshooting Data Models in Looker [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28618/readme.md) :green_heart: :floppy_disk:
 1. # Employing Best Practices for Improving the Usability of LookML Projects [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28619/readme.md) :green_heart: :floppy_disk:
 1. # Caching and Datagroups with LookML [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28620/readme.md) :green_heart: :floppy_disk:
-1. # Manage Data Models in Looker [`here`](https§§§www.cloudskillsboost.google§course_templates§651§utm_source=qwiklabs/readme.md) :green_heart: :whale:
-1. # Predict Soccer Match Outcomes with BigQuery ML [`here`](https§§§www.cloudskillsboost.google§course_templates§656§utm_source=qwiklabs&utm_campaign=arcade23-september-level1&utm_medium=gametemplate/readme.md) :green_heart: :whale:
+1. # Manage Data Models in Looker [`here`](https§§§www.cloudskillsboost.google§course_templates§651/readme.md) :green_heart: :whale:
+1. # Predict Soccer Match Outcomes with BigQuery ML [`here`](https§§§www.cloudskillsboost.google§course_templates§656/readme.md) :green_heart: :whale:
 1. # Analytics as a Service for Data Sharing Partners [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28628/readme.md) :green_heart: :floppy_disk:
 1. # How to Build a BI Dashboard Using Google Looker Studio and BigQuery [`here`](https§§§www.cloudskillsboost.google§games§4423§labs§28630/readme.md) :green_heart: :floppy_disk:
-1. # Share Data Using Google Data Cloud [`here`](https§§§www.cloudskillsboost.google§course_templates§657§utm_source=qwiklabs/readme.md) :footprints: :whale:
+1. # Share Data Using Google Data Cloud [`here`](https§§§www.cloudskillsboost.google§course_templates§657/readme.md) :footprints: :whale:
 1. # Level 1: Sports Data [`here`](https§§§www.cloudskillsboost.google§games§4423/readme.md) :green_heart: :snake:
 1. # Creating and Populating a Bigtable Instance [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28636/readme.md) :green_heart: :floppy_disk:
-1. # BigQuery Architecture and Resource Provisioning [`here`](https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md) :green_heart: :pushpin:
-1. # BigQuery Fundamentals for Redshift Professionals [`here`](https§§§www.cloudskillsboost.google§course_templates§512§catalog_rank=%7B%22rank%22%3A4%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=26818326/readme.md) :footprints: :whale:
+1. # BigQuery Fundamentals for Redshift Professionals [`here`](https§§§www.cloudskillsboost.google§course_templates§512/readme.md) :footprints: :whale:
 1. # BigQuery Fundamentals for Redshift Professionals.Course Resources [`here`](https§§§www.cloudskillsboost.google§course_sessions§3777998§documents§375052/readme.md) :footprints: :pushpin:
 1. # Data Catalog: Qwik Start [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28640/readme.md) :green_heart: :floppy_disk:
 1. # Tag and Discover BigLake Data: Challenge Lab [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28641/readme.md) :green_heart: :floppy_disk:
@@ -210,4 +208,6 @@
 1. # Level 2: Cloud security [`here`](https§§§www.cloudskillsboost.google§games§4112/readme.md) :green_heart: :snake:
 1. # Level 1: Data with Google Cloud [`here`](https§§§www.cloudskillsboost.google§games§4111/readme.md) :green_heart: :snake:
 1. # Modernizing Data Lakes and Data Warehouses with Google Cloud [`here`](https§§§www.cloudskillsboost.google§course_templates§54/readme.md) :green_heart: :whale:
+1. # Building Batch Data Pipelines on Google Cloud [`here`](https§§§www.cloudskillsboost.google§course_templates§53/readme.md) :green_heart: :whale:
+1. # BigQuery Architecture and Resource Provisioning [`here`](https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md) :green_heart: :pushpin:
         
