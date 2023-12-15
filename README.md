@@ -194,7 +194,6 @@
 1. # Form Parsing with Document AI (Python) [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28651/readme.md) :green_heart: :floppy_disk:
 1. # Data Engineer Learning Path [`here`](https§§§www.cloudskillsboost.google§journeys§16/readme.md) :footprints: :pushpin:
 1. # Using Specialized Processors with Document AI (Python) [`here`](https§§§www.cloudskillsboost.google§games§4424§labs§28652/readme.md) :green_heart: :floppy_disk:
-1. # `obar1` [`here`](https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints: :pushpin:
 1. # Data Engineering [`here`](https§§§www.cloudskillsboost.google§quests§25/readme.md) :green_heart: :cyclone:
 1. # Create and Manage Cloud Resources [`here`](https§§§www.cloudskillsboost.google§quests§120/readme.md) :green_heart: :cyclone:
 1. # Get Started with Cloud Storage [`here`](https§§§www.cloudskillsboost.google§quests§290/readme.md) :green_heart: :cyclone:
@@ -211,4 +210,5 @@
 1. # Baseline: Data, ML, AI [`here`](https§§§www.cloudskillsboost.google§quests§34/readme.md) :green_heart: :cyclone:
 1. # BigQuery for Data Warehousing [`here`](https§§§www.cloudskillsboost.google§quests§68/readme.md) :green_heart: :cyclone:
 1. # Serverless Data Processing with Dataflow: Foundations [`here`](https§§§www.cloudskillsboost.google§course_templates§218/readme.md) :footprints: :whale:
+1. # `obar1` [`here`](https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints: :pushpin:
         
