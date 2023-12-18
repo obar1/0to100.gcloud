@@ -5,3 +5,4 @@
 /.obsidian
 main*.py
 map.yaml
+.venv/
