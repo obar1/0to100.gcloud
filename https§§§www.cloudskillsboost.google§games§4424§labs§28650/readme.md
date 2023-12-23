@@ -4,7 +4,7 @@
 # Optical Character Recognition (OCR) with Document AI (Python)
 GSP1138
 
-https://cloud.google.com/document-ai/docs
+[https://cloud.google.com/document-ai/docs](../https§§§cloud.google.com§document-ai§docs/readme.md)
 
 ![Alt text](image.png)
 
@@ -56,7 +56,7 @@ gcloud iam service-accounts keys create ~/key.json \
 # set the GOOGLE_APPLICATION_CREDENTIALS environment variable, which is used by the library to find your credentials
 export GOOGLE_APPLICATION_CREDENTIALS=$(realpath key.json)
 ```
-https://cloud.google.com/docs/authentication/production
+[https://cloud.google.com/docs/authentication/production](../https§§§cloud.google.com§docs§authentication§production/readme.md)
 
 ## Task 4. Install the client library
 
@@ -65,7 +65,7 @@ pip3 install --upgrade google-cloud-documentai
 pip3 install --upgrade google-cloud-storage
 ```
 
-https://cloud.google.com/python/setup
+[https://cloud.google.com/python/setup](../https§§§cloud.google.com§python§setup/readme.md)
 
 ![Alt text](image-3.png)
 

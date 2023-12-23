@@ -19,7 +19,7 @@
 
 ### Setup IAM and Networking for your Dataflow Jobs
 
-https://www.cloudskillsboost.google/course_sessions/5993620/labs/325927
+[https://www.cloudskillsboost.google/course_sessions/5993620/labs/325927](../https§§§www.cloudskillsboost.google§course_sessions§5993620§labs§325927/readme.md)
 
 [here](./Setup%20IAM%20and%20Networking%20for%20your%20Dataflow%20Jobs%20_%20Google%20Cloud%20Skills%20Boost%20__%20Reader%20View.pdf)
 

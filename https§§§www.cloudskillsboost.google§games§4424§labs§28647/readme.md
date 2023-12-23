@@ -12,7 +12,7 @@ GSP408
 
 ## Task 2. BigQuery Query editor
 
-https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax
+[https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax](../https§§§cloud.google.com§bigquery§docs§reference§standard-sql§query-syntax/readme.md)
 
 ## Task 3. Find the total number of customers who went through checkout
 

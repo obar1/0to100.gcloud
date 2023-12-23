@@ -3,7 +3,7 @@
 
 # Get Started with Generative AI Studio
 
-https://cloud.google.com/generative-ai-studio
+[https://cloud.google.com/generative-ai-studio](../https§§§cloud.google.com§generative-ai-studio/readme.md)
 
 ## Task 1. Create prompts
 

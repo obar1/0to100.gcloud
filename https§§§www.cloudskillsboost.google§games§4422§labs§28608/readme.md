@@ -9,4 +9,4 @@
 see pdf
 
 
-https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview
+[https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview](../https§§§cloud.google.com§vertex-ai§docs§generative-ai§learn§overview/readme.md)

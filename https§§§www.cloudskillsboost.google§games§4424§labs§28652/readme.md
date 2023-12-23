@@ -44,8 +44,8 @@ gcloud storage cp gs://cloud-samples-data/documentai/codelabs/specialized-proces
 ![Alt text](image-4.png)
 
 
-https://cloud.google.com/document-ai/docs/output
+[https://cloud.google.com/document-ai/docs/output](../https§§§cloud.google.com§document-ai§docs§output/readme.md)
 
-https://cloud.google.com/python/docs/reference/documentai/latest
+[https://cloud.google.com/python/docs/reference/documentai/latest](../https§§§cloud.google.com§python§docs§reference§documentai§latest/readme.md)
 
-https://github.com/GoogleCloudPlatform/document-ai-samples
+[https://github.com/GoogleCloudPlatform/document-ai-samples](../https§§§github.com§GoogleCloudPlatform§document-ai-samples/readme.md)

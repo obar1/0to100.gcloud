@@ -4,7 +4,7 @@
 # Data Catalog: Qwik Start
 GSP729
 
-https://cloud.google.com/data-catalog
+[https://cloud.google.com/data-catalog](../https§§§cloud.google.com§data-catalog/readme.md)
 
 ## Task 3. Copy a public New York Taxi table to your dataset.
 

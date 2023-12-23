@@ -3,7 +3,7 @@
 
 # Migrating On-premises MySQL Using a Continuous Database Migration Service Job
 
-https://cloud.google.com/database-migration/docs/mysql/configure-connectivity
+[https://cloud.google.com/database-migration/docs/mysql/configure-connectivity](../https§§§cloud.google.com§database-migration§docs§mysql§configure-connectivity/readme.md)
 
 ![Alt text](image.png)
 

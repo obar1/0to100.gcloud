@@ -99,10 +99,10 @@ FROM
 
 ## Task 6. Other datasets to explore
  
-https://cloud.google.com/bigquery/public-data
+[https://cloud.google.com/bigquery/public-data](../https§§§cloud.google.com§bigquery§public-data/readme.md)
 
 ex
-https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=chicago_taxi_trips&page=dataset
+[https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=chicago_taxi_trips&page=dataset](../https§§§console.cloud.google.com§bigquery§p=bigquery-public-data&d=chicago_taxi_trips&page=dataset/readme.md)
 
 
-https://cloud.google.com/blog/topics/developers-practitioners/how-build-demand-forecasting-models-bigquery-ml
+[https://cloud.google.com/blog/topics/developers-practitioners/how-build-demand-forecasting-models-bigquery-ml](../https§§§cloud.google.com§blog§topics§developers-practitioners§how-build-demand-forecasting-models-bigquery-ml/readme.md)
