@@ -1,17 +1,21 @@
 
 # /home/xsazcd/git/obar1/0to100.gcloud.git/README.md
 
-> sorted:False
+## sorted:
+False
 
-> legend:
-:cyclone: if is_quest
-:floppy_disk: if is_lab
-:whale: if is_template
-:snake: if is_game
-:pushpin: else
+## legend:
 
-:green_heart: completed
-:footprints: wip
+| footprints | completed | 
+|---|---|
+| :footprints: | :green_heart: |
+
+> extra
+>
+| quest | lab | template | game | course |
+|---|---|---|----|---|
+| :cyclone: | :floppy_disk: | :whale: | :snake: | :pushpin: |
+
 
 1. # BigQuery Architecture and Resource Provisioning [`here`](https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M1§index.html/readme.md) :green_heart: :pushpin:
 1. # BigQuery Fundamentals for Redshift Professionals.BigQuery Data Definition Model [`here`](https§§§storage.googleapis.com§cloud-training§cls-html5-courses§T-BQRS-I§M2§index.html/readme.md) :green_heart: :pushpin:
