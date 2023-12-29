@@ -6,10 +6,10 @@ from unittest import mock
 import pytest
 
 from zero_to_one_hundred.configs.a_config_map import AConfigMap
-from zero_to_one_hundred.configs.config_map import ConfigMap
-from zero_to_one_hundred.tests.moke.persist_fs_fake import (
-    PersistFSFake as persist_fs_fake,
-)
+from zero_to_one_hundred.configs.ztoh_config_map import ZTOHConfigMap
+from zero_to_one_hundred.factories.ztoh_factory_provider import ZTOHFactoryProvider
+from zero_to_one_hundred.repository.ztoh_persist_fs import ZTOHPersistFS
+from zero_to_one_hundred.repository.ztoh_process_fs import ZTOHProcessFS
 
 
 @pytest.fixture
@@ -44,11 +44,6 @@ def get_resource_path(get_test_path):
 
 
 @pytest.fixture
-def get_repo_path(get_resource_path):
-    yield get_resource_path + "/repo"
-
-
-@pytest.fixture
 def get_map_yaml_path(get_resource_path):
     yield get_resource_path + "/map.yaml"
 
@@ -59,18 +54,28 @@ def get_unsupported_map_yaml_path(get_resource_path):
 
 
 @pytest.fixture
+def get_gcp_map_yaml_path(get_resource_path):
+    yield get_resource_path + "/gcp_map.yaml"
+
+
+@pytest.fixture
+def get_datacamp_map_yaml_path(get_resource_path):
+    yield get_resource_path + "/datacamp_map.yaml"
+
+
+@pytest.fixture
 def get_sample_readme_md_path(get_repo_path):
     yield get_repo_path + "/https§§§cloud.google.com§docs/readme.md"
 
 
 @pytest.fixture
-def mock_settings_env_vars(get_map_yaml_path):
+def env_map_yaml(get_map_yaml_path):
     with mock.patch.dict(os.environ, {AConfigMap.MAP_YAML_PATH: get_map_yaml_path}):
         yield
 
 
 @pytest.fixture
-def mock_unsupported_map_yaml_env_vars(get_unsupported_map_yaml_path):
+def env_unsupported_map_yaml(get_unsupported_map_yaml_path):
     with mock.patch.dict(
         os.environ, {AConfigMap.MAP_YAML_PATH: get_unsupported_map_yaml_path}
     ):
@@ -78,8 +83,56 @@ def mock_unsupported_map_yaml_env_vars(get_unsupported_map_yaml_path):
 
 
 @pytest.fixture
-def get_config_map(get_map_yaml_path):
-    return ConfigMap(persist_fs_fake, get_map_yaml_path)
+def env_gcp_map_yaml(get_gcp_map_yaml_path):
+    with mock.patch.dict(os.environ, {AConfigMap.MAP_YAML_PATH: get_gcp_map_yaml_path}):
+        yield
+
+
+@pytest.fixture
+def env_datacamp_map_yaml(get_datacamp_map_yaml_path):
+    with mock.patch.dict(
+        os.environ, {AConfigMap.MAP_YAML_PATH: get_datacamp_map_yaml_path}
+    ):
+        yield
+
+
+@pytest.fixture
+def persist_fs() -> ZTOHPersistFS:
+    yield ZTOHPersistFS()
+
+
+@pytest.fixture
+def process_fs() -> ZTOHProcessFS:
+    yield ZTOHProcessFS()
+
+
+@pytest.fixture
+def get_config_map(env_map_yaml, get_map_yaml_path, persist_fs):
+    return ZTOHConfigMap(persist_fs)
+
+
+@pytest.fixture
+def get_unsupported_config_map(
+    env_unsupported_map_yaml, get_unsupported_map_yaml_path, persist_fs
+):
+    return ZTOHConfigMap(persist_fs)
+
+
+@pytest.fixture
+def get_gcp_config_map(env_gcp_map_yaml, get_gcp_map_yaml_path, persist_fs):
+    return ZTOHConfigMap(persist_fs)
+
+
+@pytest.fixture
+def get_datacamp_config_map(
+    env_datacamp_map_yaml, get_datacamp_map_yaml_path, persist_fs
+):
+    return ZTOHConfigMap(persist_fs)
+
+
+@pytest.fixture
+def get_factory_provider(env_map_yaml, persist_fs, process_fs):
+    return ZTOHFactoryProvider(persist_fs, process_fs)
 
 
 @pytest.fixture

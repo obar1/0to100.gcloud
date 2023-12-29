@@ -1,5 +1,6 @@
-type: map
+type: ztoh-map
 repo:
-  path: '.'
+  path: "."
   map_md: README.md
-  sorted : False
+  sorted: false
+  legend_type: "gcp"

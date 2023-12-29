@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache
+.mypy_cache
 
 # venv
 venv/
@@ -14,8 +15,7 @@ venv/
 .idea/**
 
 # test related
-0to100-**/
-0*/
+0to100**/
 978*/
 map.md
 repo/
@@ -24,4 +24,6 @@ toc.md
 safaribooks/
 
 # pip install
-build/
+build
+/dist
+*.egg-info
