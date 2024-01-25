@@ -1,11 +1,17 @@
 import re
+<<<<<<< HEAD
 
+=======
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
 from zero_to_one_hundred.configs.sb_config_map import SBConfigMap
 from zero_to_one_hundred.models.metadata import Metadata
 from zero_to_one_hundred.repository.sb_persist_fs import SBPersistFS
 from zero_to_one_hundred.repository.sb_process_fs import SBProcessFS
+<<<<<<< HEAD
 from zero_to_one_hundred.validator.validator import Validator
+=======
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
 
 class MetaBook:
@@ -62,6 +68,7 @@ class MetaBook:
 
     def write_epub(self):
         try:
+<<<<<<< HEAD
             if self.config_map.get_download_books:
                 self.persist_fs.write_fake_epub(self.path_epub)
                 self.process_fs.write_epub(self.config_map, self.path_epub, self.isbn)
@@ -72,6 +79,13 @@ class MetaBook:
                 )
         except Exception as e:
             Validator.print_DDD(e)
+=======
+            self.persist_fs.write_fake_epub(self.path_epub)
+            self.process_fs.write_epub(self.config_map, self.path_epub, self.isbn)
+            self.persist_fs.copy_file_to(self.get_epub_path, self.path_epub)
+        except Exception as e:
+            print(f"DDD issue with {e}")
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
     def write_json(self):
         self.metadata.write_json()
@@ -87,6 +101,7 @@ class MetaBook:
             self.persist_fs.make_dirs(self.config_map.get_download_engine_books_path)
             self.persist_fs.make_dirs(self.contents_path)
         except Exception as e:
+<<<<<<< HEAD
             Validator.print_DDD(e)
         try:
             self.write_img()
@@ -100,11 +115,27 @@ class MetaBook:
             self.metadata.write_json()
         except Exception as e:
             Validator.print_DDD(e)
+=======
+            print(f"DDD issue with {e}")
+        try:
+            self.write_img()
+        except Exception as e:
+            print(f"DDD issue with {e}")
+        try:
+            self.write_epub()
+            self.metadata.write_json()
+        except Exception as e:
+            print(f"DDD issue with {e}")
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
         try:
             self.write_pdf(self.path_epub)
             self.write_splitter_pdf(self.path_pdf, self.config_map.get_split_pdf_pages)
         except Exception as e:
+<<<<<<< HEAD
             Validator.print_DDD(e)
+=======
+            print(f"DDD issue with {e}")
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
     def read_json(self):
         return self.metadata.read_json()

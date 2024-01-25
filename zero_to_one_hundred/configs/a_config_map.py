@@ -1,6 +1,9 @@
 # pylint: disable=W0246
 from abc import ABC
+<<<<<<< HEAD
 from enum import Enum
+=======
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 import os
 
 from zero_to_one_hundred.repository.a_persist_fs import APersistFS
@@ -9,10 +12,13 @@ from zero_to_one_hundred.repository.a_persist_fs import APersistFS
 class AConfigMap(ABC):
     MAP_YAML_PATH = "MAP_YAML_PATH"
 
+<<<<<<< HEAD
     class SUPPORTED_EXTRA_MAP(Enum):
         gcp = 1
         datacamp = 2
 
+=======
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
     def __init__(self, persist_fs: APersistFS):
         self.map_yaml_path = os.getenv(AConfigMap.MAP_YAML_PATH)
         assert self.map_yaml_path is not None

@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 # pylint: disable= R0904
 
 from zero_to_one_hundred.configs.a_config_map import AConfigMap
 from zero_to_one_hundred.repository.ztoh_process_fs import ZTOHProcessFS
 from zero_to_one_hundred.repository.ztoh_persist_fs import ZTOHPersistFS
+=======
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 from zero_to_one_hundred.configs.ztoh_config_map import ZTOHConfigMap
 from zero_to_one_hundred.models.readme_md import ReadMeMD
 from zero_to_one_hundred.validator.validator import Validator
@@ -20,8 +23,13 @@ class Section(MarkdownRenderer):
     def __init__(
         self,
         config_map: ZTOHConfigMap,
+<<<<<<< HEAD
         persist_fs: ZTOHPersistFS,
         process_fs: ZTOHProcessFS,
+=======
+        persist_fs,
+        process_fs,
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
         http_url: str,
         is_done: bool = False,
     ):
@@ -29,11 +37,16 @@ class Section(MarkdownRenderer):
         self.persist_fs = persist_fs
         self.process_fs = process_fs
         self.http_url = http_url
+<<<<<<< HEAD
         self.dir_name = Section.from_http_url_to_dir(http_url)
         self.dir_readme_md = (
             config_map.get_repo_path + "/" + self.dir_name + "/readme.md"
         )
 
+=======
+        self.dir_name = Section.from_dir_to_http_url(http_url)
+        self.dir_readme_md = self.dir_name + "/readme.md"
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
         self.is_done = is_done
 
     def asMarkDown(self):
@@ -64,7 +77,11 @@ class Section(MarkdownRenderer):
         return self.find_header().strip("\n")
 
     @classmethod
+<<<<<<< HEAD
     def from_http_url_to_dir(cls, http_url):
+=======
+    def from_dir_to_http_url(cls, http_url):
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
         return (
             http_url.replace("/", "§")
             .replace("<", "§")
@@ -101,7 +118,11 @@ class Section(MarkdownRenderer):
     def build_from_dir(
         cls, persist_fs, process_fs, config_map: ZTOHConfigMap, dir_name
     ):
+<<<<<<< HEAD
         http_url = cls.from_http_url_to_dir_to(dir_name)
+=======
+        http_url = cls.from_dir_to_http_url_to(dir_name)
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
         return Section(
             config_map,
             persist_fs,
@@ -138,7 +159,11 @@ class Section(MarkdownRenderer):
             self.config_map,
             self.persist_fs,
             self.process_fs,
+<<<<<<< HEAD
             Section.from_http_url_to_dir,
+=======
+            Section.from_dir_to_http_url,
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
             self.http_url,
         )
         lines_converted = []
@@ -160,7 +185,11 @@ class Section(MarkdownRenderer):
             self.config_map,
             self.persist_fs,
             self.process_fs,
+<<<<<<< HEAD
             Section.from_http_url_to_dir,
+=======
+            Section.from_dir_to_http_url,
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
             self.http_url,
         )
         res = ""
@@ -174,8 +203,13 @@ class Section(MarkdownRenderer):
                 res = not_null[0]
             if len(not_null) > 1:  # take first one header found
                 res = not_null[1]
+<<<<<<< HEAD
         except Exception as e:
             Validator.print_DDD(e)
+=======
+        except:
+            print(f"DDD issue with {readme_md}")
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
             res = "FIXME: "
         return res
 
@@ -233,6 +267,23 @@ class Section(MarkdownRenderer):
                 a = []
         return next(item for item in a if item is not None)
 
+<<<<<<< HEAD
+=======
+    @classmethod
+    def get_legend_as_md(cls):
+        return """
+| footprints | completed | 
+|---|---|
+| :footprints: | :green_heart: |
+
+> extra
+>
+| quest | lab | template | game | course |
+|---|---|---|----|---|
+| :cyclone: | :floppy_disk: | :whale: | :snake: | :pushpin: |
+"""
+
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
     def __eq__(self, other):
         if other is self:
             return True

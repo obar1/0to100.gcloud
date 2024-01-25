@@ -1,5 +1,9 @@
 from typing import List
 
+<<<<<<< HEAD
+=======
+from connect.utils.terminal.markdown import render
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
 from zero_to_one_hundred.configs.sb_config_map import SBConfigMap
 from zero_to_one_hundred.models.meta_book import MetaBook

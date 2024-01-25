@@ -1,8 +1,17 @@
 from zero_to_one_hundred.models.section import Section
+<<<<<<< HEAD
 
 
 def test_init(get_config_map, persist_fs, process_fs, http_url):
     actual = Section(get_config_map, persist_fs, process_fs, http_url)
+=======
+from zero_to_one_hundred.repository.ztoh_persist_fs import ZTOHPersistFS as persist_fs
+from zero_to_one_hundred.repository.ztoh_process_fs import ZTOHProcessFS as process_fs
+
+
+def test_init(get_config_map, http_url):
+    actual = Section(get_config_map, process_fs, process_fs, http_url)
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
     assert actual.http_url == "https://cloud.google.com/abc"
     assert actual.dir_name == "https§§§cloud.google.com§abc"
     assert (
@@ -11,7 +20,11 @@ def test_init(get_config_map, persist_fs, process_fs, http_url):
     )
 
 
+<<<<<<< HEAD
 def test_write(get_config_map, persist_fs, process_fs, http_url):
+=======
+def test_write(get_config_map, http_url):
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
     actual = Section(get_config_map, persist_fs, process_fs, http_url)
 
 
@@ -28,24 +41,40 @@ def test_build_from_dir(
 
 def test_section_is_quest(get_gcp_config_map, persist_fs, process_fs):
     http_url = "https://www.cloudskillsboost.google/quests/257"
+<<<<<<< HEAD
     actual = Section(get_gcp_config_map, persist_fs, process_fs, http_url)
     assert actual.is_gcp_quest
+=======
+    actual = Section(get_config_map, persist_fs, process_fs, http_url)
+    assert actual.is_quest
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
 
 def test_section_is_lab(get_gcp_config_map, persist_fs, process_fs):
     http_url = "https://www.cloudskillsboost.google/course_sessions/3062553/labs"
+<<<<<<< HEAD
     actual = Section(get_gcp_config_map, persist_fs, process_fs, http_url)
     assert actual.is_gcp_lab
+=======
+    actual = Section(get_config_map, persist_fs, process_fs, http_url)
+    assert actual.is_lab
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
 
 def test_section_is_template(get_gcp_config_map, persist_fs, process_fs):
     http_url = "https://www.cloudskillsboost.google/course_templates/536"
+<<<<<<< HEAD
     actual = Section(get_gcp_config_map, persist_fs, process_fs, http_url)
     assert actual.is_gcp_template
+=======
+    actual = Section(get_config_map, persist_fs, process_fs, http_url)
+    assert actual.is_template
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
 
 def test_section_is_gamee(get_gcp_config_map, persist_fs, process_fs):
     http_url = "https://www.cloudskillsboost.google/games/4423"
+<<<<<<< HEAD
     actual = Section(get_gcp_config_map, persist_fs, process_fs, http_url)
     assert actual.is_gcp_game
 
@@ -74,3 +103,7 @@ def test_gcp_get_format_as_md(get_gcp_config_map, persist_fs, process_fs):
         persist_fs, process_fs, get_gcp_config_map, http_url
     )
     assert actual.get_format_as_md == """:snake:"""
+=======
+    actual = Section(get_config_map, persist_fs, process_fs, http_url)
+    assert actual.is_game
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e

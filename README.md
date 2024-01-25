@@ -2,12 +2,30 @@
 
 ## sorted: False
 
+<<<<<<< HEAD
 
 ## legend:
 
 | footprints | completed | 
 |---|---|
 | :footprints: | :green_heart: |
+=======
+## sorted:
+False
+
+## legend:
+
+| footprints | completed | 
+|---|---|
+| :footprints: | :green_heart: |
+
+> extra
+>
+| quest | lab | template | game | course |
+|---|---|---|----|---|
+| :cyclone: | :floppy_disk: | :whale: | :snake: | :pushpin: |
+
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
 > extra
 >

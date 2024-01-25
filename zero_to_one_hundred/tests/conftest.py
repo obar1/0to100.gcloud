@@ -83,6 +83,7 @@ def env_unsupported_map_yaml(get_unsupported_map_yaml_path):
 
 
 @pytest.fixture
+<<<<<<< HEAD
 def env_gcp_map_yaml(get_gcp_map_yaml_path):
     with mock.patch.dict(os.environ, {AConfigMap.MAP_YAML_PATH: get_gcp_map_yaml_path}):
         yield
@@ -133,6 +134,20 @@ def get_datacamp_config_map(
 @pytest.fixture
 def get_factory_provider(env_map_yaml, persist_fs, process_fs):
     return ZTOHFactoryProvider(persist_fs, process_fs)
+=======
+def get_unsupported_factory_provider(mock_unsupported_map_yaml_env_vars):
+    return ZTOHFactoryProvider(ZTOHPersistFS, ZTOHProcessFS)
+
+
+@pytest.fixture
+def get_config_map(mock_settings_env_vars, get_map_yaml_path):
+    return ZTOHConfigMap(ZTOHPersistFS)
+
+
+@pytest.fixture
+def get_factory_provider(mock_settings_env_vars):
+    return ZTOHFactoryProvider(ZTOHPersistFS, ZTOHProcessFS)
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
 
 @pytest.fixture

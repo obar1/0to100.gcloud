@@ -38,5 +38,10 @@ class RefreshLinksProcessor(AProcessor):
         for s in sections:
             try:
                 s.refresh_links()
+<<<<<<< HEAD
             except Exception as e:
                 Validator.print_DDD(e)
+=======
+            except Exception:
+                print(f"DDD issue with {s}")
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e

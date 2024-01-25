@@ -69,6 +69,7 @@ def env_map_yaml(get_map_yaml_path):
 
 
 @pytest.fixture
+<<<<<<< HEAD
 def persist_fs() -> SBPersistFS:
     yield SBPersistFS()
 
@@ -85,4 +86,12 @@ def get_config_map(env_map_yaml, get_map_yaml_path, persist_fs):
 
 @pytest.fixture
 def get_factory_provider(env_map_yaml):
+=======
+def get_config_map(mock_settings_env_vars, get_map_yaml_path):
+    return SBConfigMap(SBPersistFS)
+
+
+@pytest.fixture
+def get_factory_provider(mock_settings_env_vars):
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
     return SBFactoryProvider(SBPersistFS, SBProcessFS)

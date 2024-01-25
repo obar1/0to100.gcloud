@@ -12,7 +12,11 @@ with open("README.md", "r") as fh:
 
 setup(
     name="0to100",
+<<<<<<< HEAD
     version="0.4.3",
+=======
+    version="0.4.0",
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
     author="obar1",
     author_email="obar1+gh@pm.me",
     description="Simple python tool to learn everything and keep all local.",

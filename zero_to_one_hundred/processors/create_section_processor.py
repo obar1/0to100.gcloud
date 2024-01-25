@@ -44,7 +44,11 @@ class CreateSectionProcessor(AProcessor):
             self.config_map,
             self.persist_fs,
             self.process_fs,
+<<<<<<< HEAD
             Section.from_http_url_to_dir,
+=======
+            Section.from_dir_to_http_url,
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
             section.http_url,
         )
         readme_md.write()

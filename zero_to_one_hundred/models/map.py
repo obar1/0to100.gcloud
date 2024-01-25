@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 from typing import List
 from zero_to_one_hundred.configs.a_config_map import AConfigMap
 from zero_to_one_hundred.repository.ztoh_persist_fs import ZTOHPersistFS
 
+=======
+from typing import Callable, List
+
+from connect.utils.terminal.markdown import render
+from zero_to_one_hundred.repository.ztoh_persist_fs import ZTOHPersistFS
+
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 from zero_to_one_hundred.configs.ztoh_config_map import ZTOHConfigMap
 from zero_to_one_hundred.models.section import Section
 from zero_to_one_hundred.views.markdown_renderer import MarkdownRenderer
@@ -29,6 +37,7 @@ class Map(MarkdownRenderer):
             txt: str = """
             ## legend:
 
+<<<<<<< HEAD
             | footprints | completed | 
             |---|---|
             | :footprints: | :green_heart: |
@@ -67,6 +76,25 @@ class Map(MarkdownRenderer):
     def write(self, as_sorted: bool):
         # init with list of sections found
         txt = self.asMarkDown()
+=======
+    def write(self, as_sorted: bool):
+        # init with list of sections found
+        txt = []
+        txt.append(
+            f"""
+# {self.readme_md}
+
+## sorted:
+{self.config_map.get_repo_sorted}
+
+## legend:
+{Section.get_legend_as_md()}
+
+{self.__repr_flatten(self.sections, as_sorted)}
+        """
+        )
+        print(render("\n".join(txt)))
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
         return self.persist_fs.write_file(self.readme_md, txt)
 
     @classmethod

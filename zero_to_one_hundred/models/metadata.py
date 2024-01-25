@@ -3,7 +3,10 @@ import json
 from zero_to_one_hundred.configs.sb_config_map import SBConfigMap
 from zero_to_one_hundred.repository.sb_persist_fs import SBPersistFS
 from zero_to_one_hundred.repository.sb_process_fs import SBProcessFS
+<<<<<<< HEAD
 from zero_to_one_hundred.validator.validator import Validator
+=======
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
 
 class Metadata:
@@ -47,13 +50,21 @@ class Metadata:
                 f"{self.contents_path}/{self.isbn}.json"
             )
         except Exception as e:
+<<<<<<< HEAD
             Validator.print_DDD(e)
+=======
+            print(f"DDD issue with {e}")
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
         try:
             self.pages_tot = self.persist_fs.read_pages_tot(
                 f"{self.contents_path}/{self.isbn}.pdf"
             )
         except Exception as e:
+<<<<<<< HEAD
             Validator.print_DDD(e)
+=======
+            print(f"DDD issue with {e}")
+>>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
         txt = """
         "isbn":"{isbn}",
