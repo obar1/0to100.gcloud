@@ -2,9 +2,5 @@ type: ztoh-map
 repo:
   path: "."
   map_md: README.md
-<<<<<<< HEAD
   sorted: false
   legend_type: "gcp"
-=======
-  sorted: False
->>>>>>> a04ee23055442648c912c5aaef19708538794f5e

@@ -1,31 +1,13 @@
-# map README.md, 198
+# map README.md, 199
 
 ## sorted: False
 
-<<<<<<< HEAD
 
 ## legend:
 
 | footprints | completed | 
 |---|---|
 | :footprints: | :green_heart: |
-=======
-## sorted:
-False
-
-## legend:
-
-| footprints | completed | 
-|---|---|
-| :footprints: | :green_heart: |
-
-> extra
->
-| quest | lab | template | game | course |
-|---|---|---|----|---|
-| :cyclone: | :floppy_disk: | :whale: | :snake: | :pushpin: |
-
->>>>>>> a04ee23055442648c912c5aaef19708538794f5e
 
 > extra
 >
@@ -231,3 +213,4 @@ False
 1. # BigQuery for Data Warehousing [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md) :green_heart::cyclone:
 1. # Serverless Data Processing with Dataflow: Foundations [`here`](./https§§§www.cloudskillsboost.google§course_templates§218/readme.md) :footprints::whale:
 1. # `obar1` [`here`](./https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints::pushpin:
+1. # <https§§§www.cloudskillsboost.google§course_sessions§7048758§labs§448290> [`here`](./https§§§www.cloudskillsboost.google§course_sessions§7048758§labs§448290/readme.md) :footprints::floppy_disk:
