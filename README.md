@@ -1,4 +1,4 @@
-# map README.md, 199
+# map README.md, 202
 
 ## sorted: False
 
@@ -213,4 +213,7 @@
 1. # BigQuery for Data Warehousing [`here`](./https§§§www.cloudskillsboost.google§quests§68/readme.md) :green_heart::cyclone:
 1. # Serverless Data Processing with Dataflow: Foundations [`here`](./https§§§www.cloudskillsboost.google§course_templates§218/readme.md) :footprints::whale:
 1. # `obar1` [`here`](./https§§§www.cloudskillsboost.google§public_profiles§0e4d9285-4960-419a-bfb3-1ed19850308c/readme.md) :footprints::pushpin:
-1. # <https§§§www.cloudskillsboost.google§course_sessions§7048758§labs§448290> [`here`](./https§§§www.cloudskillsboost.google§course_sessions§7048758§labs§448290/readme.md) :footprints::floppy_disk:
+1. # <https§§§www.cloudskillsboost.google§course_templates§78> [`here`](./https§§§www.cloudskillsboost.google§course_templates§78/readme.md) :footprints::whale:
+1. # Develop an app with Duet AI [`here`](./https§§§www.cloudskillsboost.google§course_sessions§7048758§labs§448290/readme.md) :green_heart::floppy_disk:
+1. # <https§§§www.cloudskillsboost.google§games§4793§labs§31288> [`here`](./https§§§www.cloudskillsboost.google§games§4793§labs§31288/readme.md) :green_heart::floppy_disk:
+1. # <https§§§www.cloudskillsboost.google§games§4793§labs§31289> [`here`](./https§§§www.cloudskillsboost.google§games§4793§labs§31289/readme.md) :footprints::floppy_disk:
