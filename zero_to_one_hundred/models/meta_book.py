@@ -11,7 +11,7 @@ from zero_to_one_hundred.validator.validator import Validator
 class MetaBook:
     epub_suffix = ".epub"
     HTTP_OREILLY_COVER = "https://learning.oreilly.com/library/cover"
-    HTTP_OREILLY_LIBRARY = "https://learning.oreilly.com/library/"
+    HTTP_OREILLY_LIBRARY = "https://learning.oreilly.com/library"
 
     def __init__(
         self,
@@ -24,6 +24,14 @@ class MetaBook:
         self.http_url = http_url
         self.persist_fs = persist_fs
         self.process_fs = process_fs
+        self.isbn = MetaBook.get_isbn(http_url)
+        self.contents_path = persist_fs.abs_path(f"{self.isbn}")
+        self.path_epub = f"{self.contents_path}/{self.isbn}.epub"
+        self.path_pdf = f"{self.contents_path}/{self.isbn}.pdf"
+        self.path_img = f"{self.contents_path}/{self.isbn}.png"
+        self.path_epub_as_md = self.path_as_md(f"./{self.isbn}/{self.isbn}.epub")
+        self.path_pdf_as_md = self.path_as_md(f"./{self.isbn}/{self.isbn}.pdf")
+        self.path_img_as_md = self.path_as_md(f"./{self.isbn}/{self.isbn}.png")
         self.metadata = Metadata(
             self.config_map,
             self.persist_fs,
@@ -31,14 +39,9 @@ class MetaBook:
             MetaBook.get_isbn,
             self.http_url,
         )
-        self.isbn = MetaBook.get_isbn(http_url)
-        self.contents_path = persist_fs.abs_path(f"{self.isbn}")
-        self.path_epub = f"{self.contents_path}/{self.isbn}.epub"
-        self.path_pdf = f"{self.contents_path}/{self.isbn}.pdf"
-        self.path_img = f"{self.contents_path}/{self.isbn}.png"
 
     def __repr__(self):
-        return f"MetaBook {self.http_url}, {self.isbn} {self.contents_path}"
+        return f"MetaBook {self.isbn} {self.http_url} {self.contents_path}"
 
     @classmethod
     def build_from_dir(
@@ -61,20 +64,17 @@ class MetaBook:
         )
 
     def write_epub(self):
-        try:
-            if self.config_map.get_download_books:
-                self.persist_fs.write_fake_epub(self.path_epub)
-                self.process_fs.write_epub(self.config_map, self.path_epub, self.isbn)
-                self.persist_fs.copy_file_to(self.get_epub_path, self.path_epub)
-            else:
-                print(
-                    f"DDD skipping get_download_books {self.config_map.get_download_books}"
-                )
-        except Exception as e:
-            Validator.print_DDD(e)
+        if self.config_map.get_download_books:
+            self.persist_fs.write_fake_epub(self.path_epub)
+            self.process_fs.write_epub(self.config_map, self.path_epub, self.isbn)
+            self.persist_fs.copy_file_to(self.get_epub_path, self.path_epub)
+        else:
+            print(
+                f"DDD skipping get_download_books {self.config_map.get_download_books}"
+            )
 
-    def write_json(self):
-        self.metadata.write_json()
+    def write_metadata(self):
+        self.metadata.write()
 
     @classmethod
     def is_valid_ebook_path(cls, ebook_folder):
@@ -97,17 +97,17 @@ class MetaBook:
         except Exception as e:
             Validator.print_DDD(e)
         try:
-            self.metadata.write_json()
+            self.write_metadata()
         except Exception as e:
             Validator.print_DDD(e)
         try:
             self.write_pdf(self.path_epub)
+        except Exception as e:
+            Validator.print_DDD(e)
+        try:
             self.write_splitter_pdf(self.path_pdf, self.config_map.get_split_pdf_pages)
         except Exception as e:
             Validator.print_DDD(e)
-
-    def read_json(self):
-        return self.metadata.read_json()
 
     @classmethod
     def get_isbn(cls, http_url):
@@ -128,3 +128,9 @@ class MetaBook:
 
     def write_splitter_pdf(self, fn, split_pdf_pages):
         self.persist_fs.write_splitter_pdf(fn, split_pdf_pages)
+
+    def path_as_md(self, a_path):
+        """
+        use relative path and convert " " to %20
+        """
+        return a_path.replace(" ", "%20")
