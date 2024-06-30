@@ -16,7 +16,7 @@ Create a global HTTPS content-based load balancer
 
 terraform-google-lb (regional forwarding rule)
 
-https://cloud.google.com/compute/docs/load-balancing/network/example
+[https://cloud.google.com/compute/docs/load-balancing/network/example](.././https§§§cloud.google.com§compute§docs§load-balancing§network§example/readme.md)
 ![alt text](image.png)
 
 

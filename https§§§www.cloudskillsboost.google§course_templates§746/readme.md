@@ -13,3 +13,12 @@ Deploy Kubernetes Load Balancer Service with Terraform
 HTTPS Content-Based Load Balancer with Terraform
 
 [https://www.cloudskillsboost.google/course_templates/746/labs/447167](.././https§§§www.cloudskillsboost.google§course_templates§746§labs§447167/readme.md)
+
+Modular Load Balancing with Terraform - Regional Load Balancer
+[https://www.cloudskillsboost.google/course_templates/746/labs/447168](.././https§§§www.cloudskillsboost.google§course_templates§746§labs§447168/readme.md)
+
+Cloud SQL with Terraform
+[https://www.cloudskillsboost.google/course_templates/746/labs/447169](.././https§§§www.cloudskillsboost.google§course_templates§746§labs§447169/readme.md)
+
+
+![alt text](image.png)
