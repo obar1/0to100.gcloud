@@ -93,7 +93,7 @@ Click the bulb, and then in the More Actions menu, select Generate code.
 generating code
 ![alt text](image-18.png)
 
-https://8080-my-workstation.cluster-yfldxa53efgn6qwgpowo53tq3e.cloudworkstations.dev/inventory
+[https://8080-my-workstation.cluster-yfldxa53efgn6qwgpowo53tq3e.cloudworkstations.dev/inventory](.././https§§§8080-my-workstation.cluster-yfldxa53efgn6qwgpowo53tq3e.cloudworkstations.dev§inventory/readme.md)
 
 ![alt text](image-19.png)
 

@@ -13,7 +13,7 @@ How to work with Generative AI
 
 ![alt text](image.png)
 
-https://genai-chatbot-boqp6rugaq-uw.a.run.app 
+[https://genai-chatbot-boqp6rugaq-uw.a.run.app ](.././https§§§genai-chatbot-boqp6rugaq-uw.a.run.app /readme.md)
 
 ## Task 2. Using Prompt Engineering
 
