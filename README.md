@@ -219,10 +219,10 @@
 1. # Develop an app with Duet AI [`here`](./https§§§www.cloudskillsboost.google§course_sessions§7048758§labs§448290/readme.md) :green_heart::floppy_disk:
 1. # Exploring IAM [`here`](./https§§§www.cloudskillsboost.google§games§4894§labs§32049/readme.md) :footprints::floppy_disk:
 1. # Cloud Storage [`here`](./https§§§www.cloudskillsboost.google§games§4894§labs§32050/readme.md) :footprints::floppy_disk:
-1. # <https§§§www.cloudskillsboost.google§games§4894> [`here`](./https§§§www.cloudskillsboost.google§games§4894/readme.md) :footprints::snake:
 1. # Generative AI: Hamburg Tour [`here`](./https§§§www.cloudskillsboost.google§games§5154§labs§33647/readme.md) :green_heart::floppy_disk:
 1. # Deploy Kubernetes Load Balancer Service with Terraform [`here`](./https§§§www.cloudskillsboost.google§course_templates§746§labs§447166/readme.md) :green_heart::floppy_disk:
 1. # HTTPS Content-Based Load Balancer with Terraform [`here`](./https§§§www.cloudskillsboost.google§course_templates§746§labs§447167/readme.md) :green_heart::floppy_disk:
 1. # Modular Load Balancing with Terraform - Regional Load Balancer [`here`](./https§§§www.cloudskillsboost.google§course_templates§746§labs§447168/readme.md) :green_heart::floppy_disk:
 1. # Cloud SQL with Terraform [`here`](./https§§§www.cloudskillsboost.google§course_templates§746§labs§447169/readme.md) :green_heart::floppy_disk:
 1. # Managing Cloud Infrastructure with Terraform [`here`](./https§§§www.cloudskillsboost.google§course_templates§746/readme.md) :green_heart::whale:
+1. # Optimizing your BigQuery Queries for Performance 2.5 [`here`](./https§§§www.cloudskillsboost.google§course_templates§52§labs§489497/readme.md) :green_heart::floppy_disk:
