@@ -1,4 +1,4 @@
-# map README.md, 211
+# map README.md, 213
 
 ## sorted: False
 
@@ -226,3 +226,5 @@
 1. # Cloud SQL with Terraform [`here`](./https§§§www.cloudskillsboost.google§course_templates§746§labs§447169/readme.md) :green_heart::floppy_disk:
 1. # Managing Cloud Infrastructure with Terraform [`here`](./https§§§www.cloudskillsboost.google§course_templates§746/readme.md) :green_heart::whale:
 1. # Optimizing your BigQuery Queries for Performance 2.5 [`here`](./https§§§www.cloudskillsboost.google§course_templates§52§labs§489497/readme.md) :green_heart::floppy_disk:
+1. # Data Engineer Learning Path [`here`](./https§§§www.cloudskillsboost.google§paths§16/readme.md) :footprints::pushpin:
+1. # <https§§§www.cloudskillsboost.google§paths§16§course_templates§72> [`here`](./https§§§www.cloudskillsboost.google§paths§16§course_templates§72/readme.md) :footprints::whale:
